@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-08T19:37:14Z",
- "tip_height": 970521,
+ "checked_at": "2026-10-08T20:07:45Z",
+ "tip_height": 970524,
  "addresses": [
   {
    "id": "S-A10",
@@ -61,39 +61,9 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar"
-  },
-  {
-   "id": "A-A14",
-   "chapter": "ark",
-   "value": "bc1q5hku7y3gxkeqjekzr5ulupfnfdzvu3s2qrcd2l",
-   "attribution": "traced",
-   "balance_sats": 2980114,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1q5hku7y3gxkeqjekzr5ulupfnfdzvu3s2qrcd2l"
-  },
-  {
-   "id": "M-A7",
-   "chapter": "live",
-   "value": "bc1qzcht8wxa68hvfnrjn69ffg92n0h4f8054pkqrq",
-   "attribution": "probable",
-   "balance_sats": 2927608,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qzcht8wxa68hvfnrjn69ffg92n0h4f8054pkqrq"
-  },
-  {
-   "id": "A-A13",
-   "chapter": "ark",
-   "value": "bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6",
-   "attribution": "traced",
-   "balance_sats": 2541312,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6"
   }
  ],
  "total_proven_sats": 86655000,
- "total_traced_sats": 5521426,
- "total_probable_sats": 486926856
+ "total_traced_sats": 0,
+ "total_probable_sats": 483999248
 }

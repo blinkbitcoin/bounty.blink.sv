@@ -16,19 +16,19 @@
    "dir": "2026-10-08T1548Z",
    "label": "2026-10-08T1548Z (8 Oct 15:07 movement published and classified (M-X1; collection #1 and others now proven via T-A1's coins; chapter 7 Latest movements))",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970517
   },
   {
    "dir": "2026-10-08T1556Z",
    "label": "2026-10-08T1556Z (correction: both round 30,000,000-sat outputs of M-X1 shown as destination not yet established)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970517
   },
   {
    "dir": "2026-10-08T1643Z",
    "label": "2026-10-08T1643Z (movement: M-X2)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970517
   },
   {
    "dir": "2026-10-08T1726Z",
@@ -63,6 +63,12 @@
   {
    "dir": "2026-10-08T1930Z",
    "label": "2026-10-08T1930Z (movement: M-X12, M-X13, M-X14, M-X15, M-X16, M-X17, M-X18, M-X19, M-X20, M-X21, M-X22, M-X23)",
+   "signed": true,
+   "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T2001Z",
+   "label": "2026-10-08T2001Z (movement: M-X24)",
    "signed": true,
    "anchored_block": null
   }

@@ -3144,6 +3144,32 @@
    "received_sats": 98995172
   },
   {
+   "id": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "kind": "tx",
+   "ref": "M-X24",
+   "chapter": "live",
+   "role": "Movement: 8,449,034 sats left A-A13, A-A14, M-A7; where they went is being analysed",
+   "attribution": "traced",
+   "time": "2026-10-08T20:02:47Z",
+   "block": 970524
+  },
+  {
+   "id": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 24000000
+  },
+  {
+   "id": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 342774
+  },
+  {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
    "kind": "tx",
    "ref": "M-X4",
@@ -5476,6 +5502,38 @@
    "outpoint": "e4a72c20f5fb81520a6a1ffc1e65a5251c413621951ec2f9a0ba5b9a9243ff5b:1"
   },
   {
+   "from": "bc1qzcht8wxa68hvfnrjn69ffg92n0h4f8054pkqrq",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "chapter": "live",
+   "sats": 2927608
+  },
+  {
+   "from": "bc1q5hku7y3gxkeqjekzr5ulupfnfdzvu3s2qrcd2l",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "chapter": "live",
+   "sats": 2980114
+  },
+  {
+   "from": "bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "chapter": "live",
+   "sats": 2541312
+  },
+  {
+   "from": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:0",
+   "chapter": "live",
+   "sats": 24000000,
+   "outpoint": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:0"
+  },
+  {
+   "from": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:1",
+   "chapter": "live",
+   "sats": 342774,
+   "outpoint": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95:1"
+  },
+  {
    "from": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
    "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
    "chapter": "live",
@@ -5711,6 +5769,12 @@
    "to": "4ea11c108a7c14432be688c86461875a5808172ea298dd4b3361ecd6a030963a",
    "chapter": "live",
    "sats": 45889997
+  },
+  {
+   "from": "4ea11c108a7c14432be688c86461875a5808172ea298dd4b3361ecd6a030963a:0",
+   "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+   "chapter": "live",
+   "sats": 7668266
   }
  ]
 }

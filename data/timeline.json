@@ -1001,6 +1001,22 @@
      "link": "https://mempool.space/tx/f29a957d09cf268dbd501a3404266e1eb1a9c9b2d6d9b85a99d890342a63a68b"
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "20:01 UTC: 8,449,034 sats left A-A13, A-A14, M-A7 (seen unconfirmed). Where the coins went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X24",
+     "type": "tx",
+     "value": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
+     "link": "https://mempool.space/tx/770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95"
+    }
+   ]
   }
  ]
 }
