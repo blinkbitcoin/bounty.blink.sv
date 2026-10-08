@@ -5,6 +5,7 @@
   "blink_hot_wallet": "Blink hot wallet",
   "withheld": "Paid by him — owner not established; not published",
   "ark_board": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+  "swap_deposit": "Deposit into a cross-chain swap service (not the attacker)",
   "federation": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his"
  },
  "chapters": [
@@ -31,6 +32,10 @@
   {
    "id": "lnwallet",
    "title": "His Lightning wallet (held)"
+  },
+  {
+   "id": "live",
+   "title": "Latest movements"
   }
  ],
  "nodes": [
@@ -786,7 +791,7 @@
    "kind": "address",
    "ref": "A-A12",
    "chapter": "ark",
-   "attribution": "traced",
+   "attribution": "proven",
    "role": "His change address during the 5 Oct Ark activity",
    "received_sats": 3367530
   },
@@ -813,7 +818,7 @@
    "kind": "address",
    "ref": "A-A20",
    "chapter": "ark",
-   "attribution": "traced",
+   "attribution": "proven",
    "role": "Collection address #1 (5 Oct): received the exits of his Ark boarding outputs",
    "received_sats": 122390651
   },
@@ -840,7 +845,7 @@
    "kind": "address",
    "ref": "A-A23",
    "chapter": "ark",
-   "attribution": "traced",
+   "attribution": "proven",
    "role": "Change of A-X16 (17,970,413 sats)",
    "received_sats": 17970413
   },
@@ -867,7 +872,7 @@
    "kind": "address",
    "ref": "X-A03",
    "chapter": "lnwallet",
-   "attribution": "traced",
+   "attribution": "proven",
    "role": "Change of A-X15 (14,998,520 sats)",
    "received_sats": 14998520
   },
@@ -888,6 +893,60 @@
    "attribution": "probable",
    "role": "Intermediate address (9,864,181 sats)",
    "received_sats": 9864181
+  },
+  {
+   "id": "bc1qll5lmeqlycekdgpevy4sp9sv96udw7dyz6s55f",
+   "kind": "address",
+   "ref": "M-A1",
+   "chapter": "live",
+   "attribution": "proven",
+   "role": "His address — the 10,000-sat output of the 20 Sep consolidation (C-X1), shown until now as owner not established",
+   "received_sats": 10000
+  },
+  {
+   "id": "bc1qjsa63ylkvv3p5p0y203sv3ftkj6l33z3ka8j0p",
+   "kind": "address",
+   "ref": "M-A2",
+   "chapter": "live",
+   "attribution": "proven",
+   "role": "His address — received the 6 Oct sweep of his Lightning wallet's force-close (X-X05, X-X06), shown until now as owner not established",
+   "received_sats": 9962681
+  },
+  {
+   "id": "bc1qy335cvwxmd4u9g7jl5grs2w76zh48qm2wm0909",
+   "kind": "address",
+   "ref": "M-A3",
+   "chapter": "live",
+   "attribution": "proven",
+   "role": "His address — its only coin was 3,165 sats sent by someone else on 1 Oct",
+   "received_sats": 3165
+  },
+  {
+   "id": "bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv",
+   "kind": "address",
+   "ref": "M-A4",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 95,890,762 sats kept from M-X1",
+   "received_sats": 95890762
+  },
+  {
+   "id": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "kind": "address",
+   "ref": "M-A5",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 30,000,000 sats kept from M-X1",
+   "received_sats": 30000000
+  },
+  {
+   "id": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
+   "kind": "address",
+   "ref": "M-A6",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 12,928,452 sats kept from M-X1",
+   "received_sats": 12928452
   },
   {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
@@ -1423,14 +1482,6 @@
    "attribution": "proven",
    "time": "2026-09-20T20:23:21Z",
    "block": 967890
-  },
-  {
-   "id": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3",
-   "kind": "sink",
-   "class": "withheld",
-   "chapter": "trail",
-   "label": "Paid by him — owner not established; not published",
-   "received_sats": 10000
   },
   {
    "id": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
@@ -2461,14 +2512,6 @@
    "block": 970149
   },
   {
-   "id": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0",
-   "kind": "sink",
-   "class": "withheld",
-   "chapter": "lnwallet",
-   "label": "Paid by him — owner not established; not published",
-   "received_sats": 9862681
-  },
-  {
    "id": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
    "kind": "tx",
    "ref": "X-X05",
@@ -2477,14 +2520,6 @@
    "attribution": "probable",
    "time": "2026-10-06T08:13:24Z",
    "block": 970149
-  },
-  {
-   "id": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0",
-   "kind": "sink",
-   "class": "withheld",
-   "chapter": "lnwallet",
-   "label": "Paid by him — owner not established; not published",
-   "received_sats": 100000
   },
   {
    "id": "287659108b28c35f1b5172a753d225453f5429228118fadfb7b885c4176ab193",
@@ -2515,6 +2550,24 @@
    "attribution": "traced",
    "time": "2026-10-06T12:40:04Z",
    "block": 970172
+  },
+  {
+   "id": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "kind": "tx",
+   "ref": "M-X1",
+   "chapter": "live",
+   "role": "8 Oct, 15:07 UTC: he combined the coins at his collection address #1 and six other addresses — including the three small deposits others had sent to his first theft address (T-A1) — paid 30,000,000 sats into a cross-chain swap service and kept the rest at three new addresses",
+   "attribution": "proven",
+   "time": "2026-10-08T15:08:49Z",
+   "block": 970504
+  },
+  {
+   "id": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:0",
+   "kind": "sink",
+   "class": "swap_deposit",
+   "chapter": "live",
+   "label": "Deposit into a cross-chain swap service (not the attacker)",
+   "received_sats": 30000000
   }
  ],
  "edges": [
@@ -3117,7 +3170,7 @@
   },
   {
    "from": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
-   "to": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3",
+   "to": "bc1qll5lmeqlycekdgpevy4sp9sv96udw7dyz6s55f",
    "chapter": "trail",
    "sats": 10000,
    "outpoint": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3"
@@ -4229,7 +4282,7 @@
   },
   {
    "from": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9",
-   "to": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0",
+   "to": "bc1qjsa63ylkvv3p5p0y203sv3ftkj6l33z3ka8j0p",
    "chapter": "lnwallet",
    "sats": 9862681,
    "outpoint": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0"
@@ -4242,7 +4295,7 @@
   },
   {
    "from": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
-   "to": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0",
+   "to": "bc1qjsa63ylkvv3p5p0y203sv3ftkj6l33z3ka8j0p",
    "chapter": "lnwallet",
    "sats": 100000,
    "outpoint": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0"
@@ -4305,6 +4358,82 @@
    "chapter": "lightning",
    "sats": 50000000,
    "outpoint": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1"
+  },
+  {
+   "from": "bc1qll5lmeqlycekdgpevy4sp9sv96udw7dyz6s55f",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 10000
+  },
+  {
+   "from": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 122578
+  },
+  {
+   "from": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 122390651
+  },
+  {
+   "from": "bc1q7jlpxnjxmu0ap6ucztxnps65ph9r345ul34jhu",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 3367530
+  },
+  {
+   "from": "bc1qy335cvwxmd4u9g7jl5grs2w76zh48qm2wm0909",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 3165
+  },
+  {
+   "from": "bc1qjsa63ylkvv3p5p0y203sv3ftkj6l33z3ka8j0p",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 9962681
+  },
+  {
+   "from": "bc1qhu46tjk8q6xzqwzyt86ncpy23pkncnxz2r7qsv",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 14998520
+  },
+  {
+   "from": "bc1qz4d8dg0nxcumftfc7tf93mkykf4n6wncccrc5s",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "chapter": "live",
+   "sats": 17970413
+  },
+  {
+   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:0",
+   "chapter": "live",
+   "sats": 30000000,
+   "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:0"
+  },
+  {
+   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "to": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
+   "chapter": "live",
+   "sats": 12928452,
+   "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:1"
+  },
+  {
+   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "to": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "chapter": "live",
+   "sats": 30000000,
+   "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2"
+  },
+  {
+   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+   "to": "bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv",
+   "chapter": "live",
+   "sats": 95890762,
+   "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:3"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",

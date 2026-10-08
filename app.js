@@ -16,7 +16,7 @@ const el = (tag, attrs = {}, ...kids) => {
 const fmtSats = n => n == null ? "" : Number(n).toLocaleString("en-US");
 const fmtBtc = n => (n / 1e8).toLocaleString("en-US", { minimumFractionDigits: 8, maximumFractionDigits: 8 });
 const CHAPTER_TITLES = { theft: "1 · The theft", trail: "2 · Following the coins", ecash: "3 · Before the attack",
-  lightning: "4 · Lightning nodes", ark: "5 · Second's Ark server", lnwallet: "6 · Lightning wallet" };
+  lightning: "4 · Lightning nodes", ark: "5 · Second's Ark server", lnwallet: "6 · Lightning wallet", live: "7 · Latest movements" };
 const LINK_LABEL = { tx: "mempool.space", address: "mempool.space", channel: "mempool.space", node: "1ml.com", evm: "etherscan.io" };
 
 async function getJSON(p) { const r = await fetch(p, { cache: "no-cache" }); if (!r.ok) throw new Error(p); return r.json(); }
@@ -242,7 +242,7 @@ function renderGraph(sec, flows, rowsById, holdings) {
     p.append(t); gEdges.append(p); edgeEls.push({ e, p });
   }
   const received = k => nodes.get(k).in.reduce((a, e) => a + (e.sats || 0), 0);
-  const sinkLabel = { service: "swap service (not his)", federation: "federation (not his)", ark_board: "Ark boarding output",
+  const sinkLabel = { service: "swap service (not his)", swap_deposit: "swap service (not his)", pending: "not yet established", federation: "federation (not his)", ark_board: "Ark boarding output",
     withheld: "owner not established", later_batch: "his — other chapter", blink_hot_wallet: "Blink hot wallet", earlier_coins: "his earlier coins" };
   const nodeEls = new Map();
   for (const [k, n] of nodes) {

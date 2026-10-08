@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-08T13:47:15Z",
- "tip_height": 970497,
+ "checked_at": "2026-10-08T15:54:34Z",
+ "tip_height": 970509,
  "addresses": [
   {
    "id": "S-A10",
@@ -13,14 +13,24 @@
    "link": "https://mempool.space/address/bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly"
   },
   {
-   "id": "A-A20",
-   "chapter": "ark",
-   "value": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
-   "attribution": "traced",
-   "balance_sats": 122390651,
+   "id": "M-A4",
+   "chapter": "live",
+   "value": "bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv",
+   "attribution": "probable",
+   "balance_sats": 95890762,
    "foreign_sats": 0,
    "note": "",
-   "link": "https://mempool.space/address/bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl"
+   "link": "https://mempool.space/address/bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv"
+  },
+  {
+   "id": "M-A5",
+   "chapter": "live",
+   "value": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "attribution": "probable",
+   "balance_sats": 30000000,
+   "foreign_sats": 0,
+   "note": "",
+   "link": "https://mempool.space/address/bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq"
   },
   {
    "id": "T-A3",
@@ -33,16 +43,6 @@
    "link": "https://mempool.space/address/bc1qn5trkke5vrwzcvv9mrgpc3frthtf9sw0xeregn"
   },
   {
-   "id": "A-A23",
-   "chapter": "ark",
-   "value": "bc1qz4d8dg0nxcumftfc7tf93mkykf4n6wncccrc5s",
-   "attribution": "traced",
-   "balance_sats": 17970413,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qz4d8dg0nxcumftfc7tf93mkykf4n6wncccrc5s"
-  },
-  {
    "id": "T-A5",
    "chapter": "theft",
    "value": "bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3",
@@ -51,16 +51,6 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3"
-  },
-  {
-   "id": "X-A03",
-   "chapter": "lnwallet",
-   "value": "bc1qhu46tjk8q6xzqwzyt86ncpy23pkncnxz2r7qsv",
-   "attribution": "traced",
-   "balance_sats": 14998520,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qhu46tjk8q6xzqwzyt86ncpy23pkncnxz2r7qsv"
   },
   {
    "id": "T-A6",
@@ -93,14 +83,14 @@
    "link": "https://mempool.space/address/bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar"
   },
   {
-   "id": "A-A12",
-   "chapter": "ark",
-   "value": "bc1q7jlpxnjxmu0ap6ucztxnps65ph9r345ul34jhu",
-   "attribution": "traced",
-   "balance_sats": 3367530,
+   "id": "M-A6",
+   "chapter": "live",
+   "value": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
+   "attribution": "probable",
+   "balance_sats": 12928452,
    "foreign_sats": 0,
    "note": "",
-   "link": "https://mempool.space/address/bc1q7jlpxnjxmu0ap6ucztxnps65ph9r345ul34jhu"
+   "link": "https://mempool.space/address/bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez"
   },
   {
    "id": "A-A14",
@@ -131,19 +121,9 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd"
-  },
-  {
-   "id": "T-A1",
-   "chapter": "theft",
-   "value": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
-   "attribution": "proven",
-   "balance_sats": 0,
-   "foreign_sats": 122578,
-   "note": "The current balance is three small deposits from unknown senders on 21 September (not Blink payouts, not stolen coins); the stolen coins left this address on 20 September.",
-   "link": "https://mempool.space/address/bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y"
   }
  ],
  "total_proven_sats": 86655000,
- "total_traced_sats": 164266476,
- "total_probable_sats": 483999248
+ "total_traced_sats": 5539362,
+ "total_probable_sats": 622818462
 }

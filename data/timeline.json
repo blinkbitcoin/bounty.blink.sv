@@ -633,6 +633,22 @@
      "link": "https://mempool.space/tx/b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a"
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "15:07 UTC: he combines the coins at his collection address and six other addresses — including the three small deposits others had sent to his first theft address — pays 30,000,000 sats into a cross-chain swap service and keeps the rest at three new addresses. Spending those deposits together with his coins proves that every address in this transaction is his.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X1",
+     "type": "tx",
+     "value": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
+     "link": "https://mempool.space/tx/37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519"
+    }
+   ]
   }
  ]
 }

@@ -10,6 +10,12 @@
    "dir": "2026-10-08-update1",
    "label": "2026-10-08 (update 1: branch B completed in chapter 2)",
    "signed": true,
+   "anchored_block": 970502
+  },
+  {
+   "dir": "2026-10-08T1548Z",
+   "label": "2026-10-08T1548Z (8 Oct 15:07 movement published and classified (M-X1; collection #1 and others now proven via T-A1's coins; chapter 7 Latest movements))",
+   "signed": true,
    "anchored_block": null
   }
  ]
