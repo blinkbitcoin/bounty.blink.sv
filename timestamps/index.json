@@ -23,6 +23,12 @@
    "label": "2026-10-08T1556Z (correction: both round 30,000,000-sat outputs of M-X1 shown as destination not yet established)",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T1643Z",
+   "label": "2026-10-08T1643Z (movement: M-X2)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

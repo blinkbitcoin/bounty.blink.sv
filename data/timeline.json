@@ -649,6 +649,22 @@
      "link": "https://mempool.space/tx/37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519"
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "16:43 UTC: 12,928,452 sats left M-A6 (seen unconfirmed). Where the coins went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X2",
+     "type": "tx",
+     "value": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+     "link": "https://mempool.space/tx/a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11"
+    }
+   ]
   }
  ]
 }

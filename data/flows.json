@@ -2567,6 +2567,32 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 30000000
+  },
+  {
+   "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "kind": "tx",
+   "ref": "M-X2",
+   "chapter": "live",
+   "role": "Movement: 12,928,452 sats left M-A6; where they went is being analysed",
+   "attribution": "probable",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 40000000
+  },
+  {
+   "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 2927608
   }
  ],
  "edges": [
@@ -4435,6 +4461,26 @@
    "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:3"
   },
   {
+   "from": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
+   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "chapter": "live",
+   "sats": 12928452
+  },
+  {
+   "from": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:0",
+   "chapter": "live",
+   "sats": 40000000,
+   "outpoint": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:0"
+  },
+  {
+   "from": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1",
+   "chapter": "live",
+   "sats": 2927608,
+   "outpoint": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1"
+  },
+  {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
    "to": "c8c44e577726e4fe260057664154207c4309f0f42cde999f00e2a948ea5f7cde",
    "chapter": "ecash",
@@ -4571,6 +4617,12 @@
    "to": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
    "chapter": "ark",
    "sats": 10000000
+  },
+  {
+   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
+   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "chapter": "live",
+   "sats": 30000000
   }
  ]
 }
