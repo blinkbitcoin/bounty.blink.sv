@@ -17,6 +17,12 @@
    "label": "2026-10-08T1548Z (8 Oct 15:07 movement published and classified (M-X1; collection #1 and others now proven via T-A1's coins; chapter 7 Latest movements))",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T1556Z",
+   "label": "2026-10-08T1556Z (correction: both round 30,000,000-sat outputs of M-X1 shown as destination not yet established)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

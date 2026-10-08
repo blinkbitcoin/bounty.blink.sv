@@ -638,7 +638,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "15:07 UTC: he combines the coins at his collection address and six other addresses — including the three small deposits others had sent to his first theft address — pays 30,000,000 sats into a cross-chain swap service and keeps the rest at three new addresses. Spending those deposits together with his coins proves that every address in this transaction is his.",
+   "text": "15:07 UTC: he combines the coins at his collection address and six other addresses — including the three small deposits others had sent to his first theft address — into four new outputs: two he most likely kept (95,890,762 and 12,928,452 sats) and two round 30,000,000-sat outputs whose destination is not yet established. Spending those deposits together with his coins proves that every address in this transaction is his.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [

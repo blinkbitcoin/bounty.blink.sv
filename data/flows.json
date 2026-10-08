@@ -5,7 +5,7 @@
   "blink_hot_wallet": "Blink hot wallet",
   "withheld": "Paid by him — owner not established; not published",
   "ark_board": "Ark boarding output (his own coins, exited back on chain to his collection address)",
-  "swap_deposit": "Deposit into a cross-chain swap service (not the attacker)",
+  "pending": "Destination not yet established — analysis follows",
   "federation": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his"
  },
  "chapters": [
@@ -929,15 +929,6 @@
    "attribution": "probable",
    "role": "Most likely his — 95,890,762 sats kept from M-X1",
    "received_sats": 95890762
-  },
-  {
-   "id": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
-   "kind": "address",
-   "ref": "M-A5",
-   "chapter": "live",
-   "attribution": "probable",
-   "role": "Most likely his — 30,000,000 sats kept from M-X1",
-   "received_sats": 30000000
   },
   {
    "id": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
@@ -2556,7 +2547,7 @@
    "kind": "tx",
    "ref": "M-X1",
    "chapter": "live",
-   "role": "8 Oct, 15:07 UTC: he combined the coins at his collection address #1 and six other addresses — including the three small deposits others had sent to his first theft address (T-A1) — paid 30,000,000 sats into a cross-chain swap service and kept the rest at three new addresses",
+   "role": "8 Oct, 15:07 UTC: he combined the coins at his collection address #1 and six other addresses — including the three small deposits others had sent to his first theft address (T-A1) — into four new outputs: two of them he most likely kept, two round 30,000,000-sat outputs whose destination is not yet established",
    "attribution": "proven",
    "time": "2026-10-08T15:08:49Z",
    "block": 970504
@@ -2564,9 +2555,17 @@
   {
    "id": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:0",
    "kind": "sink",
-   "class": "swap_deposit",
+   "class": "pending",
    "chapter": "live",
-   "label": "Deposit into a cross-chain swap service (not the attacker)",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 30000000
+  },
+  {
+   "id": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
    "received_sats": 30000000
   }
  ],
@@ -4423,7 +4422,7 @@
   },
   {
    "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
-   "to": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
    "chapter": "live",
    "sats": 30000000,
    "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2"
