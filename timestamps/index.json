@@ -40,35 +40,41 @@
    "dir": "2026-10-08T1755Z",
    "label": "2026-10-08T1755Z (movement: M-X9, M-X10)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970524
   },
   {
    "dir": "2026-10-08T1819Z",
    "label": "2026-10-08T1819Z (movement: M-X11)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970524
   },
   {
    "dir": "2026-10-08T1842Z",
    "label": "2026-10-08T1842Z (reviewed: M-X11 classified \u2014 aegis-ln wallet sweep; his sides of the L-C17 / L-C18 closes traced (M-A9, M-A8); sweep output added once confirmed)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970524
   },
   {
    "dir": "2026-10-08T1907Z",
    "label": "2026-10-08T1907Z (M-A10 added: the sweep M-X11 confirmed (block 970518); its single output 21,779,854 sats probable)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970524
   },
   {
    "dir": "2026-10-08T1930Z",
    "label": "2026-10-08T1930Z (movement: M-X12, M-X13, M-X14, M-X15, M-X16, M-X17, M-X18, M-X19, M-X20, M-X21, M-X22, M-X23)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970524
   },
   {
    "dir": "2026-10-08T2001Z",
    "label": "2026-10-08T2001Z (movement: M-X24)",
+   "signed": true,
+   "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T2102Z",
+   "label": "2026-10-08T2102Z (movement: M-X25)",
    "signed": true,
    "anchored_block": null
   }

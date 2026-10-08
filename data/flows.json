@@ -3176,8 +3176,8 @@
    "chapter": "live",
    "role": "Closes channel L-C06 (capacity 100,000,000 sats); where the outputs went is being analysed",
    "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-08T20:40:49Z",
+   "block": 970528
   },
   {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0",
@@ -3196,40 +3196,14 @@
    "received_sats": 98997680
   },
   {
-   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
-   "kind": "tx",
-   "ref": "M-X8",
-   "chapter": "live",
-   "role": "Closes channel L-C19 (capacity 50,000,000 sats); where the outputs went is being analysed",
-   "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
-  },
-  {
-   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 5433223
-  },
-  {
-   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 44566494
-  },
-  {
    "id": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
    "kind": "tx",
    "ref": "M-X5",
    "chapter": "live",
    "role": "Closes channel L-C15 (capacity 300,000 sats); where the outputs went is being analysed",
    "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-08T20:40:49Z",
+   "block": 970528
   },
   {
    "id": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0",
@@ -3246,8 +3220,8 @@
    "chapter": "live",
    "role": "Closes channel L-C02 (capacity 100,000,000 sats); where the outputs went is being analysed",
    "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-08T20:40:49Z",
+   "block": 970528
   },
   {
    "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:0",
@@ -3266,14 +3240,40 @@
    "received_sats": 98993935
   },
   {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "kind": "tx",
+   "ref": "M-X8",
+   "chapter": "live",
+   "role": "Closes channel L-C19 (capacity 50,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "2026-10-08T20:47:35Z",
+   "block": 970529
+  },
+  {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 5433223
+  },
+  {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 44566494
+  },
+  {
    "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
    "kind": "tx",
    "ref": "M-X6",
    "chapter": "live",
    "role": "Closes channel L-C16 (capacity 27,926,746 sats); where the outputs went is being analysed",
    "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-08T20:47:35Z",
+   "block": 970529
   },
   {
    "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:0",
@@ -3290,6 +3290,48 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 27644884
+  },
+  {
+   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "kind": "tx",
+   "ref": "M-X25",
+   "chapter": "live",
+   "role": "Movement: 483,999,248 sats left S-A10; where they went is being analysed",
+   "attribution": "probable",
+   "time": "2026-10-08T21:07:05Z",
+   "block": 970533
+  },
+  {
+   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 8643
+  },
+  {
+   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 25000000
+  },
+  {
+   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:2",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 458999079
+  },
+  {
+   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 25000000
   }
  ],
  "edges": [
@@ -5554,26 +5596,6 @@
    "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1"
   },
   {
-   "from": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
-   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
-   "chapter": "live",
-   "sats": 50000000
-  },
-  {
-   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
-   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
-   "chapter": "live",
-   "sats": 5433223,
-   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0"
-  },
-  {
-   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
-   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
-   "chapter": "live",
-   "sats": 44566494,
-   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1"
-  },
-  {
    "from": "cdde09cb2650c64b7632b6bcfad35ecd1f5df2aff9a1006fa65aec78ea13c8dd:0",
    "to": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
    "chapter": "live",
@@ -5607,6 +5629,26 @@
    "outpoint": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:1"
   },
   {
+   "from": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "chapter": "live",
+   "sats": 50000000
+  },
+  {
+   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
+   "chapter": "live",
+   "sats": 5433223,
+   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0"
+  },
+  {
+   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
+   "chapter": "live",
+   "sats": 44566494,
+   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1"
+  },
+  {
    "from": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1",
    "to": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
    "chapter": "live",
@@ -5625,6 +5667,40 @@
    "chapter": "live",
    "sats": 27644884,
    "outpoint": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:1"
+  },
+  {
+   "from": "bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "chapter": "live",
+   "sats": 483999248
+  },
+  {
+   "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0",
+   "chapter": "live",
+   "sats": 8643,
+   "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0"
+  },
+  {
+   "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1",
+   "chapter": "live",
+   "sats": 25000000,
+   "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1"
+  },
+  {
+   "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:2",
+   "chapter": "live",
+   "sats": 458999079,
+   "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:2"
+  },
+  {
+   "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3",
+   "chapter": "live",
+   "sats": 25000000,
+   "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
@@ -5775,6 +5851,12 @@
    "to": "770642c03fccf1e7314af56cdadb77a71e8917ac512fc771565a723c2c6a6e95",
    "chapter": "live",
    "sats": 7668266
+  },
+  {
+   "from": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:2",
+   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
+   "chapter": "live",
+   "sats": 20009199
   }
  ]
 }
