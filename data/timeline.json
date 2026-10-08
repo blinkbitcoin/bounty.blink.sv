@@ -862,7 +862,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: 21,779,854 sats left M-A10. Where the coins went is being analysed.",
+   "text": "19:06 UTC: he spends M-A10 together with the change of M-X9 — 60,000,000 sats to a destination not yet established, the change goes on to M-X24.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1006,7 +1006,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "20:01 UTC: 8,449,034 sats left A-A13, A-A14, M-A7 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "20:02 UTC: he combines A-A13, A-A14 and M-A7 with the sweep of his sides of ten channel closes and the change of M-X15 — 24,000,000 sats to a destination not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1022,7 +1022,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "21:02 UTC: 483,999,248 sats left S-A10 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "21:07 UTC: the 483,999,248 sats at S-A10 move — spent together with an output of his own earlier transaction S-X7, which ties S-A10 to him. Two round 25,000,000-sat payments go to destinations not yet established; 458,999,079 sats stay with him as change.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1031,6 +1031,70 @@
      "type": "tx",
      "value": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
      "link": "https://mempool.space/tx/bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "19:56 UTC: his sides of ten channel closes are swept into one address; it goes on into M-X24 with his traced coins.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X26",
+     "type": "tx",
+     "value": "6b7307d4007da5790074daa25ca964dabb8dc3047348743e53f35b6f14507829",
+     "link": "https://mempool.space/tx/6b7307d4007da5790074daa25ca964dabb8dc3047348743e53f35b6f14507829"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "20:34 UTC: eight more channel-close outputs (channels not on this page) are swept into one address.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X27",
+     "type": "tx",
+     "value": "3b99e7ca0a39f1022bcc6d6dd1eac94a94379a86a7e2433ed8073a9d7aef7de0",
+     "link": "https://mempool.space/tx/3b99e7ca0a39f1022bcc6d6dd1eac94a94379a86a7e2433ed8073a9d7aef7de0"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "20:55 UTC: his sides of four channel closes, including 44,566,494 sats from L-C19, are swept into one address.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X28",
+     "type": "tx",
+     "value": "f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a",
+     "link": "https://mempool.space/tx/f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "20:55 UTC: he combines both sweeps with the change of M-X24 and three more coins — 68,284,044 sats to a destination not yet established.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X29",
+     "type": "tx",
+     "value": "c9313437feacb2d55e5cee2723e70a4361f2107b53c8897bb85828bd7cc93849",
+     "link": "https://mempool.space/tx/c9313437feacb2d55e5cee2723e70a4361f2107b53c8897bb85828bd7cc93849"
     }
    ]
   }

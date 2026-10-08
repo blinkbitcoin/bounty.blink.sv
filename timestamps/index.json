@@ -70,11 +70,17 @@
    "dir": "2026-10-08T2001Z",
    "label": "2026-10-08T2001Z (movement: M-X24)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970529
   },
   {
    "dir": "2026-10-08T2102Z",
    "label": "2026-10-08T2102Z (movement: M-X25)",
+   "signed": true,
+   "anchored_block": 970536
+  },
+  {
+   "dir": "2026-10-08T2247Z",
+   "label": "2026-10-08T2247Z (reviewed: evening of 8 Oct \u2014 S-A10 (484M) moved with his own coins \u21d2 traced, change 458,999,079 traced (M-A13); M-A10 traced; three node sweeps of channel-close outputs + their merge (M-X26\u2013M-X29); round 24\u201368M outputs not yet established)",
    "signed": true,
    "anchored_block": null
   }

@@ -1,7 +1,17 @@
 {
- "checked_at": "2026-10-08T21:09:13Z",
- "tip_height": 970533,
+ "checked_at": "2026-10-08T22:53:47Z",
+ "tip_height": 970541,
  "addresses": [
+  {
+   "id": "M-A13",
+   "chapter": "live",
+   "value": "bc1q2u68srs483tqjxd226vvqrknlnlrvfn67dhlup",
+   "attribution": "traced",
+   "balance_sats": 458999079,
+   "foreign_sats": 0,
+   "note": "",
+   "link": "https://mempool.space/address/bc1q2u68srs483tqjxd226vvqrknlnlrvfn67dhlup"
+  },
   {
    "id": "T-A3",
    "chapter": "theft",
@@ -54,6 +64,6 @@
   }
  ],
  "total_proven_sats": 86655000,
- "total_traced_sats": 0,
+ "total_traced_sats": 458999079,
  "total_probable_sats": 0
 }
