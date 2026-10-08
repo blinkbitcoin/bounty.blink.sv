@@ -761,6 +761,38 @@
      "link": "https://mempool.space/tx/81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698"
     }
    ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:52 UTC: 95,890,762 sats left M-A4. Where the coins went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X9",
+     "type": "tx",
+     "value": "3b84fe12af7a0dcb26fccca66fa342b4b5184b08fe747dd691e9eda3173de3d4",
+     "link": "https://mempool.space/tx/3b84fe12af7a0dcb26fccca66fa342b4b5184b08fe747dd691e9eda3173de3d4"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:55 UTC: channel L-C18 closed (capacity 10,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X10",
+     "type": "tx",
+     "value": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a",
+     "link": "https://mempool.space/tx/5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a"
+    }
+   ]
   }
  ]
 }

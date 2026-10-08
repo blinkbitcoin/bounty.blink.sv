@@ -35,6 +35,12 @@
    "label": "2026-10-08T1726Z (reviewed: M-X2 classified (M-A5 back as probable, M-A7 change); six aegis-ln channel closes M-X3\u2013M-X8 (L-C02, L-C06, L-C15, L-C16, L-C17, L-C19), outputs not yet established)",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T1755Z",
+   "label": "2026-10-08T1755Z (movement: M-X9, M-X10)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

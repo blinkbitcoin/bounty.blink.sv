@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-08T17:32:37Z",
- "tip_height": 970514,
+ "checked_at": "2026-10-08T18:02:02Z",
+ "tip_height": 970516,
  "addresses": [
   {
    "id": "S-A10",
@@ -11,16 +11,6 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly"
-  },
-  {
-   "id": "M-A4",
-   "chapter": "live",
-   "value": "bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv",
-   "attribution": "probable",
-   "balance_sats": 95890762,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qttgpk92609k2x06q5hdyjmg30rquyt2y2azxjv"
   },
   {
    "id": "T-A3",
@@ -115,5 +105,5 @@
  ],
  "total_proven_sats": 86655000,
  "total_traced_sats": 5539362,
- "total_probable_sats": 582817618
+ "total_probable_sats": 486926856
 }
