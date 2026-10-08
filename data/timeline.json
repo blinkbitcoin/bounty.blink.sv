@@ -638,7 +638,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "15:07 UTC: he combines the coins at his collection address and six other addresses — including the three small deposits others had sent to his first theft address — into four new outputs: two he most likely kept (95,890,762 and 12,928,452 sats) and two round 30,000,000-sat outputs whose destination is not yet established. Spending those deposits together with his coins proves that every address in this transaction is his.",
+   "text": "15:07 UTC: he combines the coins at his collection address and six other addresses — including the three small deposits others had sent to his first theft address — into four new outputs: three he most likely kept (95,890,762, 30,000,000 and 12,928,452 sats) and one round 30,000,000-sat output whose destination is not yet established. Spending those deposits together with his coins proves that every address in this transaction is his.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -654,7 +654,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "16:43 UTC: 12,928,452 sats left M-A6 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "16:40 UTC: he spends M-A6 together with M-A5, the other 30,000,000-sat output he had kept from 15:07 — 40,000,000 sats go to an address whose destination is not yet established, 2,927,608 sats come back as change.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -663,6 +663,102 @@
      "type": "tx",
      "value": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
      "link": "https://mempool.space/tx/a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:25 UTC: channel L-C02 closed (capacity 100,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X3",
+     "type": "tx",
+     "value": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
+     "link": "https://mempool.space/tx/d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:25 UTC: channel L-C06 closed (capacity 100,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X4",
+     "type": "tx",
+     "value": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+     "link": "https://mempool.space/tx/4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:25 UTC: channel L-C15 closed (capacity 300,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X5",
+     "type": "tx",
+     "value": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
+     "link": "https://mempool.space/tx/8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:25 UTC: channel L-C16 closed (capacity 27,926,746 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X6",
+     "type": "tx",
+     "value": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
+     "link": "https://mempool.space/tx/e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "16:49 UTC: channel L-C17 closed (capacity 10,000,000 sats). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X7",
+     "type": "tx",
+     "value": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
+     "link": "https://mempool.space/tx/7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "17:25 UTC: channel L-C19 closed (capacity 50,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X8",
+     "type": "tx",
+     "value": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+     "link": "https://mempool.space/tx/81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698"
     }
    ]
   }

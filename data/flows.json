@@ -535,6 +535,15 @@
    "received_sats": 8512902
   },
   {
+   "id": "e65337def0da72c4792eb00e1a0a54b3eeb711e93831bc4eb4c16bb479fb7876:1",
+   "kind": "channel",
+   "ref": "L-C02",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ LNBiG Hub-2, 100,000,000 sats — opened by LNBiG Hub-2 (inbound liquidity it provided — funded from LNBiG's own wallet, per on-chain analysis) — closed 8 Oct (M-X3)",
+   "received_sats": 100000000
+  },
+  {
    "id": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:1",
    "kind": "channel",
    "ref": "L-C03",
@@ -544,13 +553,40 @@
    "received_sats": 2880254
   },
   {
+   "id": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
+   "kind": "channel",
+   "ref": "L-C06",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ LNBiG Hub-1, 100,000,000 sats — opened by LNBiG Hub-1 (inbound liquidity it provided — funded from LNBiG's own wallet, per on-chain analysis) — closed 8 Oct (M-X4)",
+   "received_sats": 100000000
+  },
+  {
+   "id": "cdde09cb2650c64b7632b6bcfad35ecd1f5df2aff9a1006fa65aec78ea13c8dd:0",
+   "kind": "channel",
+   "ref": "L-C15",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ LNBiG Hub-3, 300,000 sats — opened by LNBiG Hub-3 (inbound liquidity it provided — funded from LNBiG's own wallet, per on-chain analysis) — closed 8 Oct (M-X5)",
+   "received_sats": 300000
+  },
+  {
    "id": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1",
    "kind": "channel",
    "ref": "L-C16",
    "chapter": "lightning",
    "attribution": "proven",
-   "role": "Public channel aegis-ln ↔ LNBiG Hub-1, 27,926,746 sats — opened by aegis-ln with his money",
+   "role": "Public channel aegis-ln ↔ LNBiG Hub-1, 27,926,746 sats — opened by aegis-ln with his money — closed 8 Oct (M-X6)",
    "received_sats": 27926746
+  },
+  {
+   "id": "c5637f64c04015bc7468ddd6a4884463c3caa65e5da384ec7e4f46a6c7b8bbca:0",
+   "kind": "channel",
+   "ref": "L-C17",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ ACINQ opened 3 Oct (opener not established) — closed 8 Oct (M-X7)",
+   "received_sats": 10000000
   },
   {
    "id": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
@@ -558,7 +594,7 @@
    "ref": "L-C19",
    "chapter": "lightning",
    "attribution": "proven",
-   "role": "Channel opened by aegis-ln on 6 Oct with 50,000,000 sats from his Ark collection address (L-X17); peer not established",
+   "role": "Channel opened by aegis-ln on 6 Oct with 50,000,000 sats from his Ark collection address (L-X17); peer not established — closed 8 Oct (M-X8)",
    "received_sats": 50000000
   },
   {
@@ -938,6 +974,24 @@
    "attribution": "probable",
    "role": "Most likely his — 12,928,452 sats kept from M-X1",
    "received_sats": 12928452
+  },
+  {
+   "id": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "kind": "address",
+   "ref": "M-A5",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 30,000,000 sats kept from M-X1, spent with M-A6 in M-X2",
+   "received_sats": 30000000
+  },
+  {
+   "id": "bc1qzcht8wxa68hvfnrjn69ffg92n0h4f8054pkqrq",
+   "kind": "address",
+   "ref": "M-A7",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 2,927,608 sats change of M-X2",
+   "received_sats": 2927608
   },
   {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
@@ -2547,7 +2601,7 @@
    "kind": "tx",
    "ref": "M-X1",
    "chapter": "live",
-   "role": "8 Oct, 15:07 UTC: he combined the coins at his collection address #1 and six other addresses — including the three small deposits others had sent to his first theft address (T-A1) — into four new outputs: two of them he most likely kept, two round 30,000,000-sat outputs whose destination is not yet established",
+   "role": "8 Oct, 15:07 UTC: he combined the coins at his collection address #1 and six other addresses — including the three small deposits others had sent to his first theft address (T-A1) — into four new outputs: three he most likely kept (M-A4, M-A5, M-A6) and one round 30,000,000-sat output whose destination is not yet established",
    "attribution": "proven",
    "time": "2026-10-08T15:08:49Z",
    "block": 970504
@@ -2561,22 +2615,40 @@
    "received_sats": 30000000
   },
   {
-   "id": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
+   "id": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
+   "kind": "tx",
+   "ref": "M-X7",
+   "chapter": "live",
+   "role": "Closes channel L-C17 (capacity 10,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "2026-10-08T16:49:52Z",
+   "block": 970512
+  },
+  {
+   "id": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:0",
    "kind": "sink",
    "class": "pending",
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
-   "received_sats": 30000000
+   "received_sats": 269789
+  },
+  {
+   "id": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 9729631
   },
   {
    "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
    "kind": "tx",
    "ref": "M-X2",
    "chapter": "live",
-   "role": "Movement: 12,928,452 sats left M-A6; where they went is being analysed",
+   "role": "8 Oct, 16:40 UTC: he spent M-A6 together with M-A5 (42,928,452 sats) — 40,000,000 sats to an address whose destination is not yet established, 2,927,608 sats change (M-A7)",
    "attribution": "probable",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-08T16:49:52Z",
+   "block": 970512
   },
   {
    "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:0",
@@ -2587,12 +2659,126 @@
    "received_sats": 40000000
   },
   {
-   "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1",
+   "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "kind": "tx",
+   "ref": "M-X4",
+   "chapter": "live",
+   "role": "Closes channel L-C06 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0",
    "kind": "sink",
    "class": "pending",
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
-   "received_sats": 2927608
+   "received_sats": 1002008
+  },
+  {
+   "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 98997680
+  },
+  {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "kind": "tx",
+   "ref": "M-X8",
+   "chapter": "live",
+   "role": "Closes channel L-C19 (capacity 50,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 5433223
+  },
+  {
+   "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 44566494
+  },
+  {
+   "id": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
+   "kind": "tx",
+   "ref": "M-X5",
+   "chapter": "live",
+   "role": "Closes channel L-C15 (capacity 300,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 299758
+  },
+  {
+   "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
+   "kind": "tx",
+   "ref": "M-X3",
+   "chapter": "live",
+   "role": "Closes channel L-C02 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 1005753
+  },
+  {
+   "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 98993935
+  },
+  {
+   "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
+   "kind": "tx",
+   "ref": "M-X6",
+   "chapter": "live",
+   "role": "Closes channel L-C16 (capacity 27,926,746 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 281578
+  },
+  {
+   "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 27644884
   }
  ],
  "edges": [
@@ -4448,7 +4634,7 @@
   },
   {
    "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519",
-   "to": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
+   "to": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
    "chapter": "live",
    "sats": 30000000,
    "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2"
@@ -4461,10 +4647,36 @@
    "outpoint": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:3"
   },
   {
+   "from": "c5637f64c04015bc7468ddd6a4884463c3caa65e5da384ec7e4f46a6c7b8bbca:0",
+   "to": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
+   "chapter": "live",
+   "sats": 10000000
+  },
+  {
+   "from": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
+   "to": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:0",
+   "chapter": "live",
+   "sats": 269789,
+   "outpoint": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:0"
+  },
+  {
+   "from": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
+   "to": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
+   "chapter": "live",
+   "sats": 9729631,
+   "outpoint": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1"
+  },
+  {
    "from": "bc1qau875e0ywvu2rffregd9tdnajdnsgh4haan8ez",
    "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
    "chapter": "live",
    "sats": 12928452
+  },
+  {
+   "from": "bc1qpuq0g3zt6qwnr6xfqs6z08gttpmxz5a5gwdmlq",
+   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
+   "chapter": "live",
+   "sats": 30000000
   },
   {
    "from": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
@@ -4475,10 +4687,103 @@
   },
   {
    "from": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
-   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1",
+   "to": "bc1qzcht8wxa68hvfnrjn69ffg92n0h4f8054pkqrq",
    "chapter": "live",
    "sats": 2927608,
    "outpoint": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11:1"
+  },
+  {
+   "from": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "chapter": "live",
+   "sats": 100000000
+  },
+  {
+   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0",
+   "chapter": "live",
+   "sats": 1002008,
+   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0"
+  },
+  {
+   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1",
+   "chapter": "live",
+   "sats": 98997680,
+   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1"
+  },
+  {
+   "from": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "chapter": "live",
+   "sats": 50000000
+  },
+  {
+   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0",
+   "chapter": "live",
+   "sats": 5433223,
+   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:0"
+  },
+  {
+   "from": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
+   "to": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1",
+   "chapter": "live",
+   "sats": 44566494,
+   "outpoint": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698:1"
+  },
+  {
+   "from": "cdde09cb2650c64b7632b6bcfad35ecd1f5df2aff9a1006fa65aec78ea13c8dd:0",
+   "to": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
+   "chapter": "live",
+   "sats": 300000
+  },
+  {
+   "from": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8",
+   "to": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0",
+   "chapter": "live",
+   "sats": 299758,
+   "outpoint": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0"
+  },
+  {
+   "from": "e65337def0da72c4792eb00e1a0a54b3eeb711e93831bc4eb4c16bb479fb7876:1",
+   "to": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
+   "chapter": "live",
+   "sats": 100000000
+  },
+  {
+   "from": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
+   "to": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:0",
+   "chapter": "live",
+   "sats": 1005753,
+   "outpoint": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:0"
+  },
+  {
+   "from": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
+   "to": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:1",
+   "chapter": "live",
+   "sats": 98993935,
+   "outpoint": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:1"
+  },
+  {
+   "from": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1",
+   "to": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
+   "chapter": "live",
+   "sats": 27926746
+  },
+  {
+   "from": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
+   "to": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:0",
+   "chapter": "live",
+   "sats": 281578,
+   "outpoint": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:0"
+  },
+  {
+   "from": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98",
+   "to": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:1",
+   "chapter": "live",
+   "sats": 27644884,
+   "outpoint": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
@@ -4617,12 +4922,6 @@
    "to": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
    "chapter": "ark",
    "sats": 10000000
-  },
-  {
-   "from": "37bc5d657de57199a251c09ee08d08db6efc33600fd4adac79ca6c8ddcac2519:2",
-   "to": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
-   "chapter": "live",
-   "sats": 30000000
   }
  ]
 }
