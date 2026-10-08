@@ -798,7 +798,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "18:19 UTC: 17,936 sats left L-A6 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "18:19 UTC: his aegis-ln wallet sweeps 13 coins into one address (21,779,854 sats) — including his sides of the L-C17 and L-C18 channel closes, which shows those close outputs were his.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [

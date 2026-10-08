@@ -1003,6 +1003,24 @@
    "received_sats": 2927608
   },
   {
+   "id": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
+   "kind": "address",
+   "ref": "M-A8",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His side of the L-C18 channel close (M-X10), 9,105,026 sats",
+   "received_sats": 9105026
+  },
+  {
+   "id": "bc1pz2jhcf3syplm78quw4gmnxsxfsdmp6rshz4mxe07dvu7wqg92ruqrj0a8k",
+   "kind": "address",
+   "ref": "M-A9",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His side of the L-C17 channel close (M-X7), 9,729,631 sats",
+   "received_sats": 9729631
+  },
+  {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
    "kind": "tx",
    "ref": "X-X07",
@@ -2642,14 +2660,6 @@
    "received_sats": 269789
   },
   {
-   "id": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 9729631
-  },
-  {
    "id": "a07d92e6e6898741e33761825cdd6b7d4a3c6d250926a608ba1021f812886a11",
    "kind": "tx",
    "ref": "M-X2",
@@ -2710,14 +2720,6 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 894067
-  },
-  {
-   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 9105026
   },
   {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
@@ -2794,7 +2796,7 @@
    "kind": "tx",
    "ref": "M-X11",
    "chapter": "live",
-   "role": "Movement: 17,936 sats left L-A6; where they went is being analysed",
+   "role": "8 Oct, 18:19 UTC: his aegis-ln wallet swept 13 coins into one address (21,779,854 sats; shown once the sweep confirms) — among them L-A6 and his sides of two channel closes, L-C17 (M-X7 → M-A9) and L-C18 (M-X10 → M-A8)",
    "attribution": "traced",
    "time": "unconfirmed",
    "block": null
@@ -4740,7 +4742,7 @@
   },
   {
    "from": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f",
-   "to": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
+   "to": "bc1pz2jhcf3syplm78quw4gmnxsxfsdmp6rshz4mxe07dvu7wqg92ruqrj0a8k",
    "chapter": "live",
    "sats": 9729631,
    "outpoint": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1"
@@ -4806,7 +4808,7 @@
   },
   {
    "from": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a",
-   "to": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
+   "to": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
    "chapter": "live",
    "sats": 9105026,
    "outpoint": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1"
@@ -4863,6 +4865,18 @@
    "chapter": "live",
    "sats": 299758,
    "outpoint": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0"
+  },
+  {
+   "from": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9105026
+  },
+  {
+   "from": "bc1pz2jhcf3syplm78quw4gmnxsxfsdmp6rshz4mxe07dvu7wqg92ruqrj0a8k",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9729631
   },
   {
    "from": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
@@ -5054,18 +5068,6 @@
    "to": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
    "chapter": "ark",
    "sats": 10000000
-  },
-  {
-   "from": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "chapter": "live",
-   "sats": 9105026
-  },
-  {
-   "from": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "chapter": "live",
-   "sats": 9729631
   }
  ]
 }
