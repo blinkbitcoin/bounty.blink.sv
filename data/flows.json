@@ -1003,6 +1003,15 @@
    "received_sats": 2927608
   },
   {
+   "id": "bc1qkrmsqe6dp474zr0jvac0qqeu6rg5t70xryk3mu",
+   "kind": "address",
+   "ref": "M-A10",
+   "chapter": "live",
+   "attribution": "probable",
+   "role": "Most likely his — 21,779,854 sats, the single output of his aegis-ln wallet sweep M-X11",
+   "received_sats": 21779854
+  },
+  {
    "id": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
    "kind": "address",
    "ref": "M-A8",
@@ -2722,6 +2731,16 @@
    "received_sats": 894067
   },
   {
+   "id": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "kind": "tx",
+   "ref": "M-X11",
+   "chapter": "live",
+   "role": "8 Oct, 18:19 UTC: his aegis-ln wallet swept 13 coins into one address (M-A10, 21,779,854 sats) — among them L-A6 and his sides of two channel closes, L-C17 (M-X7 → M-A9) and L-C18 (M-X10 → M-A8)",
+   "attribution": "traced",
+   "time": "2026-10-08T18:53:10Z",
+   "block": 970518
+  },
+  {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
    "kind": "tx",
    "ref": "M-X4",
@@ -2790,24 +2809,6 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 299758
-  },
-  {
-   "id": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "kind": "tx",
-   "ref": "M-X11",
-   "chapter": "live",
-   "role": "8 Oct, 18:19 UTC: his aegis-ln wallet swept 13 coins into one address (21,779,854 sats; shown once the sweep confirms) — among them L-A6 and his sides of two channel closes, L-C17 (M-X7 → M-A9) and L-C18 (M-X10 → M-A8)",
-   "attribution": "traced",
-   "time": "unconfirmed",
-   "block": null
-  },
-  {
-   "id": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 21779854
   },
   {
    "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
@@ -4814,6 +4815,31 @@
    "outpoint": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1"
   },
   {
+   "from": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9105026
+  },
+  {
+   "from": "bc1pz2jhcf3syplm78quw4gmnxsxfsdmp6rshz4mxe07dvu7wqg92ruqrj0a8k",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9729631
+  },
+  {
+   "from": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 17936
+  },
+  {
+   "from": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "to": "bc1qkrmsqe6dp474zr0jvac0qqeu6rg5t70xryk3mu",
+   "chapter": "live",
+   "sats": 21779854,
+   "outpoint": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0"
+  },
+  {
    "from": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
    "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
    "chapter": "live",
@@ -4865,31 +4891,6 @@
    "chapter": "live",
    "sats": 299758,
    "outpoint": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0"
-  },
-  {
-   "from": "bc1pr3frd293z08hqxg7utknjy9tnf38etts787uy5j603jvd3e29gmsglyrrn",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "chapter": "live",
-   "sats": 9105026
-  },
-  {
-   "from": "bc1pz2jhcf3syplm78quw4gmnxsxfsdmp6rshz4mxe07dvu7wqg92ruqrj0a8k",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "chapter": "live",
-   "sats": 9729631
-  },
-  {
-   "from": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "chapter": "live",
-   "sats": 17936
-  },
-  {
-   "from": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
-   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0",
-   "chapter": "live",
-   "sats": 21779854,
-   "outpoint": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0"
   },
   {
    "from": "e65337def0da72c4792eb00e1a0a54b3eeb711e93831bc4eb4c16bb479fb7876:1",
