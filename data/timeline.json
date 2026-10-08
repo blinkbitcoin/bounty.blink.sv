@@ -1,0 +1,586 @@
+{
+ "as_of": "2026-10-08",
+ "postmortem_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
+ "bounty_terms_url": "https://www.blink.sv/en/bounty-terms",
+ "entries": [
+  {
+   "date": "2026-09-10",
+   "kind": "onchain",
+   "chapter": "lightning",
+   "text": "His Lightning node aegis-ln opens its first channel, paid for only with coins from his wallet.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "L-X03",
+     "type": "tx",
+     "value": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3",
+     "link": "https://mempool.space/tx/62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3"
+    },
+    {
+     "id": "L-N1",
+     "type": "node",
+     "value": "028634e89b57a83c03139b8c15911f31ef9c5f85091bd8b95466df19e8c195051f",
+     "link": "https://1ml.com/node/028634e89b57a83c03139b8c15911f31ef9c5f85091bd8b95466df19e8c195051f"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "onchain",
+   "chapter": "ecash",
+   "text": "08:23 UTC: those coins are swept and arranged into two coins of about 690,000,000 sats each — coins he controlled nine days before the attack.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "W-X1",
+     "type": "tx",
+     "value": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67",
+     "link": "https://mempool.space/tx/1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67"
+    },
+    {
+     "id": "E-X2",
+     "type": "tx",
+     "value": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+     "link": "https://mempool.space/tx/e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb"
+    },
+    {
+     "id": "P-X1",
+     "type": "tx",
+     "value": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+     "link": "https://mempool.space/tx/efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1"
+    },
+    {
+     "id": "B-A1",
+     "type": "address",
+     "value": "bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9",
+     "link": "https://mempool.space/address/bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-10",
+   "kind": "onchain",
+   "chapter": "ecash",
+   "text": "From 06:08 UTC on 10 September to 02:40 on 11 September, 435 peg-outs from 13 listed Fedimint federations and many unlisted ones (our estimate: roughly 70–90) pay 1,401,938,713 sats to one address of his. The federations are not involved: they are pre-existing community federations, and coins still in them belong to other users.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "W-P001",
+     "type": "tx",
+     "value": "00370c1a86a9913fb8f939374e396258852ab8eb74ec6650640821db70dff6c2",
+     "link": "https://mempool.space/tx/00370c1a86a9913fb8f939374e396258852ab8eb74ec6650640821db70dff6c2"
+    },
+    {
+     "id": "W-A1",
+     "type": "address",
+     "value": "bc1qzfhq63mqkkm8efgav0t209e6tmxm9u5c26neul",
+     "link": "https://mempool.space/address/bc1qzfhq63mqkkm8efgav0t209e6tmxm9u5c26neul"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-17",
+   "kind": "public",
+   "chapter": "theft",
+   "text": "The attacker opens an ordinary Blink account.",
+   "source_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
+   "source_label": "Source: Blink post-mortem",
+   "indicators": []
+  },
+  {
+   "date": "2026-09-18",
+   "kind": "onchain",
+   "chapter": "ecash",
+   "text": "The day before the attack, a coin from his 10 September split is spent together with the wallet that funded aegis-ln — one owner.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "E-X3",
+     "type": "tx",
+     "value": "485c61e857ccefeec4d5350f8ffc8618a7cf34f8899f34d1febf14ab3b7dacbb",
+     "link": "https://mempool.space/tx/485c61e857ccefeec4d5350f8ffc8618a7cf34f8899f34d1febf14ab3b7dacbb"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "public",
+   "chapter": "theft",
+   "text": "Using a flaw in how Blink's admin tools checked permissions, the attacker takes over 35 accounts and withdraws from 24 of them between 09:51 and 11:54 UTC — 6.61085425 BTC in total: 4.62685758 BTC on-chain to eight addresses in 12 transactions, the rest over Lightning. Blink switches the custodial service off at about 11:54 UTC.",
+   "source_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "T-X01",
+     "type": "tx",
+     "value": "056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7",
+     "link": "https://mempool.space/tx/056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7"
+    },
+    {
+     "id": "T-X02",
+     "type": "tx",
+     "value": "e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899",
+     "link": "https://mempool.space/tx/e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899"
+    },
+    {
+     "id": "T-X03",
+     "type": "tx",
+     "value": "55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018",
+     "link": "https://mempool.space/tx/55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018"
+    },
+    {
+     "id": "T-X04",
+     "type": "tx",
+     "value": "63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568",
+     "link": "https://mempool.space/tx/63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568"
+    },
+    {
+     "id": "T-X05",
+     "type": "tx",
+     "value": "a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d",
+     "link": "https://mempool.space/tx/a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d"
+    },
+    {
+     "id": "T-X06",
+     "type": "tx",
+     "value": "81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26",
+     "link": "https://mempool.space/tx/81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26"
+    },
+    {
+     "id": "T-X07",
+     "type": "tx",
+     "value": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04",
+     "link": "https://mempool.space/tx/775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04"
+    },
+    {
+     "id": "T-X08",
+     "type": "tx",
+     "value": "bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326",
+     "link": "https://mempool.space/tx/bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326"
+    },
+    {
+     "id": "T-X09",
+     "type": "tx",
+     "value": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627",
+     "link": "https://mempool.space/tx/6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627"
+    },
+    {
+     "id": "T-X10",
+     "type": "tx",
+     "value": "4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20",
+     "link": "https://mempool.space/tx/4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20"
+    },
+    {
+     "id": "T-X11",
+     "type": "tx",
+     "value": "52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7",
+     "link": "https://mempool.space/tx/52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7"
+    },
+    {
+     "id": "T-X12",
+     "type": "tx",
+     "value": "de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2",
+     "link": "https://mempool.space/tx/de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "record",
+   "chapter": "lightning",
+   "text": "Blink's payment records show at least 146,639,697 sats of the Lightning withdrawals going to his node aegis-ln.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "L-N1",
+     "type": "node",
+     "value": "028634e89b57a83c03139b8c15911f31ef9c5f85091bd8b95466df19e8c195051f",
+     "link": "https://1ml.com/node/028634e89b57a83c03139b8c15911f31ef9c5f85091bd8b95466df19e8c195051f"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-19",
+   "kind": "onchain",
+   "chapter": "theft",
+   "text": "12:20 and 12:49 UTC: two Lightning-to-on-chain swap-outs pay 67,819,900 and 72,069,900 sats to two of his addresses.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "T-X13",
+     "type": "tx",
+     "value": "14bb5ce07a8c5c61ae8fd81c1ee4d3ddd9ab15f2b2f7f3ad3f15cc5e78691df7",
+     "link": "https://mempool.space/tx/14bb5ce07a8c5c61ae8fd81c1ee4d3ddd9ab15f2b2f7f3ad3f15cc5e78691df7"
+    },
+    {
+     "id": "T-X14",
+     "type": "tx",
+     "value": "cd4524b4c00858a21707f4e308aca8e9d669fa5022d759128f24d845d3ca0f69",
+     "link": "https://mempool.space/tx/cd4524b4c00858a21707f4e308aca8e9d669fa5022d759128f24d845d3ca0f69"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-20",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "In one block he combines the stolen coins at three of the eight addresses with coins from three other addresses of his, and splits the result into new addresses. Five of the eight receiving addresses are left untouched.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "C-X1",
+     "type": "tx",
+     "value": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+     "link": "https://mempool.space/tx/64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935"
+    },
+    {
+     "id": "C-X2",
+     "type": "tx",
+     "value": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+     "link": "https://mempool.space/tx/c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590"
+    },
+    {
+     "id": "C-X3",
+     "type": "tx",
+     "value": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
+     "link": "https://mempool.space/tx/8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "First outflow of stolen coins: 100,000,000 sats (1 BTC) paid into a cross-chain swap service that routes orders through NEAR Intents; 150,009,622 sats kept.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "S-X1",
+     "type": "tx",
+     "value": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d",
+     "link": "https://mempool.space/tx/d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-21",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "100,000,000 sats of coins he controlled before the attack swapped through THORChain to about 84,013 DAI on Ethereum.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "H-X1",
+     "type": "tx",
+     "value": "4b08d96031fd9ca2fafbfa4c3de242ab40bbfc21cd3059ee230c8e6bf474e018",
+     "link": "https://mempool.space/tx/4b08d96031fd9ca2fafbfa4c3de242ab40bbfc21cd3059ee230c8e6bf474e018"
+    },
+    {
+     "id": "H-E1",
+     "type": "evm",
+     "value": "0x0BEf6b34AFCee49071a714651DC6D2A80c04e0c6",
+     "link": "https://etherscan.io/address/0x0BEf6b34AFCee49071a714651DC6D2A80c04e0c6"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-24",
+   "kind": "public",
+   "chapter": null,
+   "text": "Every affected Blink balance restored in full, paid for by Blink's shareholders. No customer bears a loss.",
+   "source_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
+   "source_label": "Source: Blink post-mortem",
+   "indicators": []
+  },
+  {
+   "date": "2026-09-28",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "Liquidation day. In a chain of splits he pays chunks of 25,000,000–75,000,000 sats into the swap service. At 15:01 UTC he spends 150,009,622 sats of stolen coins together with 588,999,666 sats of coins he already controlled on 10 September — proving both belong to one owner.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "S-X2",
+     "type": "tx",
+     "value": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5",
+     "link": "https://mempool.space/tx/66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5"
+    },
+    {
+     "id": "S-X3",
+     "type": "tx",
+     "value": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0",
+     "link": "https://mempool.space/tx/22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0"
+    },
+    {
+     "id": "S-X4",
+     "type": "tx",
+     "value": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0",
+     "link": "https://mempool.space/tx/dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0"
+    },
+    {
+     "id": "S-X5",
+     "type": "tx",
+     "value": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6",
+     "link": "https://mempool.space/tx/13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6"
+    },
+    {
+     "id": "P-X4",
+     "type": "tx",
+     "value": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+     "link": "https://mempool.space/tx/c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79"
+    },
+    {
+     "id": "S-X6",
+     "type": "tx",
+     "value": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6",
+     "link": "https://mempool.space/tx/077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6"
+    },
+    {
+     "id": "S-X7",
+     "type": "tx",
+     "value": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+     "link": "https://mempool.space/tx/8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112"
+    }
+   ]
+  },
+  {
+   "date": "2026-09-28",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "The last split of the day leaves 483,999,248 sats at an address that is most likely his own change.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "S-X8",
+     "type": "tx",
+     "value": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+     "link": "https://mempool.space/tx/02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f"
+    },
+    {
+     "id": "S-A10",
+     "type": "address",
+     "value": "bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly",
+     "link": "https://mempool.space/address/bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "kind": "onchain",
+   "chapter": "lightning",
+   "text": "aegis-ln moves 40,000,000 sats to his wallet and opens a new 27,926,746-sat channel.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "L-X10",
+     "type": "tx",
+     "value": "5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8",
+     "link": "https://mempool.space/tx/5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8"
+    },
+    {
+     "id": "L-X11",
+     "type": "tx",
+     "value": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb",
+     "link": "https://mempool.space/tx/c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-01",
+   "kind": "onchain",
+   "chapter": "ecash",
+   "text": "He pays 35,000,000 sats — 5,000,000 of them stolen — into federations, turning them back into ecash.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "W-X10",
+     "type": "tx",
+     "value": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86",
+     "link": "https://mempool.space/tx/05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86"
+    },
+    {
+     "id": "W-X11",
+     "type": "tx",
+     "value": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564",
+     "link": "https://mempool.space/tx/1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564"
+    },
+    {
+     "id": "W-X12",
+     "type": "tx",
+     "value": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d",
+     "link": "https://mempool.space/tx/7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d"
+    },
+    {
+     "id": "W-X13",
+     "type": "tx",
+     "value": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3",
+     "link": "https://mempool.space/tx/4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3"
+    },
+    {
+     "id": "W-X14",
+     "type": "tx",
+     "value": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38",
+     "link": "https://mempool.space/tx/dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-02",
+   "kind": "onchain",
+   "chapter": "lightning",
+   "text": "His second node, green, opens a channel with 30,000,000 sats from his wallet, then closes everything and sweeps its whole wallet together with those coins — proving green is his.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "L-X12",
+     "type": "tx",
+     "value": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+     "link": "https://mempool.space/tx/61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675"
+    },
+    {
+     "id": "L-X13",
+     "type": "tx",
+     "value": "0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa",
+     "link": "https://mempool.space/tx/0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa"
+    },
+    {
+     "id": "L-X14",
+     "type": "tx",
+     "value": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835",
+     "link": "https://mempool.space/tx/32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-03",
+   "kind": "public",
+   "chapter": null,
+   "text": "Blink publishes the post-mortem and a recovery bounty.",
+   "source_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
+   "source_label": "Source: Blink post-mortem",
+   "indicators": []
+  },
+  {
+   "date": "2026-10-05",
+   "kind": "onchain",
+   "chapter": "ark",
+   "text": "He exploits a bug in the boarding flow of Second's Ark server (built on bark, Second's implementation), taking 0.75 BTC of Second's own liquidity; no user funds were affected (Second's account). On chain, from 06:39 UTC his wallet pays round amounts into boarding outputs and exits them straight back to two collection addresses of his.",
+   "source_url": "https://x.com/secondhq/status/2108065406665805992",
+   "source_label": "Source: Second's public account",
+   "indicators": [
+    {
+     "id": "A-X20",
+     "type": "tx",
+     "value": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822",
+     "link": "https://mempool.space/tx/7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822"
+    },
+    {
+     "id": "A-X21",
+     "type": "tx",
+     "value": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+     "link": "https://mempool.space/tx/243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73"
+    },
+    {
+     "id": "A-X01",
+     "type": "tx",
+     "value": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113",
+     "link": "https://mempool.space/tx/edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113"
+    },
+    {
+     "id": "L-X15",
+     "type": "tx",
+     "value": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974",
+     "link": "https://mempool.space/tx/8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974"
+    },
+    {
+     "id": "A-X02",
+     "type": "tx",
+     "value": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+     "link": "https://mempool.space/tx/96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c"
+    },
+    {
+     "id": "A-A20",
+     "type": "address",
+     "value": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+     "link": "https://mempool.space/address/bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl"
+    },
+    {
+     "id": "A-A21",
+     "type": "address",
+     "value": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+     "link": "https://mempool.space/address/bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-05",
+   "kind": "onchain",
+   "chapter": "lnwallet",
+   "text": "12:09 UTC: 35,000,000 sats taken out of his Lightning wallet's channel (splice-out) into his wallet; at 15:00 UTC the channel is force-closed and the rest swept.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "X-X01",
+     "type": "tx",
+     "value": "3328803f431f94e27a4dfa69855ca370f64c5c22babefebee1bb88885e2b7873",
+     "link": "https://mempool.space/tx/3328803f431f94e27a4dfa69855ca370f64c5c22babefebee1bb88885e2b7873"
+    },
+    {
+     "id": "X-X02",
+     "type": "tx",
+     "value": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5",
+     "link": "https://mempool.space/tx/f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5"
+    },
+    {
+     "id": "X-X03",
+     "type": "tx",
+     "value": "bdf7777e55ad7010e870721e6f05d1bbf514224cb9cf09bbbac73e33163cb8ca",
+     "link": "https://mempool.space/tx/bdf7777e55ad7010e870721e6f05d1bbf514224cb9cf09bbbac73e33163cb8ca"
+    },
+    {
+     "id": "X-X04",
+     "type": "tx",
+     "value": "26cee21db72f19a7de98ecefbf2a0fa78b4e280cb34f2f06fd2898072cb4ead0",
+     "link": "https://mempool.space/tx/26cee21db72f19a7de98ecefbf2a0fa78b4e280cb34f2f06fd2898072cb4ead0"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "kind": "onchain",
+   "chapter": "ark",
+   "text": "He empties collection address #2 and opens a new 50,000,000-sat channel on aegis-ln with it — linking the Ark activity to his node.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "A-X16",
+     "type": "tx",
+     "value": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3",
+     "link": "https://mempool.space/tx/6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3"
+    },
+    {
+     "id": "L-X17",
+     "type": "tx",
+     "value": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a",
+     "link": "https://mempool.space/tx/b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a"
+    }
+   ]
+  }
+ ]
+}

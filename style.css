@@ -1,0 +1,129 @@
+/* Blink brand system (blink-brand/SKILL.md): IBM Plex Sans; orange / black / grey only; radii 8 · 16 · 999;
+   spacing 3 · 5 · 8 · 10 · 14 · 20 · 30 (and doubles). Fonts are self-hosted, unmodified (fonts/LICENSE.txt). */
+@font-face { font-family: "IBM Plex Sans"; font-weight: 400; font-style: normal; font-display: swap; src: url("fonts/IBMPlexSans-Regular.ttf") format("truetype"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 500; font-style: normal; font-display: swap; src: url("fonts/IBMPlexSans-Medium.ttf") format("truetype"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 600; font-style: normal; font-display: swap; src: url("fonts/IBMPlexSans-SemiBold.ttf") format("truetype"); }
+@font-face { font-family: "IBM Plex Sans"; font-weight: 700; font-style: normal; font-display: swap; src: url("fonts/IBMPlexSans-Bold.ttf") format("truetype"); }
+
+:root {
+  /* brand tokens (assets/tokens.json) */
+  --orange: #f18a00; --primary: #fc5805; --black: #000000; --white: #ffffff;
+  --green: #00A700; --warning: #F59E0B; --error: #DC2626;
+  --grey0: #3A3C51; --grey1: #393939; --grey2: #9292A0; --grey3: #AEAEB8; --grey4: #E2E2E4; --grey5: #F2F2F4; --grey6: #E7E7E7;
+  --r-sm: 8px; --r-lg: 16px; --r-full: 999px;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 16px; line-height: 1.5; color: var(--grey0); background: var(--white);
+}
+body { margin: 0 auto; max-width: 1200px; padding: 0 20px 60px; }
+p, dd, li { max-width: 42rem; }
+h1 { font-size: 38px; line-height: 1.15; font-weight: 700; letter-spacing: -0.015em; margin: 10px 0 14px; color: var(--black); }
+h2 { font-size: 24px; line-height: 1.2; font-weight: 700; margin: 0 0 14px; color: var(--black); }
+h3 { font-size: 20px; line-height: 1.3; font-weight: 500; margin: 20px 0 10px; color: var(--black); }
+.eyebrow { display: block; font-size: 14px; font-weight: 500; color: var(--grey1); margin: 0 0 5px; }
+a { color: var(--grey0); text-decoration: underline; text-decoration-color: var(--primary); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+a:hover { color: var(--black); }
+code, .idv code { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; font-size: 14px; word-break: break-all; color: var(--black); }
+
+/* header */
+header { padding: 30px 0 20px; border-bottom: 1px solid var(--grey4); }
+.logo { display: block; width: 120px; height: auto; margin: 0 0 30px; }
+.lede { font-size: 20px; line-height: 1.3; font-weight: 400; max-width: 42rem; margin: 0 0 14px; }
+.status { font-size: 14px; color: var(--grey1); margin: 0 0 14px; }
+nav { display: flex; flex-wrap: wrap; gap: 8px 10px; }
+nav a { font-size: 14px; font-weight: 500; text-decoration: none; background: var(--grey5); border-radius: var(--r-full); padding: 5px 14px; }
+nav a:hover { background: var(--grey6); }
+
+main > section { margin-top: 60px; }
+.note { font-size: 14px; color: var(--grey1); }
+
+/* panels: labels box, explainers, detail */
+.labels-box, details.explain, .detail { background: var(--grey5); border-radius: var(--r-lg); padding: 20px; }
+.labels-box dl { margin: 0; }
+.labels-box dt { margin-top: 14px; }
+.labels-box dt:first-child { margin-top: 0; }
+.labels-box dd { margin: 5px 0 0; }
+details.explain { margin: 20px 0; max-width: 42rem; }
+details.explain summary { cursor: pointer; font-weight: 500; }
+details.explain p { margin: 10px 0 0; }
+.detail { margin-top: 10px; }
+.detail h3 { margin-top: 0; }
+
+/* labels — black label text on coloured pills (brand: labels on orange/green are black) */
+.badge { display: inline-block; padding: 3px 10px; border-radius: var(--r-full); font-size: 14px; font-weight: 500; line-height: 1.2; }
+.badge.proven { background: var(--green); color: var(--black); }
+.badge.traced { background: var(--black); color: var(--white); }
+.badge.probable { background: var(--warning); color: var(--black); }
+.badge.third-party { background: var(--grey4); color: var(--grey0); }
+
+.copy { font: inherit; font-size: 14px; font-weight: 500; padding: 3px 10px; margin-left: 5px; cursor: pointer; border: 0; border-radius: var(--r-full); background: var(--grey5); color: var(--grey0); }
+.copy:hover { background: var(--grey6); }
+
+/* tables (holdings) */
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { border-bottom: 1px solid var(--grey4); padding: 8px 10px; text-align: left; vertical-align: top; }
+th { font-weight: 600; color: var(--black); }
+td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.total td { font-weight: 600; }
+.compact td:first-child { white-space: nowrap; }
+tr:target, .ind:target { background: var(--grey5); }
+
+/* controls */
+.controls { display: flex; flex-wrap: wrap; gap: 10px 20px; align-items: center; margin-bottom: 14px; font-size: 14px; }
+.controls select, .controls input { font: inherit; font-size: 14px; padding: 5px 10px; border: 0; border-radius: var(--r-sm); background: var(--grey5); color: var(--grey0); }
+
+/* timeline */
+.timeline { list-style: none; padding: 0; margin: 0 0 0 5px; border-left: 2px solid var(--grey4); }
+.timeline li { padding: 3px 0 20px 20px; position: relative; max-width: none; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 8px; width: 12px; height: 12px; border-radius: var(--r-full); background: var(--primary); }
+.timeline li.public::before, .timeline li.record::before { background: var(--grey3); }
+.timeline p { margin: 3px 0; }
+.when { font-weight: 600; color: var(--black); }
+.kind { font-weight: 400; color: var(--grey1); font-size: 14px; }
+.chap { font-size: 14px; }
+.chips .chip { font-family: ui-monospace, Menlo, Consolas, monospace; font-size: 14px; background: var(--grey5); border-radius: var(--r-full); padding: 0 8px; text-decoration: none; color: var(--grey0); }
+.src a { font-size: 14px; }
+
+/* chapters + graph */
+section.chapter { border-top: 1px solid var(--grey4); padding-top: 30px; }
+.graph-wrap { overflow: auto; background: var(--grey5); border-radius: var(--r-lg); max-height: 75vh; margin-top: 14px; }
+svg .edge { fill: none; stroke: var(--grey3); opacity: .9; }
+svg .edge.hl { stroke: var(--primary); opacity: 1; }
+svg .node { cursor: pointer; }
+svg .node rect { fill: var(--white); stroke-width: 2; }
+svg .node.address.proven rect { stroke: var(--green); }
+svg .node.address.traced rect { stroke: var(--black); }
+svg .node.address.probable rect { stroke: var(--warning); }
+svg .node.channel rect { stroke: var(--orange); }
+svg .node.sink rect { stroke: var(--grey3); stroke-dasharray: 4 3; fill: var(--grey5); }
+svg .node.external rect { stroke: var(--grey2); fill: var(--grey6); }
+svg .node.tx circle { fill: var(--black); }
+svg .node.tx.third-party circle { fill: var(--grey3); }
+svg .node.dim { opacity: .25; }
+svg text { font-family: "IBM Plex Sans", system-ui, sans-serif; }
+svg .nlabel { font-size: 12px; font-weight: 600; fill: var(--black); }
+svg .nsub, svg .tlabel { font-size: 10px; fill: var(--grey1); }
+.legend { display: flex; flex-wrap: wrap; gap: 5px 20px; font-size: 14px; margin: 10px 0; }
+details.list { margin: 14px 0; }
+details.list summary { cursor: pointer; font-weight: 500; }
+
+/* fully expanded indicator list (no table, no scrolling — Lukas) */
+.ind-list { border-top: 1px solid var(--grey4); }
+.ind { border-bottom: 1px solid var(--grey4); padding: 14px 5px; }
+.ind-head { display: flex; flex-wrap: wrap; gap: 5px 10px; align-items: center; }
+.ind-head strong { color: var(--black); }
+.ind-type { color: var(--grey1); font-size: 14px; }
+.ind-val { margin: 8px 0 5px; }
+.ind p { margin: 3px 0; }
+.ind-method, .ind-dates { font-size: 14px; color: var(--grey1); }
+.ind-method .lbl { font-weight: 600; }
+
+dt { font-weight: 600; margin-top: 14px; color: var(--black); }
+dd { margin-left: 0; }
+footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--grey4); font-size: 14px; color: var(--grey1); }
+
+@media print {
+  .graph-wrap { max-height: none; overflow: visible; }
+  .copy, .controls, nav { display: none; }
+  .graph-wrap svg { max-width: 100%; height: auto; }
+  .ind, tr { break-inside: avoid; }
+}

@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'">
+<title>Following the coins of the 19 September 2026 Blink attacker</title>
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <img class="logo" src="img/blink-logo-horizontal.svg" alt="Blink" width="120" height="36">
+  <span class="eyebrow">Security incident of 19 September 2026</span>
+  <h1>Following the coins of the 19 September 2026 Blink attacker</h1>
+  <p class="lede">On 19 September 2026 an attacker took about 6.61 BTC from 24 Blink accounts. Every customer was
+  made whole by Blink's shareholders. This page shares everything we can about where the money went — every address
+  and transaction below can be checked on the public blockchain — so that anyone can follow the coins, learn how they
+  were moved, and tell us when they move again.</p>
+  <p class="status" id="status">Loading…</p>
+  <nav>
+    <a href="#help">How to help</a>
+    <a href="#labels">What the labels mean</a>
+    <a href="#holdings" id="nav-holdings" hidden>Where the coins are now</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#ch-theft">1 · The theft</a>
+    <a href="#ch-trail">2 · Following the coins</a>
+    <a href="#ch-ecash">3 · Before the attack</a>
+    <a href="#ch-lightning">4 · Lightning nodes</a>
+    <a href="#ch-ark">5 · Second's Ark server</a>
+    <a href="#ch-lnwallet">6 · Lightning wallet</a>
+    <a href="#indicators">All indicators</a>
+    <a href="#reading">How to read this</a>
+    <a href="#corrections">Corrections</a>
+  </nav>
+</header>
+
+<main>
+<section id="help">
+  <span class="eyebrow">Get involved</span>
+  <h2>How to help</h2>
+  <ul>
+    <li><strong>Watch these addresses.</strong> If coins from them move — especially toward an exchange or any service
+      that knows its customers — tell us straight away. Where listed coins go next, and who receives them, is exactly
+      the kind of information that can lead to a recovery. Freezes depend on reaching the receiving platform within hours.</li>
+    <li><strong>Tell us what you know</strong> that is not on this page — for example who controls an address, a node
+      or an account linked to these coins.</li>
+    <li><strong>Report privately</strong> to <a href="mailto:bounty@blinkbtc.com?subject=%5BBOUNTY%5D">bounty@blinkbtc.com</a>
+      with <code>[BOUNTY]</code> in the subject. You can encrypt with our <a href="bounty-pgp-key.asc">PGP key</a>
+      (fingerprint <code>5E2B 0ED8 07A3 D468 B14C C86A 5680 05A6 4E27 07C2</code>).
+      Reports are logged by the time we receive them.</li>
+    <li><strong>Please do not post leads publicly</strong> (social media, forums): it warns the attacker and does not
+      establish your priority.</li>
+    <li><strong>Services:</strong> if listed coins reach you, please contact us before acting. This page is information,
+      not a request to freeze anything.</li>
+    <li><strong>If you control a listed address and are not involved</strong> — for example you received coins in good
+      faith — please write to us privately at the same address. We will look at it and correct the page if needed.</li>
+    <li><strong>Beware of scams.</strong> Blink never charges a fee to recover funds and never asks for keys, seed phrases
+      or payments. Anyone offering "recovery services" with reference to this page is not acting for Blink.</li>
+    <li>A recovery bounty applies. The terms are published at
+      <a href="https://www.blink.sv/en/bounty-terms">blink.sv/bounty-terms</a> — only those terms govern. Everything
+      listed here was already known to us on the date shown next to each item.</li>
+  </ul>
+</section>
+
+<section id="labels" class="labels-box">
+  <span class="eyebrow">Reading the data</span>
+  <h2>What the labels mean</h2>
+  <dl>
+    <dt><span class="badge proven">proven</span></dt>
+    <dd>Shown by the blockchain itself: an address he typed in as the destination of a stolen withdrawal, or an address
+      whose coins were spent in one transaction together with such an address (only someone holding both keys can do
+      that). For Lightning: his node aegis-ln, which received the stolen Lightning payments according to Blink's
+      records, and the channels the public Lightning graph shows for it.</dd>
+    <dt><span class="badge traced">traced</span></dt>
+    <dd>Followed through his own transactions: the change of a payment he made, or coins he later spent himself. Strong,
+      but it relies on reading which output of a transaction is his change.</dd>
+    <dt><span class="badge probable">probable</span></dt>
+    <dd>Our best reading from patterns such as round amounts or timing. Not proven — treat with care.</dd>
+    <dt><span class="badge third-party">third-party</span></dt>
+    <dd>A transaction made by someone else — an exchange, a swap service, a channel partner — that moved coins to or from
+      him. Third parties are not accused of anything, and their addresses are never listed as his.</dd>
+  </dl>
+</section>
+
+<section id="holdings" hidden>
+  <span class="eyebrow">Right now</span>
+  <h2>Where the coins are now</h2>
+  <p id="holdings-summary"></p>
+  <table class="compact"><thead><tr><th>ID</th><th>Address</th><th>Unspent (BTC)</th><th>Attribution</th><th></th></tr></thead>
+  <tbody id="holdings-body"></tbody></table>
+  <p class="note">Balances as checked at the time shown. A balance includes anything other people have sent to the
+  address. Coins he paid into services or Lightning channels are not counted here.</p>
+</section>
+
+<section id="timeline">
+  <span class="eyebrow">Day by day</span>
+  <h2>Timeline</h2>
+  <ol id="timeline-list" class="timeline"></ol>
+</section>
+
+<section class="chapter" id="ch-theft" data-chapter="theft">
+  <span class="eyebrow">Chapter 1</span>
+  <h2>The theft (19 September)</h2>
+  <p>Using a flaw in how Blink's admin tools checked permissions, the attacker gave his own free account the powers
+  of Blink's support staff, took over 35 accounts and emptied 24 of them. The bitcoin left in two ways:
+  <strong>on-chain withdrawals</strong> to eight addresses he typed in (12 transactions — Blink's payout system
+  batches withdrawals), and <strong>Lightning payments</strong>, most of which went to his own Lightning node
+  (chapter 4). Within an hour, two Lightning swap-outs brought part of the Lightning money back on chain to two more
+  of his addresses.</p>
+  <details class="explain"><summary>What is an address, a transaction, an output?</summary>
+    <p>Bitcoin is held in <em>outputs</em> — coins locked to an <em>address</em>. A <em>transaction</em> spends
+    existing outputs and creates new ones. Anyone can see every transaction; nobody can see who owns an address unless
+    the owner reveals it, for example by spending it together with other coins (see chapter 2).</p></details>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: the theft"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section class="chapter" id="ch-trail" data-chapter="trail">
+  <span class="eyebrow">Chapter 2</span>
+  <h2>Following the coins (20–28 September)</h2>
+  <p>On 20 September, in a single block, he combined stolen coins with coins from
+  three other addresses of his and split the result into new addresses. From 21 September he paid chunks into a
+  cross-chain swap service that turns bitcoin into other coins, routing its orders through <strong>NEAR Intents</strong>. On 28 September
+  he spent stolen coins together with coins he already controlled on 10 September (chapter 3) — proof that one person
+  controls both. A separate 100,000,000 sats of those earlier coins went through THORChain to DAI on Ethereum.</p>
+  <details class="explain"><summary>How do we know an address is his? (co-spend and change)</summary>
+    <p><strong>Co-spend:</strong> spending several coins in one transaction needs the keys to all of them. When
+    stolen coins are spent together with other coins, the same person controls those other coins.</p>
+    <p><strong>Change:</strong> when you pay part of a coin, the rest comes back to you in a new output — the
+    <em>change</em>. Payments tend to be round amounts; the leftover is usually the change.</p>
+    <p><strong>Not his:</strong> a deposit into a service belongs to the service. We show those as grey boxes and do
+    not list their addresses as his.</p></details>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: following the coins"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section class="chapter" id="ch-ecash" data-chapter="ecash">
+  <span class="eyebrow">Chapter 3</span>
+  <h2>Before the attack: ecash in Fedimint federations</h2>
+  <p>By 10 September — nine days before the theft — he already held about 14 BTC as <strong>ecash</strong> spread across
+  many Fedimint federations. Between 06:08 UTC on 10 September and 02:40 on 11 September, 435 redemptions (peg-outs) paid
+  1,401,938,713 sats to one address. The same morning those coins were swept and arranged into two coins of about
+  690,000,000 sats each; one of them later merged with the stolen coins (chapter 2). On 18 September a coin from that
+  split was spent together with the wallet that funded his Lightning node (chapter 4). He used federations again on
+  1 October, paying 35,000,000 sats — 5,000,000 of them stolen — back in.</p>
+  <p class="note"><strong>The federations are not involved.</strong> They are pre-existing community federations used by
+  many people. Coins still inside them belong to other users.</p>
+  <details class="explain"><summary>What is Fedimint ecash?</summary>
+    <p>A Fedimint federation is a group of operators who jointly hold bitcoin and issue <em>ecash</em> — digital tokens
+    that can be passed around and redeemed for bitcoin (a <em>peg-out</em>) to any address. Paying bitcoin into a
+    federation (a <em>peg-in</em>) turns it into ecash. The tokens are blind-signed, so a federation cannot tell who
+    holds them.</p></details>
+  <h3>Peg-outs on 10–11 September, by federation</h3>
+  <table class="compact" id="fed-table"><thead><tr><th>Federation</th><th>Peg-outs</th><th>Sats</th></tr></thead><tbody></tbody></table>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: before the attack"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section class="chapter" id="ch-lightning" data-chapter="lightning">
+  <span class="eyebrow">Chapter 4</span>
+  <h2>His Lightning nodes</h2>
+  <p><strong>aegis-ln</strong> is his Lightning node, reachable only over Tor. Blink's payment records show at least
+  146,639,697 sats of the Lightning withdrawals going to it. It was set up from 9 September with coins from his wallet. Most of
+  its channel capacity is <em>inbound liquidity</em>: 13 channels of 100,000,000 sats that LNBiG, a large Lightning node
+  operator, opened towards it — that money is LNBiG's, not his. His second node, <strong>green</strong>, proved
+  itself his on 2 October by sweeping its whole wallet together with coins his wallet had just sent it. On 6 October
+  aegis-ln opened a new 50,000,000-sat channel with money from his collection address (chapter 5).</p>
+  <details class="explain"><summary>What are Lightning nodes, channels and inbound liquidity?</summary>
+    <p>A Lightning <em>node</em> sends and receives payments through <em>channels</em> — bitcoin locked between two
+    nodes in an on-chain output. To <em>receive</em> money a node needs <em>inbound liquidity</em>: channels whose
+    funds sit on the other side. Node operators sell such channels. Channel openings and closings are on-chain
+    transactions; payments inside channels are not.</p></details>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: Lightning nodes"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section class="chapter" id="ch-ark" data-chapter="ark">
+  <span class="eyebrow">Chapter 5</span>
+  <h2>Second's Ark server (5–6 October)</h2>
+  <p>On 5 October he exploited a bug in the boarding flow of Second's Ark server (built on bark, Second's
+  implementation), taking 0.75 BTC of Second's own liquidity; no user funds were affected
+  (<a href="https://x.com/secondhq/status/2108065406665805992" rel="noopener noreferrer">Second's account</a>).
+  On chain, his wallet paid round amounts (5,000,000–25,000,000 sats) into boarding outputs and exited them straight
+  back to his own addresses, collecting the coins at two addresses. On 6 October he emptied collection address #2:
+  50,000,000 sats went into a new channel on his node aegis-ln (chapter 4).</p>
+  <details class="explain"><summary>What is Ark?</summary>
+    <p>Ark is a way of using bitcoin off chain with the help of a server. A user <em>boards</em> by locking their own
+    coins in an output they can always take back on chain (an <em>exit</em>). Boarding and exits are visible on chain;
+    what happens inside the server is not. The bug described here was in Second's server software.</p></details>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: Second's Ark server"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section class="chapter" id="ch-lnwallet" data-chapter="lnwallet">
+  <span class="eyebrow">Chapter 6</span>
+  <h2>His Lightning wallet</h2>
+  <p>He also used a Lightning wallet whose channel has existed since February 2026 (continuing a channel from January
+  2024). On 5 October 35,000,000 sats were taken out of it (a <em>splice-out</em>) into his wallet; part of it was paid
+  into a boarding output at Second's Ark server and exited straight back to his collection address (chapter 5). That afternoon the channel was
+  force-closed and the rest swept. We mark the wallet itself <em>probable</em>: the link to his proven addresses runs
+  through the splice-out.</p>
+  <details class="explain"><summary>What is a splice?</summary>
+    <p>Some Lightning wallets keep one channel and resize it on chain: a <em>splice-in</em> adds coins, a
+    <em>splice-out</em> pays coins from the channel to an on-chain address. Each splice is a transaction, so the
+    channel's history can be followed back.</p></details>
+  <div class="graph-wrap"><svg class="graph" role="img" aria-label="Flow of funds: his Lightning wallet"></svg></div>
+  <aside class="detail" hidden></aside>
+  <div class="chapter-table"></div>
+</section>
+
+<section id="indicators">
+  <span class="eyebrow">Everything in one list</span>
+  <h2>All indicators</h2>
+  <div class="controls">
+    <label>Chapter <select id="f-group"><option value="">all</option></select></label>
+    <label>Type <select id="f-type"><option value="">all</option></select></label>
+    <label>Attribution <select id="f-attr"><option value="">all</option><option>proven</option><option>probable</option><option>third-party</option></select></label>
+    <label>Search <input id="f-text" type="search" placeholder="address, txid or text"></label>
+    <a href="data/indicators.csv" download>Download CSV</a>
+  </div>
+  <p class="note" id="ind-count"></p>
+  <div id="ind-list" class="ind-list"></div>
+</section>
+
+<section id="reading">
+  <span class="eyebrow">Method</span>
+  <h2>How to read this</h2>
+  <dl>
+    <dt>Labels</dt>
+    <dd>See <a href="#labels">What the labels mean</a>.</dd>
+    <dt>Known since</dt>
+    <dd>When we first recorded the item in our private incident record (date of the first commit containing it). Our
+      record starts on 21 September 2026, so items we knew on 19 September show 21 September. These dates are our own
+      statement; the timestamp proofs below let anyone check that the list existed by the time it was stamped.</dd>
+    <dt>Timestamps</dt>
+    <dd id="timestamps">We timestamp this page's data on the Bitcoin blockchain with OpenTimestamps, together with a
+      fingerprint of our full internal list (which also covers items not published here), at launch and with every
+      update. Each manifest lists the SHA-256 of the published data files and the fingerprint (a salted Merkle root),
+      is signed with our bounty PGP key and carries an OpenTimestamps proof.
+      <br>8 October 2026: <a href="timestamps/2026-10-08/manifest.txt">manifest</a> ·
+      <a href="timestamps/2026-10-08/manifest.txt.asc">signature</a> ·
+      <a href="timestamps/2026-10-08/manifest.txt.ots">OpenTimestamps proof</a></dd>
+    <dt>First seen on chain</dt>
+    <dd>Block time of the transaction, of the first transaction touching the address, or of a channel's opening.</dd>
+    <dt>What is not here</dt>
+    <dd>Information partners gave us in confidence or under non-disclosure agreements, personal data, open security
+      issues, and addresses whose owner we cannot establish. We add new findings as we confirm them and as the people
+      involved agree.</dd>
+    <dt>Verification</dt>
+    <dd>Every address, transaction and channel is checked against the blockchain when this page is built. Amounts are
+      in satoshis (1 BTC = 100,000,000 sats) unless marked BTC.</dd>
+  </dl>
+</section>
+
+<section id="corrections">
+  <span class="eyebrow">Changes to this page</span>
+  <h2>Corrections</h2>
+  <p>Corrections are added here as dated notes; we do not silently rewrite this page. To report an error, write to
+  <a href="mailto:bounty@blinkbtc.com?subject=%5BCORRECTION%5D">bounty@blinkbtc.com</a> with <code>[CORRECTION]</code>
+  in the subject.</p>
+  <ul id="corrections-list"><li>None yet.</li></ul>
+</section>
+</main>
+
+<footer>
+  <p>Published by Blink. Background: <a href="https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty">post-mortem
+  of the 19 September 2026 attack</a>. Bounty terms: <a href="https://www.blink.sv/en/bounty-terms">blink.sv/bounty-terms</a>.
+  This page loads nothing from other sites and sets no cookies.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

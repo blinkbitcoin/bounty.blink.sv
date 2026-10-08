@@ -1,0 +1,4229 @@
+{
+ "as_of": "2026-10-08",
+ "classes": {
+  "service": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+  "blink_hot_wallet": "Blink hot wallet",
+  "withheld": "Paid by him — owner not established; not published",
+  "ark_board": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+  "federation": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his"
+ },
+ "chapters": [
+  {
+   "id": "theft",
+   "title": "The theft (19 September)"
+  },
+  {
+   "id": "trail",
+   "title": "Following the coins (20–28 September)"
+  },
+  {
+   "id": "ecash",
+   "title": "Before the attack: ecash in Fedimint federations"
+  },
+  {
+   "id": "lightning",
+   "title": "His Lightning nodes"
+  },
+  {
+   "id": "ark",
+   "title": "Ark (held)"
+  },
+  {
+   "id": "lnwallet",
+   "title": "His Lightning wallet (held)"
+  }
+ ],
+ "nodes": [
+  {
+   "id": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "kind": "address",
+   "ref": "T-A1",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (7 withdrawals, 302,055,465 sats)",
+   "received_sats": 302178043
+  },
+  {
+   "id": "bc1qfsw7xz6cmv00f73reckx7as2u6f5uavyhvd5n7",
+   "kind": "address",
+   "ref": "T-A2",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (51,133,252 sats)",
+   "received_sats": 118953152
+  },
+  {
+   "id": "bc1qn5trkke5vrwzcvv9mrgpc3frthtf9sw0xeregn",
+   "kind": "address",
+   "ref": "T-A3",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (27,368,371 sats)",
+   "received_sats": 27368371
+  },
+  {
+   "id": "bc1qk5gvj6aktflrkht7fgqsacwm7rpkujwshr5m3k",
+   "kind": "address",
+   "ref": "T-A4",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (22,842,041 sats)",
+   "received_sats": 22842041
+  },
+  {
+   "id": "bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3",
+   "kind": "address",
+   "ref": "T-A5",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (16,075,834 sats)",
+   "received_sats": 16075834
+  },
+  {
+   "id": "bc1qh7dg3pevyx9sskwj03qydnnsm65r226szevg4e",
+   "kind": "address",
+   "ref": "T-A6",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (14,932,316 sats)",
+   "received_sats": 14932316
+  },
+  {
+   "id": "bc1q3zdycxp55qlym4gfgl7nj8xdue4sdma7k5wnjl",
+   "kind": "address",
+   "ref": "T-A7",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (14,406,638 sats)",
+   "received_sats": 14406638
+  },
+  {
+   "id": "bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar",
+   "kind": "address",
+   "ref": "T-A8",
+   "chapter": "theft",
+   "attribution": "proven",
+   "role": "Received stolen funds on 2026-09-19 (13,871,841 sats)",
+   "received_sats": 13871841
+  },
+  {
+   "id": "bc1qgvel2xdz5ukcfwu0wkr3gpsr2yafp3lzldmgc0",
+   "kind": "address",
+   "ref": "C-A1",
+   "chapter": "trail",
+   "attribution": "proven",
+   "role": "His address — its coin was spent together with stolen coins",
+   "received_sats": 17852224
+  },
+  {
+   "id": "bc1qhn3qsg0ndt9pmprc73yaunrjhnpjusfwlw8zl4",
+   "kind": "address",
+   "ref": "C-A2",
+   "chapter": "trail",
+   "attribution": "proven",
+   "role": "His address — its coin was spent together with stolen coins",
+   "received_sats": 57534350
+  },
+  {
+   "id": "bc1q8u3dq3ffh7mtgptxdfletxxwtymmhdru2hnwn0",
+   "kind": "address",
+   "ref": "C-A3",
+   "chapter": "trail",
+   "attribution": "proven",
+   "role": "His address — its coin was spent together with stolen coins",
+   "received_sats": 72069900
+  },
+  {
+   "id": "bc1qtknxtfgvd008hqu8vq2qg7k75paw0waeptepu8",
+   "kind": "address",
+   "ref": "C-A4",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — received the consolidated 302,044,351 sats",
+   "received_sats": 302044351
+  },
+  {
+   "id": "bc1ql56cucan3q0seexmv8gy6sedqgh42drv9clmce",
+   "kind": "address",
+   "ref": "C-A5",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 250,010,000 sats from the consolidation",
+   "received_sats": 250010000
+  },
+  {
+   "id": "bc1qwtyup8j3nuxtrx6jlkc4kmhd6g6acvc4d0md4v",
+   "kind": "address",
+   "ref": "C-A6",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 250,000,000 sats from the split",
+   "received_sats": 250000000
+  },
+  {
+   "id": "bc1qqudjcd0jrskkzks7x0548ls35xfh0yec7nucqf",
+   "kind": "address",
+   "ref": "C-A7",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 52,043,819 sats from the split (spent 2026-10-05)",
+   "received_sats": 52043819
+  },
+  {
+   "id": "bc1qg0g59wh037pudgf3uz0vh354l7rl2h5gfyntac",
+   "kind": "address",
+   "ref": "C-A8",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 17,841,110 sats from the consolidation (spent 2026-10-01)",
+   "received_sats": 17841110
+  },
+  {
+   "id": "bc1qc08gdmnfmnyng8fstpned7sj5v89ejsqzec4c4",
+   "kind": "address",
+   "ref": "C-A9",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 21,398,116 sats from the consolidation (spent 2026-10-02)",
+   "received_sats": 21398116
+  },
+  {
+   "id": "bc1qk0844gj32n8xz8g52zxdlk5cdsmetuml6syrum",
+   "kind": "address",
+   "ref": "P-A1",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — held 690,000,000 sats he controlled from 2026-09-10",
+   "received_sats": 690069000
+  },
+  {
+   "id": "bc1q67ydp63e3ye6yzpk0xemsdmmj8gwcmylvpw2cm",
+   "kind": "address",
+   "ref": "P-A2",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — coins he controlled before the attack (688,999,918 sats)",
+   "received_sats": 688999918
+  },
+  {
+   "id": "bc1qjwa7kk3usmtxvlt065vq7k5rjjfm9x9esla88q",
+   "kind": "address",
+   "ref": "P-A3",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — coins he controlled before the attack (588,999,666 sats)",
+   "received_sats": 588999666
+  },
+  {
+   "id": "bc1q33l5k945mqu35a48kdjcnrd4wh96ysaa4fpzxt",
+   "kind": "address",
+   "ref": "S-A1",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — 150,009,622 sats of stolen coins kept on 2026-09-21",
+   "received_sats": 150009622
+  },
+  {
+   "id": "bc1q5hmwytmlajh00qnnm5lfrjq8kq978g9s44e3da",
+   "kind": "address",
+   "ref": "S-A2",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — change of S-X2",
+   "received_sats": 199999500
+  },
+  {
+   "id": "bc1qvgxty3azkekrh3euvu3sjgf7ma6cpswxff8fxu",
+   "kind": "address",
+   "ref": "S-A3",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — change of S-X3",
+   "received_sats": 149999000
+  },
+  {
+   "id": "bc1qyae5ylnaejh2pfx2luj3fslef3jgjql02fefwu",
+   "kind": "address",
+   "ref": "S-A4",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — output of S-X4",
+   "received_sats": 74998500
+  },
+  {
+   "id": "bc1q3pe5sg8l5p8nfd4dc6fspj4jqmpkjjlt3xd2dl",
+   "kind": "address",
+   "ref": "S-A5",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — 50,000,000 sats from P-X4",
+   "received_sats": 50000000
+  },
+  {
+   "id": "bc1q0lkg0zjx0935hk9a3hc8dqfzus7wpl8d384ne3",
+   "kind": "address",
+   "ref": "S-A6",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — 100,009,476 sats from P-X4",
+   "received_sats": 100009476
+  },
+  {
+   "id": "bc1qxufeqfvg37c87py9gldujzevap9elhqq3pgteh",
+   "kind": "address",
+   "ref": "S-A7",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — change of S-X6",
+   "received_sats": 50009335
+  },
+  {
+   "id": "bc1qqgwzqz56ye6dggu0y4wp4c3zfmumqepx05eh67",
+   "kind": "address",
+   "ref": "S-A8",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — 538,999,520 sats from P-X4",
+   "received_sats": 538999520
+  },
+  {
+   "id": "bc1qp3apu9ue58pkswn2rtehedpdpjvwftxtulpdxn",
+   "kind": "address",
+   "ref": "S-A9",
+   "chapter": "trail",
+   "attribution": "traced",
+   "role": "His address — change of S-X7 (508,999,384 sats)",
+   "received_sats": 508999384
+  },
+  {
+   "id": "bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly",
+   "kind": "address",
+   "ref": "S-A10",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Most likely his change from S-X8 — 483,999,248 sats, unspent",
+   "received_sats": 483999248
+  },
+  {
+   "id": "bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9",
+   "kind": "address",
+   "ref": "B-A1",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "The other 690,000,000-sat coin of the 10 Sep split (coins he controlled before the attack)",
+   "received_sats": 690690000
+  },
+  {
+   "id": "bc1q9037z7jeq6zpeh3dhu3u3fv0nksfawsalvk4v8",
+   "kind": "address",
+   "ref": "B-A2",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder of the second pre-attack coin (590,688,900 sats)",
+   "received_sats": 590688900
+  },
+  {
+   "id": "bc1qmmlexpc64saha74jgfddrse5a2z5vzrjudu9yg",
+   "kind": "address",
+   "ref": "B-A3",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder after B-X2 (490,688,100 sats)",
+   "received_sats": 490688100
+  },
+  {
+   "id": "bc1q4nlpmt9wjw53lxct630vxhgnqaztferhlhrdap",
+   "kind": "address",
+   "ref": "H-A1",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "100,000,000 sats split off his pre-attack coin on 21 Sep, then swapped to Ethereum",
+   "received_sats": 100000000
+  },
+  {
+   "id": "bc1qky7dqq7jkqsxtfmxu226pvt2j2ymky778jgn4n",
+   "kind": "address",
+   "ref": "E-A1",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His 688,245,492-sat coin (10 Sep)",
+   "received_sats": 688245492
+  },
+  {
+   "id": "bc1qsjlkg9ucmtu5786kgylh3jzpygxq2klz4xuf30",
+   "kind": "address",
+   "ref": "E-A2",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His address, funded by E-X1",
+   "received_sats": 4564554
+  },
+  {
+   "id": "bc1qxe9hjd209q6qr477tqs8dv8hj8txdzdn725ah4",
+   "kind": "address",
+   "ref": "E-A3",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His address (688,176,066 sats)",
+   "received_sats": 688176066
+  },
+  {
+   "id": "bc1q25h4d2fxx8hcj587glt0gk9rpd44k4sd6u95mj",
+   "kind": "address",
+   "ref": "E-A4",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His address (4,495,128 sats)",
+   "received_sats": 4495128
+  },
+  {
+   "id": "bc1qdqpqyrtmazr7yg6vag7kykyk0cxfqxfxqdydsq",
+   "kind": "address",
+   "ref": "E-A5",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "69,000-sat coin from E-X2",
+   "received_sats": 69000
+  },
+  {
+   "id": "bc1qar95ljtl376yhmqumfmzhdh243ulhhmccnnvaq",
+   "kind": "address",
+   "ref": "E-A6",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His address — received peg-outs from federations on 16 Sep (W-X6, W-X7)",
+   "received_sats": 10133920
+  },
+  {
+   "id": "bc1qzfhq63mqkkm8efgav0t209e6tmxm9u5c26neul",
+   "kind": "address",
+   "ref": "W-A1",
+   "chapter": "ecash",
+   "attribution": "probable",
+   "role": "Received 1,401,938,713 sats in 435 peg-outs from Fedimint federations on 10–11 Sep — about 14 BTC he held as ecash before the attack",
+   "received_sats": 1401938713
+  },
+  {
+   "id": "bc1qcqxmh48n7d0ce276gxheuwulqqg3eeam3fy822",
+   "kind": "address",
+   "ref": "W-A7",
+   "chapter": "ecash",
+   "attribution": "probable",
+   "role": "Change of W-X4",
+   "received_sats": 13575428
+  },
+  {
+   "id": "bc1q3ygpqlyxfxpmwys92xe9wcqdrspa3gwxp4335p",
+   "kind": "address",
+   "ref": "W-A9",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "His address — 40,000,000 sats from his Lightning node's on-chain wallet (L-X10)",
+   "received_sats": 40000000
+  },
+  {
+   "id": "bc1qmz2wqc6h39dkuzdwl6w6nxwsjl4gcm29yavwhf",
+   "kind": "address",
+   "ref": "W-A10",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "Change of W-X10",
+   "received_sats": 29999000
+  },
+  {
+   "id": "bc1q93usg3kvzwky0jtuhk5xptwvtlfndzvp3xdlnm",
+   "kind": "address",
+   "ref": "W-A11",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "Change of W-X11",
+   "received_sats": 19998000
+  },
+  {
+   "id": "bc1q0qvhgg204ms5llpgz856t6ckwvuvt4q3nx3rha",
+   "kind": "address",
+   "ref": "W-A12",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "Change of W-X12",
+   "received_sats": 14997270
+  },
+  {
+   "id": "bc1qt78fzal8gtsncaepatt3zjvcxxhr6qhxp9eef7",
+   "kind": "address",
+   "ref": "W-A13",
+   "chapter": "ecash",
+   "attribution": "traced",
+   "role": "Shared change address of W-X13 and W-X14",
+   "received_sats": 22836972
+  },
+  {
+   "id": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "kind": "address",
+   "ref": "A-A30",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His address (funded 4–5 Oct)",
+   "received_sats": 34138588
+  },
+  {
+   "id": "bc1q9rzpfghax2cyjhvkk2uy7vf5h6fr864txgueky",
+   "kind": "address",
+   "ref": "A-A33",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Change of L-X12 (2 Oct)",
+   "received_sats": 14233458
+  },
+  {
+   "id": "bc1qv548t5yrvthu68wcue274dn6jmlyhl9e75k2ha",
+   "kind": "address",
+   "ref": "A-A32",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Change of A-X20",
+   "received_sats": 9232964
+  },
+  {
+   "id": "bc1qskuxdt9mdj7erpa87zfd66v5s5duczrn90vzuy",
+   "kind": "address",
+   "ref": "A-A31",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Change of A-X21",
+   "received_sats": 8512902
+  },
+  {
+   "id": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:1",
+   "kind": "channel",
+   "ref": "L-C03",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ ACINQ, 2,880,254 sats — opened by aegis-ln with his money",
+   "received_sats": 2880254
+  },
+  {
+   "id": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1",
+   "kind": "channel",
+   "ref": "L-C16",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Public channel aegis-ln ↔ LNBiG Hub-1, 27,926,746 sats — opened by aegis-ln with his money",
+   "received_sats": 27926746
+  },
+  {
+   "id": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
+   "kind": "channel",
+   "ref": "L-C19",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Channel opened by aegis-ln on 6 Oct with 50,000,000 sats from his Ark collection address (L-X17); peer not established",
+   "received_sats": 50000000
+  },
+  {
+   "id": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98:1",
+   "kind": "channel",
+   "ref": "L-C20",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Channel aegis-ln ↔ green (his two nodes), opened 18 Sep by aegis-ln, closed 28 Sep (L-X07)",
+   "received_sats": 80000
+  },
+  {
+   "id": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426:0",
+   "kind": "channel",
+   "ref": "L-C21",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Channel aegis-ln ↔ Stable Channels, opened 17 Sep by aegis-ln, closed 28 Sep (L-X05)",
+   "received_sats": 1000000
+  },
+  {
+   "id": "b62138dee7e9daa20fa608b2a0d99f34ebaa8e60325cf3e517c5623ca287b755:1",
+   "kind": "channel",
+   "ref": "L-C22",
+   "chapter": "lightning",
+   "attribution": "proven",
+   "role": "Channel opened 18 Sep, the day before the attack, from aegis-ln to a node whose owner is not established; closed 29 Sep (L-X09)",
+   "received_sats": 38000000
+  },
+  {
+   "id": "bc1qa0j0s0zmlur5xyqhwd87yayx0n457x5sjqdkpv",
+   "kind": "address",
+   "ref": "L-A1",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "Coin that funded aegis-ln's first channel",
+   "received_sats": 2921245
+  },
+  {
+   "id": "bc1pwq9gn9r5lxzx2xj70z2gqpg8dy32ku4dgln3jum942ug4vqvmgfqpzlua0",
+   "kind": "address",
+   "ref": "L-A2",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "Change of aegis-ln's first channel open",
+   "received_sats": 40000
+  },
+  {
+   "id": "bc1prkpwx38z37nwn3kuntja30ag39fdptxmushj7gtpsqzw3l7mn2vqql74sn",
+   "kind": "address",
+   "ref": "L-A3",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "aegis-ln's side of the green channel close",
+   "received_sats": 66680
+  },
+  {
+   "id": "bc1pger0x7pccq70kydexw6frr3flwgxsyy992r0kssuaul57g254ajs26j6d5",
+   "kind": "address",
+   "ref": "L-A4",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "green's side of that close (13,020 sats)",
+   "received_sats": 13020
+  },
+  {
+   "id": "bc1pusz3qujau8mtwmjhfq4h9tmce5nrth9u2qscckfxpyfd29ksftysu9x7dl",
+   "kind": "address",
+   "ref": "L-A5",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "aegis-ln wallet coin from that close",
+   "received_sats": 19999670
+  },
+  {
+   "id": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "kind": "address",
+   "ref": "L-A6",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "aegis-ln wallet address that received payouts from a swap service on 18 Sep",
+   "received_sats": 56372
+  },
+  {
+   "id": "bc1p0d7kfzsl6elc8s3dmz873grp4uan740m4k3v9gglsdah4r6zqfws4rc8t8",
+   "kind": "address",
+   "ref": "L-A7",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "green's wallet coin (30,000,000 sats from L-X12)",
+   "received_sats": 30000000
+  },
+  {
+   "id": "bc1p4kpszux7703qaqnfvu5cyzv09r8e5l55zyy7wpvvnlnrvc6qayqs2y5f4y",
+   "kind": "address",
+   "ref": "L-A8",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "Change of green's channel open (20,999,384 sats)",
+   "received_sats": 20999384
+  },
+  {
+   "id": "bc1q0sh09300hxpr29nyhu0ycahgvk35e7hg274sjk",
+   "kind": "address",
+   "ref": "L-A9",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "Collection address of green's sweep",
+   "received_sats": 47982819
+  },
+  {
+   "id": "bc1q56rrxuq3vvcgddynqfjw3erwd6zfs4nlhmyqmm",
+   "kind": "address",
+   "ref": "L-A10",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "Change of L-X15",
+   "received_sats": 37982514
+  },
+  {
+   "id": "bc1px0lvdw9ghpx0wyv0rr0m5qeda4enqjzx8m85c3mg95n49sww565q4c35t0",
+   "kind": "address",
+   "ref": "L-A11",
+   "chapter": "lightning",
+   "attribution": "traced",
+   "role": "aegis-ln's side of that close",
+   "received_sats": 2850319
+  },
+  {
+   "id": "bc1qreg25mw2ztscq9y6qt6k3u6xpak4gxjgr9sz0v",
+   "kind": "address",
+   "ref": "A-A01",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Change of A-X01 (stolen coins from C-A7)",
+   "received_sats": 42543452
+  },
+  {
+   "id": "bc1qsvmkpz6dp5u06l76tapcgyz69kp5s4z0w9468x",
+   "kind": "address",
+   "ref": "A-A02",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 8370036
+  },
+  {
+   "id": "bc1qf5w4gfz8y3sk68xyfuwkk72hsxe96ja8axk7eg",
+   "kind": "address",
+   "ref": "A-A03",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 27542958
+  },
+  {
+   "id": "bc1qapa6u3e76hmd9pm48q8xdxd2djs4yjl8t8eqll",
+   "kind": "address",
+   "ref": "A-A04",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 24999500
+  },
+  {
+   "id": "bc1qde2whnjwvyl3smhw77ur0msqdgeae77ejlg62j",
+   "kind": "address",
+   "ref": "A-A05",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 14999171
+  },
+  {
+   "id": "bc1q45d89q527vf845pa3j5wme2ymf2sg69p087jxr",
+   "kind": "address",
+   "ref": "A-A06",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 4998695
+  },
+  {
+   "id": "bc1qpa0q00zx5fp33cafdtnsqe3aq6yme7xml4p6rc",
+   "kind": "address",
+   "ref": "A-A07",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 27982038
+  },
+  {
+   "id": "bc1qud0vwfmes6w4axxrfmw8r3rzdxqh606pnq9cjw",
+   "kind": "address",
+   "ref": "A-A08",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 17542172
+  },
+  {
+   "id": "bc1qmu64vsw3gt46s74yuxaflsnvq3r4x7d7ldc63x",
+   "kind": "address",
+   "ref": "A-A09",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 12541531
+  },
+  {
+   "id": "bc1q02yft3e03zs90dvv48mqe5apvl2j0ev2tj83l8",
+   "kind": "address",
+   "ref": "A-A10",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 22981295
+  },
+  {
+   "id": "bc1qhshq67pv8fhgqr7xl0fjjd2xc65gwhyun5ekyz",
+   "kind": "address",
+   "ref": "A-A11",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 12980772
+  },
+  {
+   "id": "bc1q7jlpxnjxmu0ap6ucztxnps65ph9r345ul34jhu",
+   "kind": "address",
+   "ref": "A-A12",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 3367530
+  },
+  {
+   "id": "bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6",
+   "kind": "address",
+   "ref": "A-A13",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 2541312
+  },
+  {
+   "id": "bc1q5hku7y3gxkeqjekzr5ulupfnfdzvu3s2qrcd2l",
+   "kind": "address",
+   "ref": "A-A14",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "His change address during the 5 Oct Ark activity",
+   "received_sats": 2980114
+  },
+  {
+   "id": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "kind": "address",
+   "ref": "A-A20",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Collection address #1 (5 Oct): received the exits of his Ark boarding outputs",
+   "received_sats": 122390651
+  },
+  {
+   "id": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "kind": "address",
+   "ref": "A-A21",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Collection address #2 (5–6 Oct): received the exits of his Ark boarding outputs",
+   "received_sats": 67974136
+  },
+  {
+   "id": "bc1ps3u2qae0tzwsqpugw4jq0z0dxsaqa3t5xx9hewxgnun96nj6xp8qjwp7nw",
+   "kind": "address",
+   "ref": "A-A22",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "50,000,000 sats from collection address #2",
+   "received_sats": 50000000
+  },
+  {
+   "id": "bc1qz4d8dg0nxcumftfc7tf93mkykf4n6wncccrc5s",
+   "kind": "address",
+   "ref": "A-A23",
+   "chapter": "ark",
+   "attribution": "traced",
+   "role": "Change of A-X16 (17,970,413 sats)",
+   "received_sats": 17970413
+  },
+  {
+   "id": "bc1qzz6um4rk3sjreuqy4s3fwgcechjlcjw2y80hxr",
+   "kind": "address",
+   "ref": "X-A01",
+   "chapter": "lnwallet",
+   "attribution": "traced",
+   "role": "Received the 35,000,000-sat splice-out",
+   "received_sats": 35000000
+  },
+  {
+   "id": "bc1qjfxujurdfth57rjmhrcwta2cjd6wvhwzy3zc69",
+   "kind": "address",
+   "ref": "X-A02",
+   "chapter": "lnwallet",
+   "attribution": "traced",
+   "role": "Change of X-X02 (24,999,047 sats)",
+   "received_sats": 24999047
+  },
+  {
+   "id": "bc1qhu46tjk8q6xzqwzyt86ncpy23pkncnxz2r7qsv",
+   "kind": "address",
+   "ref": "X-A03",
+   "chapter": "lnwallet",
+   "attribution": "traced",
+   "role": "Change of A-X15 (14,998,520 sats)",
+   "received_sats": 14998520
+  },
+  {
+   "id": "bc1qpqcgjrp4h6tuynd4puwf3jnpdd3x35vlkuvecj",
+   "kind": "address",
+   "ref": "X-A04",
+   "chapter": "lnwallet",
+   "attribution": "probable",
+   "role": "Received the force-close sweep (9,966,181 sats)",
+   "received_sats": 9966181
+  },
+  {
+   "id": "bc1qugtdsnutlfn9w6qs8kcmj49uzhzxd5yuwmn2dp",
+   "kind": "address",
+   "ref": "X-A05",
+   "chapter": "lnwallet",
+   "attribution": "probable",
+   "role": "Intermediate address (9,864,181 sats)",
+   "received_sats": 9864181
+  },
+  {
+   "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
+   "kind": "tx",
+   "ref": "X-X07",
+   "chapter": "lnwallet",
+   "role": "11 Feb 2026: the Lightning wallet channel is opened (spending an older channel from January 2024)",
+   "attribution": "probable",
+   "time": "2026-02-11T18:25:03Z",
+   "block": 936079
+  },
+  {
+   "id": "a79ecf9a37710413fc5672056d76bd508eacca0e9e6939d26744ea2102431ac1",
+   "kind": "tx",
+   "ref": "X-X08",
+   "chapter": "lnwallet",
+   "role": "11 Feb 2026: splice-in to the channel",
+   "attribution": "probable",
+   "time": "2026-02-11T19:48:24Z",
+   "block": 936089
+  },
+  {
+   "id": "eb671fc34d1bcb34c5990bebcfbea7881979db2de988b5cb7a0ff1b54a00ee5f",
+   "kind": "tx",
+   "ref": "X-X09",
+   "chapter": "lnwallet",
+   "role": "11 Feb 2026: splice-in to the channel",
+   "attribution": "probable",
+   "time": "2026-02-11T19:54:34Z",
+   "block": 936090
+  },
+  {
+   "id": "0a63ca72f1c1c1679314eaaeba0240be9960a2710869581c393d22a0f7ec7084",
+   "kind": "tx",
+   "ref": "L-X01",
+   "chapter": "lightning",
+   "role": "9 Sep: his wallet funds L-A1, the coin that opened aegis-ln's first channel",
+   "attribution": "traced",
+   "time": "2026-09-09T01:00:57Z",
+   "block": 966129
+  },
+  {
+   "id": "fcb90ad39de6572bfbcd5ec4222dabe33b7ffc67dc2219a3a2c7b51b36528707",
+   "kind": "tx",
+   "ref": "L-X02",
+   "chapter": "lightning",
+   "role": "10 Sep: moves L-A1 into aegis-ln's wallet",
+   "attribution": "traced",
+   "time": "2026-09-10T01:56:43Z",
+   "block": 966294
+  },
+  {
+   "id": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3",
+   "kind": "tx",
+   "ref": "L-X03",
+   "chapter": "lightning",
+   "role": "10 Sep: aegis-ln opens its first channel (with ACINQ) — funded only by him",
+   "attribution": "traced",
+   "time": "2026-09-10T03:57:26Z",
+   "block": 966301
+  },
+  {
+   "id": "12878a1a4da4daa350fbc95692365ff4865aa2d7dadff9727dcc1787258b560a",
+   "kind": "tx",
+   "ref": "E-X1",
+   "chapter": "ecash",
+   "role": "10 Sep: funds his address E-A2 and tops up B-A1 in the same block",
+   "attribution": "probable",
+   "time": "2026-09-10T08:23:02Z",
+   "block": 966328
+  },
+  {
+   "id": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67",
+   "kind": "tx",
+   "ref": "W-X1",
+   "chapter": "ecash",
+   "role": "10 Sep, 08:23 UTC: 217 coins of W-A1 swept and split into two coins of about 690,000,000 sats each",
+   "attribution": "probable",
+   "time": "2026-09-10T08:23:02Z",
+   "block": 966328
+  },
+  {
+   "id": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "kind": "tx",
+   "ref": "E-X2",
+   "chapter": "ecash",
+   "role": "10 Sep, same block: re-split that leads to the 690,000,000-sat coin P-A1",
+   "attribution": "traced",
+   "time": "2026-09-10T08:23:02Z",
+   "block": 966328
+  },
+  {
+   "id": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+   "kind": "tx",
+   "ref": "P-X1",
+   "chapter": "trail",
+   "role": "2026-09-10, nine days before the attack: 690,000,000 sats he already controlled, assembled in one coin",
+   "attribution": "traced",
+   "time": "2026-09-10T08:23:02Z",
+   "block": 966328
+  },
+  {
+   "id": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1:1",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 2670405
+  },
+  {
+   "id": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c",
+   "kind": "tx",
+   "ref": "W-X5",
+   "chapter": "ecash",
+   "role": "11 Sep: 5,000,000 sats paid into a federation (peg-in to Liberty Tree Network)",
+   "attribution": "probable",
+   "time": "2026-09-11T06:23:06Z",
+   "block": 966466
+  },
+  {
+   "id": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 5000000
+  },
+  {
+   "id": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a",
+   "kind": "tx",
+   "ref": "W-X4",
+   "chapter": "ecash",
+   "role": "11 Sep: 218 more coins of W-A1 combined; 10,000,000 sats paid into a federation (peg-in)",
+   "attribution": "probable",
+   "time": "2026-09-11T06:23:06Z",
+   "block": 966466
+  },
+  {
+   "id": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a:1",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 10000000
+  },
+  {
+   "id": "e515b90e9444049a655eb0bd4b83b22ccd3c7ed3727e3d2762cce62be4ccd5cd",
+   "kind": "tx",
+   "ref": "E-X4",
+   "chapter": "ecash",
+   "role": "13 Sep: the change chain of the 10 Sep split spent together with the change of his Lightning node's first channel open (L-X03)",
+   "attribution": "traced",
+   "time": "2026-09-13T22:41:07Z",
+   "block": 966879
+  },
+  {
+   "id": "c8c44e577726e4fe260057664154207c4309f0f42cde999f00e2a948ea5f7cde",
+   "kind": "tx",
+   "ref": "W-X6",
+   "chapter": "ecash",
+   "role": "16 Sep: federation peg-out (Liberty Tree Network) paying his address E-A6",
+   "attribution": "third-party",
+   "time": "2026-09-16T07:09:58Z",
+   "block": 967246
+  },
+  {
+   "id": "81491ccb4ce2c06e74a21f14a62b4a7185c3aae755cb4991596f51569125d831",
+   "kind": "tx",
+   "ref": "W-X7",
+   "chapter": "ecash",
+   "role": "16 Sep: federation peg-out paying his address E-A6",
+   "attribution": "third-party",
+   "time": "2026-09-16T07:11:26Z",
+   "block": 967247
+  },
+  {
+   "id": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426",
+   "kind": "tx",
+   "ref": "L-X04",
+   "chapter": "lightning",
+   "role": "17 Sep: aegis-ln opens a channel with Stable Channels",
+   "attribution": "traced",
+   "time": "2026-09-17T18:47:17Z",
+   "block": 967451
+  },
+  {
+   "id": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98",
+   "kind": "tx",
+   "ref": "L-X06",
+   "chapter": "lightning",
+   "role": "18 Sep: aegis-ln opens a channel to green — his two nodes connected",
+   "attribution": "traced",
+   "time": "2026-09-18T02:59:53Z",
+   "block": 967490
+  },
+  {
+   "id": "485c61e857ccefeec4d5350f8ffc8618a7cf34f8899f34d1febf14ab3b7dacbb",
+   "kind": "tx",
+   "ref": "E-X3",
+   "chapter": "ecash",
+   "role": "18 Sep, the day before the attack: a coin from his 10 Sep split is spent together with the wallet that funded his Lightning node — one owner",
+   "attribution": "traced",
+   "time": "2026-09-18T03:07:23Z",
+   "block": 967491
+  },
+  {
+   "id": "835b90a75962721c36d18cd8b29239ce6f285d3f0419a4a409d5de0975a1868c",
+   "kind": "tx",
+   "ref": "L-F1",
+   "chapter": "lightning",
+   "role": "18 Sep: payout from a swap service's hot wallet to aegis-ln's wallet (L-A6) — the service is a counterparty, not involved",
+   "attribution": "third-party",
+   "time": "2026-09-18T05:13:09Z",
+   "block": 967508
+  },
+  {
+   "id": "091d2b58b8c5142fe422fb8fd633802001eaf35e66285d35c206667b3d740cf0",
+   "kind": "tx",
+   "ref": "L-F2",
+   "chapter": "lightning",
+   "role": "18 Sep: payout from a swap service's hot wallet to aegis-ln's wallet (L-A6) — the service is a counterparty, not involved",
+   "attribution": "third-party",
+   "time": "2026-09-18T07:41:41Z",
+   "block": 967528
+  },
+  {
+   "id": "8f3f1f67c96a91120ea9d9f5953a7de7cd80222e7d5b651de9d83b5adef582dd",
+   "kind": "tx",
+   "ref": "L-F3",
+   "chapter": "lightning",
+   "role": "18 Sep: payout from a swap service's hot wallet to aegis-ln's wallet (L-A6) — the service is a counterparty, not involved",
+   "attribution": "third-party",
+   "time": "2026-09-18T08:09:01Z",
+   "block": 967529
+  },
+  {
+   "id": "056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7",
+   "kind": "tx",
+   "ref": "T-X01",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:16:33Z",
+   "block": 967698
+  },
+  {
+   "id": "blink_hot_wallet",
+   "kind": "external",
+   "class": "blink_hot_wallet",
+   "chapter": "theft",
+   "label": "Blink hot wallet"
+  },
+  {
+   "id": "55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018",
+   "kind": "tx",
+   "ref": "T-X03",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:22:16Z",
+   "block": 967699
+  },
+  {
+   "id": "63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568",
+   "kind": "tx",
+   "ref": "T-X04",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:22:16Z",
+   "block": 967699
+  },
+  {
+   "id": "e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899",
+   "kind": "tx",
+   "ref": "T-X02",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:22:16Z",
+   "block": 967699
+  },
+  {
+   "id": "81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26",
+   "kind": "tx",
+   "ref": "T-X06",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:30:28Z",
+   "block": 967700
+  },
+  {
+   "id": "a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d",
+   "kind": "tx",
+   "ref": "T-X05",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:30:28Z",
+   "block": 967700
+  },
+  {
+   "id": "4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20",
+   "kind": "tx",
+   "ref": "T-X10",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:58:15Z",
+   "block": 967701
+  },
+  {
+   "id": "52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7",
+   "kind": "tx",
+   "ref": "T-X11",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:58:15Z",
+   "block": 967701
+  },
+  {
+   "id": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627",
+   "kind": "tx",
+   "ref": "T-X09",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds (two withdrawals batched)",
+   "attribution": "proven",
+   "time": "2026-09-19T11:58:15Z",
+   "block": 967701
+  },
+  {
+   "id": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04",
+   "kind": "tx",
+   "ref": "T-X07",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds (two withdrawals batched)",
+   "attribution": "proven",
+   "time": "2026-09-19T11:58:15Z",
+   "block": 967701
+  },
+  {
+   "id": "bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326",
+   "kind": "tx",
+   "ref": "T-X08",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T11:58:15Z",
+   "block": 967701
+  },
+  {
+   "id": "de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2",
+   "kind": "tx",
+   "ref": "T-X12",
+   "chapter": "theft",
+   "role": "Blink payout of stolen funds",
+   "attribution": "proven",
+   "time": "2026-09-19T12:01:05Z",
+   "block": 967702
+  },
+  {
+   "id": "14bb5ce07a8c5c61ae8fd81c1ee4d3ddd9ab15f2b2f7f3ad3f15cc5e78691df7",
+   "kind": "tx",
+   "ref": "T-X13",
+   "chapter": "theft",
+   "role": "19 Sep, 12:20 UTC: Lightning-to-on-chain swap-out paying 67,819,900 sats to his address T-A2 (most likely paid with the stolen Lightning funds)",
+   "attribution": "proven",
+   "time": "2026-09-19T12:20:58Z",
+   "block": 967705
+  },
+  {
+   "id": "cd4524b4c00858a21707f4e308aca8e9d669fa5022d759128f24d845d3ca0f69",
+   "kind": "tx",
+   "ref": "T-X14",
+   "chapter": "theft",
+   "role": "19 Sep, 12:49 UTC: Lightning-to-on-chain swap-out paying 72,069,900 sats to his address C-A3 (most likely paid with the stolen Lightning funds)",
+   "attribution": "proven",
+   "time": "2026-09-19T13:05:14Z",
+   "block": 967710
+  },
+  {
+   "id": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f",
+   "kind": "tx",
+   "ref": "P-X2",
+   "chapter": "trail",
+   "role": "2026-09-20: 1,000,000-sat slice split off the pre-attack coin",
+   "attribution": "traced",
+   "time": "2026-09-20T00:38:52Z",
+   "block": 967765
+  },
+  {
+   "id": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f:1",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 1000000
+  },
+  {
+   "id": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1",
+   "kind": "tx",
+   "ref": "B-X1",
+   "chapter": "trail",
+   "role": "20 Sep: 100,000,000 sats of the other 690,000,000-sat coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T12:24:33Z",
+   "block": 967826
+  },
+  {
+   "id": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631",
+   "kind": "tx",
+   "ref": "B-X2",
+   "chapter": "trail",
+   "role": "20 Sep: another 100,000,000 sats into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T13:04:58Z",
+   "block": 967832
+  },
+  {
+   "id": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "kind": "tx",
+   "ref": "C-X1",
+   "chapter": "trail",
+   "role": "Consolidation: the seven withdrawals at T-A1 combined with one coin of his from another address",
+   "attribution": "proven",
+   "time": "2026-09-20T20:23:21Z",
+   "block": 967890
+  },
+  {
+   "id": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 10000
+  },
+  {
+   "id": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
+   "kind": "tx",
+   "ref": "C-X3",
+   "chapter": "trail",
+   "role": "Split of the consolidated 302,044,351 sats, same block",
+   "attribution": "traced",
+   "time": "2026-09-20T20:23:21Z",
+   "block": 967890
+  },
+  {
+   "id": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "kind": "tx",
+   "ref": "C-X2",
+   "chapter": "trail",
+   "role": "Consolidation: stolen coins at T-A2 and T-A4 combined with coins of his from two other addresses",
+   "attribution": "proven",
+   "time": "2026-09-20T20:23:21Z",
+   "block": 967890
+  },
+  {
+   "id": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50",
+   "kind": "tx",
+   "ref": "P-X3",
+   "chapter": "trail",
+   "role": "2026-09-21: 100,000,000 sats split off the pre-attack coin",
+   "attribution": "traced",
+   "time": "2026-09-21T09:33:30Z",
+   "block": 967971
+  },
+  {
+   "id": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d",
+   "kind": "tx",
+   "ref": "S-X1",
+   "chapter": "trail",
+   "role": "2026-09-21: 100,000,000 sats paid into a swap service; 150,009,622 sats kept",
+   "attribution": "traced",
+   "time": "2026-09-21T09:33:30Z",
+   "block": 967971
+  },
+  {
+   "id": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "4b08d96031fd9ca2fafbfa4c3de242ab40bbfc21cd3059ee230c8e6bf474e018",
+   "kind": "tx",
+   "ref": "H-X1",
+   "chapter": "trail",
+   "role": "21 Sep: 99,998,300 sats sent into THORChain (cross-chain swap) for DAI on Ethereum; the destination is written in the transaction's memo",
+   "attribution": "probable",
+   "time": "2026-09-21T10:01:13Z",
+   "block": 967974
+  },
+  {
+   "id": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5",
+   "kind": "tx",
+   "ref": "S-X2",
+   "chapter": "trail",
+   "role": "2026-09-28: 50,000,000 sats paid into a swap service",
+   "attribution": "traced",
+   "time": "2026-09-28T12:26:45Z",
+   "block": 968992
+  },
+  {
+   "id": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 50000000
+  },
+  {
+   "id": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0",
+   "kind": "tx",
+   "ref": "S-X3",
+   "chapter": "trail",
+   "role": "2026-09-28: 50,000,000 sats paid into a swap service",
+   "attribution": "traced",
+   "time": "2026-09-28T12:42:37Z",
+   "block": 968997
+  },
+  {
+   "id": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 50000000
+  },
+  {
+   "id": "694e571afab5bc4a5f2a7548c261602b267cc8124f73b8158f4aa9af6e33cc1e",
+   "kind": "tx",
+   "ref": "L-X05",
+   "chapter": "lightning",
+   "role": "28 Sep: that channel is closed",
+   "attribution": "third-party",
+   "time": "2026-09-28T12:55:15Z",
+   "block": 968999
+  },
+  {
+   "id": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6",
+   "kind": "tx",
+   "ref": "L-X07",
+   "chapter": "lightning",
+   "role": "28 Sep: the aegis-ln ↔ green channel is closed",
+   "attribution": "traced",
+   "time": "2026-09-28T13:28:54Z",
+   "block": 969001
+  },
+  {
+   "id": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0",
+   "kind": "tx",
+   "ref": "S-X4",
+   "chapter": "trail",
+   "role": "2026-09-28: 75,000,000 sats paid into a swap service",
+   "attribution": "traced",
+   "time": "2026-09-28T13:28:54Z",
+   "block": 969001
+  },
+  {
+   "id": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0:1",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 75000000
+  },
+  {
+   "id": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6",
+   "kind": "tx",
+   "ref": "S-X5",
+   "chapter": "trail",
+   "role": "2026-09-28: 74,998,170 sats paid into a swap service",
+   "attribution": "traced",
+   "time": "2026-09-28T14:18:20Z",
+   "block": 969006
+  },
+  {
+   "id": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 74998170
+  },
+  {
+   "id": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "kind": "tx",
+   "ref": "P-X4",
+   "chapter": "trail",
+   "role": "2026-09-28: stolen coins (150,009,622 sats) spent together with coins he controlled before the attack (588,999,666 sats) — one owner",
+   "attribution": "traced",
+   "time": "2026-09-28T15:01:30Z",
+   "block": 969012
+  },
+  {
+   "id": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:1",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 50000000
+  },
+  {
+   "id": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6",
+   "kind": "tx",
+   "ref": "S-X6",
+   "chapter": "trail",
+   "role": "2026-09-28: 50,000,000 sats paid into a swap service",
+   "attribution": "traced",
+   "time": "2026-09-28T15:47:53Z",
+   "block": 969020
+  },
+  {
+   "id": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6:1",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 50000000
+  },
+  {
+   "id": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "kind": "tx",
+   "ref": "S-X7",
+   "chapter": "trail",
+   "role": "2026-09-28: 30,000,000 sats paid into a swap service; two further payments to recipients not established",
+   "attribution": "traced",
+   "time": "2026-09-28T19:27:13Z",
+   "block": 969039
+  },
+  {
+   "id": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:0",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 30000000
+  },
+  {
+   "id": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:2",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 20009199
+  },
+  {
+   "id": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:3",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 30000000
+  },
+  {
+   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "kind": "tx",
+   "ref": "S-X8",
+   "chapter": "trail",
+   "role": "2026-09-28: 25,000,000 sats paid into a swap service; 483,999,248 sats most likely kept (unspent)",
+   "attribution": "traced",
+   "time": "2026-09-28T22:27:58Z",
+   "block": 969057
+  },
+  {
+   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 25000000
+  },
+  {
+   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:1",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 25000000
+  },
+  {
+   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "trail",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 24999864
+  },
+  {
+   "id": "16f2d58d307482cf8bfe8464ec07dd52e217fee45642704bdc0fa98a29a4e1c7",
+   "kind": "tx",
+   "ref": "L-X08",
+   "chapter": "lightning",
+   "role": "29 Sep: aegis-ln closes a 20,000,000-sat channel back into its wallet",
+   "attribution": "traced",
+   "time": "2026-09-29T21:39:09Z",
+   "block": 969207
+  },
+  {
+   "id": "c729badd308bca0020769e31d243a97108fdc82300904a24525394fb4e52bed9",
+   "kind": "tx",
+   "ref": "L-X09",
+   "chapter": "lightning",
+   "role": "29 Sep: close of the 38,000,000-sat channel opened the day before the attack; 2,495,000 sats to the other side",
+   "attribution": "third-party",
+   "time": "2026-09-29T21:39:09Z",
+   "block": 969207
+  },
+  {
+   "id": "5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8",
+   "kind": "tx",
+   "ref": "L-X10",
+   "chapter": "lightning",
+   "role": "1 Oct: aegis-ln's wallet pays 40,000,000 sats to a fresh address of his",
+   "attribution": "traced",
+   "time": "2026-10-01T05:26:07Z",
+   "block": 969398
+  },
+  {
+   "id": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb",
+   "kind": "tx",
+   "ref": "L-X11",
+   "chapter": "lightning",
+   "role": "1 Oct: aegis-ln opens a 27,926,746-sat channel with LNBiG Hub-1, using coins from the green close and from a swap service's payouts",
+   "attribution": "traced",
+   "time": "2026-10-01T09:11:00Z",
+   "block": 969433
+  },
+  {
+   "id": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86",
+   "kind": "tx",
+   "ref": "W-X10",
+   "chapter": "ecash",
+   "role": "1 Oct: 10,000,000 sats paid into a federation (peg-in)",
+   "attribution": "traced",
+   "time": "2026-10-01T13:54:12Z",
+   "block": 969449
+  },
+  {
+   "id": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86:1",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 10000000
+  },
+  {
+   "id": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564",
+   "kind": "tx",
+   "ref": "W-X11",
+   "chapter": "ecash",
+   "role": "1 Oct: 10,000,000 sats paid into a federation (peg-in)",
+   "attribution": "traced",
+   "time": "2026-10-01T13:54:12Z",
+   "block": 969449
+  },
+  {
+   "id": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564:1",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 10000000
+  },
+  {
+   "id": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d",
+   "kind": "tx",
+   "ref": "W-X12",
+   "chapter": "ecash",
+   "role": "1 Oct: 5,000,000 sats paid into a federation (peg-in)",
+   "attribution": "traced",
+   "time": "2026-10-01T14:00:34Z",
+   "block": 969451
+  },
+  {
+   "id": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d:1",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 5000000
+  },
+  {
+   "id": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3",
+   "kind": "tx",
+   "ref": "W-X13",
+   "chapter": "ecash",
+   "role": "1 Oct: 5,000,000 sats of stolen coins paid into a federation (peg-in)",
+   "attribution": "traced",
+   "time": "2026-10-01T14:12:54Z",
+   "block": 969452
+  },
+  {
+   "id": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3:1",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 5000000
+  },
+  {
+   "id": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38",
+   "kind": "tx",
+   "ref": "W-X14",
+   "chapter": "ecash",
+   "role": "1 Oct: 5,000,000 sats paid into a federation (peg-in)",
+   "attribution": "traced",
+   "time": "2026-10-01T14:12:54Z",
+   "block": 969452
+  },
+  {
+   "id": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38:0",
+   "kind": "sink",
+   "class": "federation",
+   "chapter": "ecash",
+   "label": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his",
+   "received_sats": 5000000
+  },
+  {
+   "id": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+   "kind": "tx",
+   "ref": "L-X12",
+   "chapter": "lightning",
+   "role": "2 Oct: his wallet (stolen coins C-A9 plus other coins of his) pays 30,000,000 sats to green's on-chain wallet",
+   "attribution": "traced",
+   "time": "2026-10-02T07:38:46Z",
+   "block": 969556
+  },
+  {
+   "id": "0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa",
+   "kind": "tx",
+   "ref": "L-X13",
+   "chapter": "lightning",
+   "role": "2 Oct: green opens a 9,000,000-sat channel with that money",
+   "attribution": "traced",
+   "time": "2026-10-02T07:40:15Z",
+   "block": 969557
+  },
+  {
+   "id": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835",
+   "kind": "tx",
+   "ref": "L-X14",
+   "chapter": "lightning",
+   "role": "2 Oct: green closes every channel and sweeps its whole wallet into one address (47,982,819 sats) — proving green is his",
+   "attribution": "traced",
+   "time": "2026-10-02T13:53:29Z",
+   "block": 969600
+  },
+  {
+   "id": "61e0b864b94934117a62aac52e4ef5ccc6f599f2c460063f22246f11dc5b6ef1",
+   "kind": "tx",
+   "ref": "W-X15",
+   "chapter": "ecash",
+   "role": "4 Oct: federation peg-out paying his redemption address (he cashed his ecash back out)",
+   "attribution": "third-party",
+   "time": "2026-10-04T23:51:43Z",
+   "block": 969923
+  },
+  {
+   "id": "6513c7f517b5fc11fe1abb0c75ae11053e2b2d8110c01c9991f30dada38997a1",
+   "kind": "tx",
+   "ref": "W-X16",
+   "chapter": "ecash",
+   "role": "4 Oct: federation peg-out paying his redemption address (he cashed his ecash back out)",
+   "attribution": "third-party",
+   "time": "2026-10-04T23:51:43Z",
+   "block": 969923
+  },
+  {
+   "id": "5d1c9a7620594828389572c9eb8d3c00e446a1d41a5b0a10a0548c5905f6a668",
+   "kind": "tx",
+   "ref": "W-X17",
+   "chapter": "ecash",
+   "role": "5 Oct: federation peg-out paying his redemption address (he cashed his ecash back out)",
+   "attribution": "third-party",
+   "time": "2026-10-05T00:18:16Z",
+   "block": 969924
+  },
+  {
+   "id": "d1942fb7bde0d52a8d9181b897185f0cc0032301c849b5e56a26ee8faedaaeb3",
+   "kind": "tx",
+   "ref": "W-X18",
+   "chapter": "ecash",
+   "role": "5 Oct: federation peg-out paying his redemption address (he cashed his ecash back out)",
+   "attribution": "third-party",
+   "time": "2026-10-05T00:18:16Z",
+   "block": 969924
+  },
+  {
+   "id": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822",
+   "kind": "tx",
+   "ref": "A-X20",
+   "chapter": "ark",
+   "role": "5 Oct: 5,000,000 sats into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T06:39:23Z",
+   "block": 969967
+  },
+  {
+   "id": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 5000000
+  },
+  {
+   "id": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+   "kind": "tx",
+   "ref": "A-X21",
+   "chapter": "ark",
+   "role": "5 Oct: A-A30 spent together with his change A-A32 — 25,000,000 sats into an Ark boarding output",
+   "attribution": "traced",
+   "time": "2026-10-05T07:03:30Z",
+   "block": 969974
+  },
+  {
+   "id": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 25000000
+  },
+  {
+   "id": "26439adb282db711ac9b4f6b8fb3f5a0f4c6f00c1949f0d80f2879fc26aefc58",
+   "kind": "tx",
+   "ref": "A-X14",
+   "chapter": "ark",
+   "role": "5 Oct: the 25,000,000-sat boarding output of A-X21 exits to A-A04, which he spends next (A-X06)",
+   "attribution": "traced",
+   "time": "2026-10-05T08:10:33Z",
+   "block": 969982
+  },
+  {
+   "id": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974",
+   "kind": "tx",
+   "ref": "L-X15",
+   "chapter": "lightning",
+   "role": "5 Oct: 10,000,000 sats of green's money into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T08:38:18Z",
+   "block": 969983
+  },
+  {
+   "id": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "lightning",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113",
+   "kind": "tx",
+   "ref": "A-X01",
+   "chapter": "ark",
+   "role": "5 Oct: 9,500,000 sats of stolen coins (C-A7) into an Ark boarding output",
+   "attribution": "traced",
+   "time": "2026-10-05T08:38:18Z",
+   "block": 969983
+  },
+  {
+   "id": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 9500000
+  },
+  {
+   "id": "c58b759c0af1eadb8a6796f2f332a8288470f8eba6fed6ff93acaa670e4de318",
+   "kind": "tx",
+   "ref": "W-X19",
+   "chapter": "ecash",
+   "role": "5 Oct: federation peg-out paying his redemption address (he cashed his ecash back out)",
+   "attribution": "third-party",
+   "time": "2026-10-05T09:04:34Z",
+   "block": 969985
+  },
+  {
+   "id": "1ca82f284f6ff2447c1dce3d29da8a556d6b0be4ed3ad57816b9723c0fc4999a",
+   "kind": "tx",
+   "ref": "A-E02",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:34:09Z",
+   "block": 969990
+  },
+  {
+   "id": "500100e4af8df7e22d255a4aa7faee3d81ac0d5887f66376b429453178b88625",
+   "kind": "tx",
+   "ref": "A-E01",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:34:09Z",
+   "block": 969990
+  },
+  {
+   "id": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38",
+   "kind": "tx",
+   "ref": "A-X06",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:34:09Z",
+   "block": 969990
+  },
+  {
+   "id": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "dc035904be019ed86af9e94c80483311aa2a83c4a956c98ed28854259de130e2",
+   "kind": "tx",
+   "ref": "A-E03",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:40:51Z",
+   "block": 969991
+  },
+  {
+   "id": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3",
+   "kind": "tx",
+   "ref": "A-X04",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:42:04Z",
+   "block": 969992
+  },
+  {
+   "id": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 15000000
+  },
+  {
+   "id": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+   "kind": "tx",
+   "ref": "A-X02",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:42:04Z",
+   "block": 969992
+  },
+  {
+   "id": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5",
+   "kind": "tx",
+   "ref": "A-X03",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:42:04Z",
+   "block": 969992
+  },
+  {
+   "id": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4",
+   "kind": "tx",
+   "ref": "A-X05",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:42:04Z",
+   "block": 969992
+  },
+  {
+   "id": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "ed8d6c434e6b2848c20da4a385149f695b5b5b7ba93b2412c27dfe45ba531edb",
+   "kind": "tx",
+   "ref": "A-E04",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:42:04Z",
+   "block": 969992
+  },
+  {
+   "id": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5",
+   "kind": "tx",
+   "ref": "A-X08",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:47:38Z",
+   "block": 969994
+  },
+  {
+   "id": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712",
+   "kind": "tx",
+   "ref": "A-X07",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T09:47:38Z",
+   "block": 969994
+  },
+  {
+   "id": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "ce3d6e37eb1f823dc7a2c820025943a8814e202d458754fe246759c782c7ab3e",
+   "kind": "tx",
+   "ref": "A-E05",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:47:38Z",
+   "block": 969994
+  },
+  {
+   "id": "d19dd78b5cae15a6ac6b4e468179b38d9bb0c7f7d5d777ce81d1729f330455c0",
+   "kind": "tx",
+   "ref": "A-E06",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:47:38Z",
+   "block": 969994
+  },
+  {
+   "id": "433dbd4dd8e884a85a8dcecb4f5247eb965a4077063dbd0d7cd15e98ae0494b3",
+   "kind": "tx",
+   "ref": "A-E08",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:58:47Z",
+   "block": 969995
+  },
+  {
+   "id": "f1fe2951310773bc03a9d58d99c1b30d13ad80e3ea4e5555d7ea20c22f96778a",
+   "kind": "tx",
+   "ref": "A-E07",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T09:58:47Z",
+   "block": 969995
+  },
+  {
+   "id": "0e8eb8a04356d51619a0cb3550351c8693eae7d36cabf35a801a8e4c95d5816a",
+   "kind": "tx",
+   "ref": "X-X10",
+   "chapter": "lnwallet",
+   "role": "5 Oct: splice-in to the channel",
+   "attribution": "probable",
+   "time": "2026-10-05T10:23:19Z",
+   "block": 969996
+  },
+  {
+   "id": "5e5097b6cd25c6c4cff5e975b224e8e7f63d6c239acd596a1c28f24d8d032d3a",
+   "kind": "tx",
+   "ref": "A-E10",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T10:23:19Z",
+   "block": 969996
+  },
+  {
+   "id": "76b5223010086bb0dc39041691d2fb7ae01b5404a9c419489625b8552c71c368",
+   "kind": "tx",
+   "ref": "A-E09",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T10:23:19Z",
+   "block": 969996
+  },
+  {
+   "id": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20",
+   "kind": "tx",
+   "ref": "A-X10",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T10:23:19Z",
+   "block": 969996
+  },
+  {
+   "id": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 5000000
+  },
+  {
+   "id": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5",
+   "kind": "tx",
+   "ref": "A-X09",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T10:23:19Z",
+   "block": 969996
+  },
+  {
+   "id": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 5000000
+  },
+  {
+   "id": "0ef481481853edcef31b6c6e9d316768d84b2ae99ffeccbf5f51b821e7341cb5",
+   "kind": "tx",
+   "ref": "X-X11",
+   "chapter": "lnwallet",
+   "role": "5 Oct: splice-in to the channel just before the splice-out X-X01",
+   "attribution": "probable",
+   "time": "2026-10-05T10:44:41Z",
+   "block": 969999
+  },
+  {
+   "id": "8ade03801a3cdf42ee223719b4a3407f208b73ae3d6806d25ddf156bc3897d0d",
+   "kind": "tx",
+   "ref": "A-E11",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T10:44:41Z",
+   "block": 969999
+  },
+  {
+   "id": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0",
+   "kind": "tx",
+   "ref": "A-X11",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T11:08:49Z",
+   "block": 970006
+  },
+  {
+   "id": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "4e74cf5305013ee86b04cb11275dfc6e09d805178158da496e968a2ebcef8ca6",
+   "kind": "tx",
+   "ref": "A-E12",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T11:08:49Z",
+   "block": 970006
+  },
+  {
+   "id": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9",
+   "kind": "tx",
+   "ref": "A-X12",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T11:18:04Z",
+   "block": 970007
+  },
+  {
+   "id": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "3328803f431f94e27a4dfa69855ca370f64c5c22babefebee1bb88885e2b7873",
+   "kind": "tx",
+   "ref": "X-X01",
+   "chapter": "lnwallet",
+   "role": "5 Oct: 35,000,000 sats taken out of a Lightning wallet channel (splice-out) into X-A01",
+   "attribution": "probable",
+   "time": "2026-10-05T12:09:05Z",
+   "block": 970016
+  },
+  {
+   "id": "d448f9ddfe871e2075debbbf06a2ecc017f790cc59b13c75b09a3b85e7ac3181",
+   "kind": "tx",
+   "ref": "A-E13",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T12:57:27Z",
+   "block": 970023
+  },
+  {
+   "id": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd",
+   "kind": "tx",
+   "ref": "A-X13",
+   "chapter": "ark",
+   "role": "5 Oct: his wallet pays a round amount (5,000,000–15,000,000 sats) into an Ark boarding output; change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T13:39:31Z",
+   "block": 970027
+  },
+  {
+   "id": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5",
+   "kind": "tx",
+   "ref": "X-X02",
+   "chapter": "lnwallet",
+   "role": "5 Oct: 10,000,000 sats into a boarding output (exited to collection address #2); change kept",
+   "attribution": "traced",
+   "time": "2026-10-05T13:39:31Z",
+   "block": 970027
+  },
+  {
+   "id": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5:1",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "lnwallet",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "304082839a809bafacc78e17ff170c2bea1020b9fa658d51c43c9a9b716b239a",
+   "kind": "tx",
+   "ref": "A-E15",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T14:22:31Z",
+   "block": 970033
+  },
+  {
+   "id": "ea1422328f71e0dd1d55e9599119f0ce93fba04a90e8a702782d8976bc23a0b9",
+   "kind": "tx",
+   "ref": "A-E16",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T14:22:31Z",
+   "block": 970033
+  },
+  {
+   "id": "fd77f92abc9299ae18761908237157c48d82b7f50a4a6be7b1d2acde8a81ca90",
+   "kind": "tx",
+   "ref": "A-E14",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-05T14:22:31Z",
+   "block": 970033
+  },
+  {
+   "id": "bdf7777e55ad7010e870721e6f05d1bbf514224cb9cf09bbbac73e33163cb8ca",
+   "kind": "tx",
+   "ref": "X-X03",
+   "chapter": "lnwallet",
+   "role": "5 Oct, 15:00 UTC: the Lightning wallet channel is force-closed",
+   "attribution": "third-party",
+   "time": "2026-10-05T15:00:04Z",
+   "block": 970040
+  },
+  {
+   "id": "26cee21db72f19a7de98ecefbf2a0fa78b4e280cb34f2f06fd2898072cb4ead0",
+   "kind": "tx",
+   "ref": "X-X04",
+   "chapter": "lnwallet",
+   "role": "5 Oct: the wallet owner's side of the force-close (9,966,181 sats) swept to X-A04",
+   "attribution": "probable",
+   "time": "2026-10-05T15:23:50Z",
+   "block": 970043
+  },
+  {
+   "id": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04",
+   "kind": "tx",
+   "ref": "A-X15",
+   "chapter": "ark",
+   "role": "6 Oct: another 10,000,000-sat boarding output from his Lightning-wallet change (X-A02); it exits to collection address #2 (A-E17)",
+   "attribution": "traced",
+   "time": "2026-10-06T05:21:52Z",
+   "block": 970134
+  },
+  {
+   "id": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04:0",
+   "kind": "sink",
+   "class": "ark_board",
+   "chapter": "ark",
+   "label": "Ark boarding output (his own coins, exited back on chain to his collection address)",
+   "received_sats": 10000000
+  },
+  {
+   "id": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
+   "kind": "tx",
+   "ref": "A-E17",
+   "chapter": "ark",
+   "role": "Exit of one of his Ark boarding outputs straight back on chain to one of his collection addresses (flat 500-sat fee)",
+   "attribution": "traced",
+   "time": "2026-10-06T07:11:51Z",
+   "block": 970146
+  },
+  {
+   "id": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9",
+   "kind": "tx",
+   "ref": "X-X06",
+   "chapter": "lnwallet",
+   "role": "6 Oct: the rest sent to the same new address (owner not established)",
+   "attribution": "probable",
+   "time": "2026-10-06T08:13:24Z",
+   "block": 970149
+  },
+  {
+   "id": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "lnwallet",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 9862681
+  },
+  {
+   "id": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
+   "kind": "tx",
+   "ref": "X-X05",
+   "chapter": "lnwallet",
+   "role": "6 Oct: test payment of 100,000 sats to a new address, rest to X-A05",
+   "attribution": "probable",
+   "time": "2026-10-06T08:13:24Z",
+   "block": 970149
+  },
+  {
+   "id": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0",
+   "kind": "sink",
+   "class": "withheld",
+   "chapter": "lnwallet",
+   "label": "Paid by him — owner not established; not published",
+   "received_sats": 100000
+  },
+  {
+   "id": "287659108b28c35f1b5172a753d225453f5429228118fadfb7b885c4176ab193",
+   "kind": "tx",
+   "ref": "L-X16",
+   "chapter": "lightning",
+   "role": "6 Oct: aegis-ln's first channel (with ACINQ) closed cooperatively",
+   "attribution": "traced",
+   "time": "2026-10-06T09:11:17Z",
+   "block": 970155
+  },
+  {
+   "id": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3",
+   "kind": "tx",
+   "ref": "A-X16",
+   "chapter": "ark",
+   "role": "6 Oct: collection address #2 emptied — 50,000,000 sats to A-A22 (then into aegis-ln's channel), 17,970,413 sats change",
+   "attribution": "traced",
+   "time": "2026-10-06T11:56:21Z",
+   "block": 970168
+  },
+  {
+   "id": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a",
+   "kind": "tx",
+   "ref": "L-X17",
+   "chapter": "lightning",
+   "role": "6 Oct: aegis-ln opens a 50,000,000-sat channel with money from his Ark collection address — links the Ark activity to aegis-ln",
+   "attribution": "traced",
+   "time": "2026-10-06T12:40:04Z",
+   "block": 970172
+  }
+ ],
+ "edges": [
+  {
+   "from": "0a63ca72f1c1c1679314eaaeba0240be9960a2710869581c393d22a0f7ec7084",
+   "to": "bc1qa0j0s0zmlur5xyqhwd87yayx0n457x5sjqdkpv",
+   "chapter": "lightning",
+   "sats": 2921245,
+   "outpoint": "0a63ca72f1c1c1679314eaaeba0240be9960a2710869581c393d22a0f7ec7084:0"
+  },
+  {
+   "from": "bc1qa0j0s0zmlur5xyqhwd87yayx0n457x5sjqdkpv",
+   "to": "fcb90ad39de6572bfbcd5ec4222dabe33b7ffc67dc2219a3a2c7b51b36528707",
+   "chapter": "lightning",
+   "sats": 2921245
+  },
+  {
+   "from": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3",
+   "to": "bc1pwq9gn9r5lxzx2xj70z2gqpg8dy32ku4dgln3jum942ug4vqvmgfqpzlua0",
+   "chapter": "lightning",
+   "sats": 40000,
+   "outpoint": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:0"
+  },
+  {
+   "from": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3",
+   "to": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:1",
+   "chapter": "lightning",
+   "sats": 2880254,
+   "outpoint": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:1"
+  },
+  {
+   "from": "12878a1a4da4daa350fbc95692365ff4865aa2d7dadff9727dcc1787258b560a",
+   "to": "bc1qsjlkg9ucmtu5786kgylh3jzpygxq2klz4xuf30",
+   "chapter": "ecash",
+   "sats": 4564554,
+   "outpoint": "12878a1a4da4daa350fbc95692365ff4865aa2d7dadff9727dcc1787258b560a:0"
+  },
+  {
+   "from": "12878a1a4da4daa350fbc95692365ff4865aa2d7dadff9727dcc1787258b560a",
+   "to": "bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9",
+   "chapter": "ecash",
+   "sats": 690000,
+   "outpoint": "12878a1a4da4daa350fbc95692365ff4865aa2d7dadff9727dcc1787258b560a:1"
+  },
+  {
+   "from": "bc1qzfhq63mqkkm8efgav0t209e6tmxm9u5c26neul",
+   "to": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67",
+   "chapter": "ecash",
+   "sats": 1378296634
+  },
+  {
+   "from": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67",
+   "to": "bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9",
+   "chapter": "ecash",
+   "sats": 690000000,
+   "outpoint": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67:0"
+  },
+  {
+   "from": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67",
+   "to": "bc1qky7dqq7jkqsxtfmxu226pvt2j2ymky778jgn4n",
+   "chapter": "ecash",
+   "sats": 688245492,
+   "outpoint": "1a087f283c66ab421f891f81f8f1da7e96c3cccc8cb13111555ba7081e888b67:1"
+  },
+  {
+   "from": "bc1qsjlkg9ucmtu5786kgylh3jzpygxq2klz4xuf30",
+   "to": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "chapter": "ecash",
+   "sats": 4564554
+  },
+  {
+   "from": "bc1qky7dqq7jkqsxtfmxu226pvt2j2ymky778jgn4n",
+   "to": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "chapter": "ecash",
+   "sats": 688245492
+  },
+  {
+   "from": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "to": "bc1q25h4d2fxx8hcj587glt0gk9rpd44k4sd6u95mj",
+   "chapter": "ecash",
+   "sats": 4495128,
+   "outpoint": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb:0"
+  },
+  {
+   "from": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "to": "bc1qdqpqyrtmazr7yg6vag7kykyk0cxfqxfxqdydsq",
+   "chapter": "ecash",
+   "sats": 69000,
+   "outpoint": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb:1"
+  },
+  {
+   "from": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "to": "bc1qxe9hjd209q6qr477tqs8dv8hj8txdzdn725ah4",
+   "chapter": "ecash",
+   "sats": 688176066,
+   "outpoint": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb:2"
+  },
+  {
+   "from": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb",
+   "to": "bc1qk0844gj32n8xz8g52zxdlk5cdsmetuml6syrum",
+   "chapter": "ecash",
+   "sats": 69000,
+   "outpoint": "e1cac5be17e3145383a1f25ae948fe87bfbf085b31914be1770a72a51aa30cdb:3"
+  },
+  {
+   "from": "bc1qxe9hjd209q6qr477tqs8dv8hj8txdzdn725ah4",
+   "to": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+   "chapter": "trail",
+   "sats": 688176066
+  },
+  {
+   "from": "bc1q25h4d2fxx8hcj587glt0gk9rpd44k4sd6u95mj",
+   "to": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+   "chapter": "trail",
+   "sats": 4495128
+  },
+  {
+   "from": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+   "to": "bc1qk0844gj32n8xz8g52zxdlk5cdsmetuml6syrum",
+   "chapter": "trail",
+   "sats": 690000000,
+   "outpoint": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1:0"
+  },
+  {
+   "from": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1",
+   "to": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1:1",
+   "chapter": "trail",
+   "sats": 2670405,
+   "outpoint": "efaf59540162b624bbf287f8e5e3b85eab4cb71daf4528dc57e125e62cd6a7e1:1"
+  },
+  {
+   "from": "bc1qcqxmh48n7d0ce276gxheuwulqqg3eeam3fy822",
+   "to": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c",
+   "chapter": "ecash",
+   "sats": 13575428
+  },
+  {
+   "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c",
+   "to": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
+   "chapter": "ecash",
+   "sats": 5000000,
+   "outpoint": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0"
+  },
+  {
+   "from": "bc1qzfhq63mqkkm8efgav0t209e6tmxm9u5c26neul",
+   "to": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a",
+   "chapter": "ecash",
+   "sats": 23642079
+  },
+  {
+   "from": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a",
+   "to": "bc1qcqxmh48n7d0ce276gxheuwulqqg3eeam3fy822",
+   "chapter": "ecash",
+   "sats": 13575428,
+   "outpoint": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a:0"
+  },
+  {
+   "from": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a",
+   "to": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a:1",
+   "chapter": "ecash",
+   "sats": 10000000,
+   "outpoint": "fd7405fe759d29874363a9e86b01e0b6b8be9f224b0893ee5200904fd9a8656a:1"
+  },
+  {
+   "from": "bc1pwq9gn9r5lxzx2xj70z2gqpg8dy32ku4dgln3jum942ug4vqvmgfqpzlua0",
+   "to": "e515b90e9444049a655eb0bd4b83b22ccd3c7ed3727e3d2762cce62be4ccd5cd",
+   "chapter": "ecash",
+   "sats": 40000
+  },
+  {
+   "from": "c8c44e577726e4fe260057664154207c4309f0f42cde999f00e2a948ea5f7cde",
+   "to": "bc1qar95ljtl376yhmqumfmzhdh243ulhhmccnnvaq",
+   "chapter": "ecash",
+   "sats": 4997106,
+   "outpoint": "c8c44e577726e4fe260057664154207c4309f0f42cde999f00e2a948ea5f7cde:0"
+  },
+  {
+   "from": "81491ccb4ce2c06e74a21f14a62b4a7185c3aae755cb4991596f51569125d831",
+   "to": "bc1qar95ljtl376yhmqumfmzhdh243ulhhmccnnvaq",
+   "chapter": "ecash",
+   "sats": 4997078,
+   "outpoint": "81491ccb4ce2c06e74a21f14a62b4a7185c3aae755cb4991596f51569125d831:0"
+  },
+  {
+   "from": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426",
+   "to": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426:0",
+   "chapter": "lightning",
+   "sats": 1000000,
+   "outpoint": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426:0"
+  },
+  {
+   "from": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98",
+   "to": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98:1",
+   "chapter": "lightning",
+   "sats": 80000,
+   "outpoint": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98:1"
+  },
+  {
+   "from": "bc1qdqpqyrtmazr7yg6vag7kykyk0cxfqxfxqdydsq",
+   "to": "485c61e857ccefeec4d5350f8ffc8618a7cf34f8899f34d1febf14ab3b7dacbb",
+   "chapter": "ecash",
+   "sats": 69000
+  },
+  {
+   "from": "bc1qar95ljtl376yhmqumfmzhdh243ulhhmccnnvaq",
+   "to": "485c61e857ccefeec4d5350f8ffc8618a7cf34f8899f34d1febf14ab3b7dacbb",
+   "chapter": "ecash",
+   "sats": 84194
+  },
+  {
+   "from": "835b90a75962721c36d18cd8b29239ce6f285d3f0419a4a409d5de0975a1868c",
+   "to": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "chapter": "lightning",
+   "sats": 17936,
+   "outpoint": "835b90a75962721c36d18cd8b29239ce6f285d3f0419a4a409d5de0975a1868c:0"
+  },
+  {
+   "from": "091d2b58b8c5142fe422fb8fd633802001eaf35e66285d35c206667b3d740cf0",
+   "to": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "chapter": "lightning",
+   "sats": 19218,
+   "outpoint": "091d2b58b8c5142fe422fb8fd633802001eaf35e66285d35c206667b3d740cf0:0"
+  },
+  {
+   "from": "8f3f1f67c96a91120ea9d9f5953a7de7cd80222e7d5b651de9d83b5adef582dd",
+   "to": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "chapter": "lightning",
+   "sats": 19218,
+   "outpoint": "8f3f1f67c96a91120ea9d9f5953a7de7cd80222e7d5b651de9d83b5adef582dd:0"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 68787086,
+   "outpoint": "056be61816dff78c7c757901195d365ab022967cd2c7787161dbded32f8bd9e7:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 66957258,
+   "outpoint": "55d58815943db35a240dc77a0ca3e3872ab131cd1572474d1d81ac400ecfc018:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 35952739,
+   "outpoint": "63fcb02a6e2747d7e5cd79f5e093a211895bc521455b6cc108a6cc4ed7b7d568:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 50000000,
+   "outpoint": "e7a19f9e8f2bdeb8e6602e89477a1e5bac6f1852215d54e1064cf51bbb651899:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 35456845,
+   "outpoint": "81bca190c47837c5cb2c8f8f25b962969db8a1914d3042f5950fd05d4251db26:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d",
+   "to": "bc1qh7dg3pevyx9sskwj03qydnnsm65r226szevg4e",
+   "chapter": "theft",
+   "sats": 14932316,
+   "outpoint": "a33989e01eedf88037c19bb954b6febe5e62a8598c2b0e377259b4d06bfb667d:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20",
+   "to": "bc1q3zdycxp55qlym4gfgl7nj8xdue4sdma7k5wnjl",
+   "chapter": "theft",
+   "sats": 14406638,
+   "outpoint": "4d6aa7f45daab81a1f0212c7322dd768a9730d6e37850f286c535852b82c1e20:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7",
+   "to": "bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3",
+   "chapter": "theft",
+   "sats": 16075834,
+   "outpoint": "52261d27c6aba07995b65b4270d73c3351f2103065935116b3ce2e18461870f7:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627",
+   "to": "bc1qn5trkke5vrwzcvv9mrgpc3frthtf9sw0xeregn",
+   "chapter": "theft",
+   "sats": 27368371,
+   "outpoint": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627:1"
+  },
+  {
+   "from": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627",
+   "to": "bc1qfsw7xz6cmv00f73reckx7as2u6f5uavyhvd5n7",
+   "chapter": "theft",
+   "sats": 51133252,
+   "outpoint": "6be07d3eca183652e9c2603d5c62986ab8dcdb183677d9a0a2ae7d794a42a627:2"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 13593923,
+   "outpoint": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04:1"
+  },
+  {
+   "from": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04",
+   "to": "bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar",
+   "chapter": "theft",
+   "sats": 13871841,
+   "outpoint": "775f62c975f637c96642430b8726d5c8181ed26b3ae7b91420ab2f583e3fad04:2"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326",
+   "to": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "chapter": "theft",
+   "sats": 31307614,
+   "outpoint": "bfca5759c47781f89d92c934ce0acb1a2d96acf97491c75397e51fd84716b326:1"
+  },
+  {
+   "from": "blink_hot_wallet",
+   "to": "de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2",
+   "chapter": "theft",
+   "sats": null
+  },
+  {
+   "from": "de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2",
+   "to": "bc1qk5gvj6aktflrkht7fgqsacwm7rpkujwshr5m3k",
+   "chapter": "theft",
+   "sats": 22842041,
+   "outpoint": "de94c0fc3570c17ef0966487505c78446ddc7d840ff84317e9bdf4800b3f21d2:0"
+  },
+  {
+   "from": "14bb5ce07a8c5c61ae8fd81c1ee4d3ddd9ab15f2b2f7f3ad3f15cc5e78691df7",
+   "to": "bc1qfsw7xz6cmv00f73reckx7as2u6f5uavyhvd5n7",
+   "chapter": "theft",
+   "sats": 67819900,
+   "outpoint": "14bb5ce07a8c5c61ae8fd81c1ee4d3ddd9ab15f2b2f7f3ad3f15cc5e78691df7:0"
+  },
+  {
+   "from": "cd4524b4c00858a21707f4e308aca8e9d669fa5022d759128f24d845d3ca0f69",
+   "to": "bc1q8u3dq3ffh7mtgptxdfletxxwtymmhdru2hnwn0",
+   "chapter": "theft",
+   "sats": 72069900,
+   "outpoint": "cd4524b4c00858a21707f4e308aca8e9d669fa5022d759128f24d845d3ca0f69:0"
+  },
+  {
+   "from": "bc1qk0844gj32n8xz8g52zxdlk5cdsmetuml6syrum",
+   "to": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f",
+   "chapter": "trail",
+   "sats": 690000000
+  },
+  {
+   "from": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f",
+   "to": "bc1q67ydp63e3ye6yzpk0xemsdmmj8gwcmylvpw2cm",
+   "chapter": "trail",
+   "sats": 688999918,
+   "outpoint": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f:0"
+  },
+  {
+   "from": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f",
+   "to": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f:1",
+   "chapter": "trail",
+   "sats": 1000000,
+   "outpoint": "6247fafea0fa4b35a0d18e11f7c81746a77c1e5ad41e8797c7fca016eaea9f9f:1"
+  },
+  {
+   "from": "bc1qr5422phd3tddrllmex9a7dy3jjf7k0sry6ffl9",
+   "to": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1",
+   "chapter": "trail",
+   "sats": 690690000
+  },
+  {
+   "from": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1",
+   "to": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1:0"
+  },
+  {
+   "from": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1",
+   "to": "bc1q9037z7jeq6zpeh3dhu3u3fv0nksfawsalvk4v8",
+   "chapter": "trail",
+   "sats": 590688900,
+   "outpoint": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1:1"
+  },
+  {
+   "from": "bc1q9037z7jeq6zpeh3dhu3u3fv0nksfawsalvk4v8",
+   "to": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631",
+   "chapter": "trail",
+   "sats": 590688900
+  },
+  {
+   "from": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631",
+   "to": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631:0"
+  },
+  {
+   "from": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631",
+   "to": "bc1qmmlexpc64saha74jgfddrse5a2z5vzrjudu9yg",
+   "chapter": "trail",
+   "sats": 490688100,
+   "outpoint": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631:1"
+  },
+  {
+   "from": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
+   "to": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "chapter": "trail",
+   "sats": 302055465
+  },
+  {
+   "from": "bc1qgvel2xdz5ukcfwu0wkr3gpsr2yafp3lzldmgc0",
+   "to": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "chapter": "trail",
+   "sats": 17852224
+  },
+  {
+   "from": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "to": "bc1ql56cucan3q0seexmv8gy6sedqgh42drv9clmce",
+   "chapter": "trail",
+   "sats": 10000,
+   "outpoint": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:0"
+  },
+  {
+   "from": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "to": "bc1qg0g59wh037pudgf3uz0vh354l7rl2h5gfyntac",
+   "chapter": "trail",
+   "sats": 17841110,
+   "outpoint": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:1"
+  },
+  {
+   "from": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "to": "bc1qtknxtfgvd008hqu8vq2qg7k75paw0waeptepu8",
+   "chapter": "trail",
+   "sats": 302044351,
+   "outpoint": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:2"
+  },
+  {
+   "from": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
+   "to": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3",
+   "chapter": "trail",
+   "sats": 10000,
+   "outpoint": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935:3"
+  },
+  {
+   "from": "bc1qtknxtfgvd008hqu8vq2qg7k75paw0waeptepu8",
+   "to": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
+   "chapter": "trail",
+   "sats": 302044351
+  },
+  {
+   "from": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
+   "to": "bc1qwtyup8j3nuxtrx6jlkc4kmhd6g6acvc4d0md4v",
+   "chapter": "trail",
+   "sats": 250000000,
+   "outpoint": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33:0"
+  },
+  {
+   "from": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33",
+   "to": "bc1qqudjcd0jrskkzks7x0548ls35xfh0yec7nucqf",
+   "chapter": "trail",
+   "sats": 52043819,
+   "outpoint": "8d856ee91c3bed6986ad5a9cfadec49fef4364b3a6671827130d9720f7ea2c33:1"
+  },
+  {
+   "from": "bc1qfsw7xz6cmv00f73reckx7as2u6f5uavyhvd5n7",
+   "to": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "chapter": "trail",
+   "sats": 118953152
+  },
+  {
+   "from": "bc1qhn3qsg0ndt9pmprc73yaunrjhnpjusfwlw8zl4",
+   "to": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "chapter": "trail",
+   "sats": 57534350
+  },
+  {
+   "from": "bc1qk5gvj6aktflrkht7fgqsacwm7rpkujwshr5m3k",
+   "to": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "chapter": "trail",
+   "sats": 22842041
+  },
+  {
+   "from": "bc1q8u3dq3ffh7mtgptxdfletxxwtymmhdru2hnwn0",
+   "to": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "chapter": "trail",
+   "sats": 72069900
+  },
+  {
+   "from": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "to": "bc1ql56cucan3q0seexmv8gy6sedqgh42drv9clmce",
+   "chapter": "trail",
+   "sats": 250000000,
+   "outpoint": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590:0"
+  },
+  {
+   "from": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590",
+   "to": "bc1qc08gdmnfmnyng8fstpned7sj5v89ejsqzec4c4",
+   "chapter": "trail",
+   "sats": 21398116,
+   "outpoint": "c71664e594853dae1da4bac86748af0ed8aa56bf72af00d2c9773e55c2f99590:1"
+  },
+  {
+   "from": "bc1q67ydp63e3ye6yzpk0xemsdmmj8gwcmylvpw2cm",
+   "to": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50",
+   "chapter": "trail",
+   "sats": 688999918
+  },
+  {
+   "from": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50",
+   "to": "bc1q4nlpmt9wjw53lxct630vxhgnqaztferhlhrdap",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50:0"
+  },
+  {
+   "from": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50",
+   "to": "bc1qjwa7kk3usmtxvlt065vq7k5rjjfm9x9esla88q",
+   "chapter": "trail",
+   "sats": 588999666,
+   "outpoint": "bc6be8961628e2916a55b285324e3456c082710cbae17ecee9696d9b456c0e50:1"
+  },
+  {
+   "from": "bc1ql56cucan3q0seexmv8gy6sedqgh42drv9clmce",
+   "to": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d",
+   "chapter": "trail",
+   "sats": 250010000
+  },
+  {
+   "from": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d",
+   "to": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d:0"
+  },
+  {
+   "from": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d",
+   "to": "bc1q33l5k945mqu35a48kdjcnrd4wh96ysaa4fpzxt",
+   "chapter": "trail",
+   "sats": 150009622,
+   "outpoint": "d7e3c36b9b41d3d9066c5faae7b3892a1d34e2749b3d0eaee0e5ed36472ea06d:1"
+  },
+  {
+   "from": "bc1q4nlpmt9wjw53lxct630vxhgnqaztferhlhrdap",
+   "to": "4b08d96031fd9ca2fafbfa4c3de242ab40bbfc21cd3059ee230c8e6bf474e018",
+   "chapter": "trail",
+   "sats": 100000000
+  },
+  {
+   "from": "bc1qwtyup8j3nuxtrx6jlkc4kmhd6g6acvc4d0md4v",
+   "to": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5",
+   "chapter": "trail",
+   "sats": 250000000
+  },
+  {
+   "from": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5",
+   "to": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5:0",
+   "chapter": "trail",
+   "sats": 50000000,
+   "outpoint": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5:0"
+  },
+  {
+   "from": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5",
+   "to": "bc1q5hmwytmlajh00qnnm5lfrjq8kq978g9s44e3da",
+   "chapter": "trail",
+   "sats": 199999500,
+   "outpoint": "66e04607733868259f295e4461129a9c6934b461591a729b3833cd8b5fa160d5:1"
+  },
+  {
+   "from": "bc1q5hmwytmlajh00qnnm5lfrjq8kq978g9s44e3da",
+   "to": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0",
+   "chapter": "trail",
+   "sats": 199999500
+  },
+  {
+   "from": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0",
+   "to": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0:0",
+   "chapter": "trail",
+   "sats": 50000000,
+   "outpoint": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0:0"
+  },
+  {
+   "from": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0",
+   "to": "bc1qvgxty3azkekrh3euvu3sjgf7ma6cpswxff8fxu",
+   "chapter": "trail",
+   "sats": 149999000,
+   "outpoint": "22a5c3f9a05f74aaad8782c77ce7f155d694c95f0ac7fb724e781403f84868d0:1"
+  },
+  {
+   "from": "9e2b706b9e94f9a6502a47d247bf902d747275bdabf9b5587e6f7882e10b1426:0",
+   "to": "694e571afab5bc4a5f2a7548c261602b267cc8124f73b8158f4aa9af6e33cc1e",
+   "chapter": "lightning",
+   "sats": 1000000
+  },
+  {
+   "from": "f7624dbc36f232d122581da53392c45a20125bd5ba106a3dcdeca7b50c18aa98:1",
+   "to": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6",
+   "chapter": "lightning",
+   "sats": 80000
+  },
+  {
+   "from": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6",
+   "to": "bc1pger0x7pccq70kydexw6frr3flwgxsyy992r0kssuaul57g254ajs26j6d5",
+   "chapter": "lightning",
+   "sats": 13020,
+   "outpoint": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6:0"
+  },
+  {
+   "from": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6",
+   "to": "bc1prkpwx38z37nwn3kuntja30ag39fdptxmushj7gtpsqzw3l7mn2vqql74sn",
+   "chapter": "lightning",
+   "sats": 66680,
+   "outpoint": "2b727576ff958b90c55949b12fea04e4eba0382b4688a9991670ad3781a827d6:1"
+  },
+  {
+   "from": "bc1qvgxty3azkekrh3euvu3sjgf7ma6cpswxff8fxu",
+   "to": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0",
+   "chapter": "trail",
+   "sats": 149999000
+  },
+  {
+   "from": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0",
+   "to": "bc1qyae5ylnaejh2pfx2luj3fslef3jgjql02fefwu",
+   "chapter": "trail",
+   "sats": 74998500,
+   "outpoint": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0:0"
+  },
+  {
+   "from": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0",
+   "to": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0:1",
+   "chapter": "trail",
+   "sats": 75000000,
+   "outpoint": "dbc448d59e84c9d1987728289fdecfa47ade0ee745ad36256d3effa4395038c0:1"
+  },
+  {
+   "from": "bc1qyae5ylnaejh2pfx2luj3fslef3jgjql02fefwu",
+   "to": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6",
+   "chapter": "trail",
+   "sats": 74998500
+  },
+  {
+   "from": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6",
+   "to": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6:0",
+   "chapter": "trail",
+   "sats": 74998170,
+   "outpoint": "13ff0d2f46050d0ee2a7b0622b953c945853a7c4c362d87d81baa6acf09a0aa6:0"
+  },
+  {
+   "from": "bc1q33l5k945mqu35a48kdjcnrd4wh96ysaa4fpzxt",
+   "to": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "chapter": "trail",
+   "sats": 150009622
+  },
+  {
+   "from": "bc1qjwa7kk3usmtxvlt065vq7k5rjjfm9x9esla88q",
+   "to": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "chapter": "trail",
+   "sats": 588999666
+  },
+  {
+   "from": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "to": "bc1q3pe5sg8l5p8nfd4dc6fspj4jqmpkjjlt3xd2dl",
+   "chapter": "trail",
+   "sats": 50000000,
+   "outpoint": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:0"
+  },
+  {
+   "from": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "to": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:1",
+   "chapter": "trail",
+   "sats": 50000000,
+   "outpoint": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:1"
+  },
+  {
+   "from": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "to": "bc1q0lkg0zjx0935hk9a3hc8dqfzus7wpl8d384ne3",
+   "chapter": "trail",
+   "sats": 100009476,
+   "outpoint": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:2"
+  },
+  {
+   "from": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79",
+   "to": "bc1qqgwzqz56ye6dggu0y4wp4c3zfmumqepx05eh67",
+   "chapter": "trail",
+   "sats": 538999520,
+   "outpoint": "c1bd3eff3c5b1c3dd472d9bf92f0fc3912c3fb4447d6b1b8e7a8a16a45a4ef79:3"
+  },
+  {
+   "from": "bc1q0lkg0zjx0935hk9a3hc8dqfzus7wpl8d384ne3",
+   "to": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6",
+   "chapter": "trail",
+   "sats": 100009476
+  },
+  {
+   "from": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6",
+   "to": "bc1qxufeqfvg37c87py9gldujzevap9elhqq3pgteh",
+   "chapter": "trail",
+   "sats": 50009335,
+   "outpoint": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6:0"
+  },
+  {
+   "from": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6",
+   "to": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6:1",
+   "chapter": "trail",
+   "sats": 50000000,
+   "outpoint": "077c6f494e7e126dcf0345310c9b328a7ce7607261c2359dd5d8de2c7597b0a6:1"
+  },
+  {
+   "from": "bc1qxufeqfvg37c87py9gldujzevap9elhqq3pgteh",
+   "to": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "chapter": "trail",
+   "sats": 50009335
+  },
+  {
+   "from": "bc1qqgwzqz56ye6dggu0y4wp4c3zfmumqepx05eh67",
+   "to": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "chapter": "trail",
+   "sats": 538999520
+  },
+  {
+   "from": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "to": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:0",
+   "chapter": "trail",
+   "sats": 30000000,
+   "outpoint": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:0"
+  },
+  {
+   "from": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "to": "bc1qp3apu9ue58pkswn2rtehedpdpjvwftxtulpdxn",
+   "chapter": "trail",
+   "sats": 508999384,
+   "outpoint": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:1"
+  },
+  {
+   "from": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "to": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:2",
+   "chapter": "trail",
+   "sats": 20009199,
+   "outpoint": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:2"
+  },
+  {
+   "from": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112",
+   "to": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:3",
+   "chapter": "trail",
+   "sats": 30000000,
+   "outpoint": "8c2697f11c49ff7db92acf4534b4b02118530332a8fc272fb9c5b1538ac9d112:3"
+  },
+  {
+   "from": "bc1qp3apu9ue58pkswn2rtehedpdpjvwftxtulpdxn",
+   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "chapter": "trail",
+   "sats": 508999384
+  },
+  {
+   "from": "bc1q3pe5sg8l5p8nfd4dc6fspj4jqmpkjjlt3xd2dl",
+   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "chapter": "trail",
+   "sats": 50000000
+  },
+  {
+   "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0",
+   "chapter": "trail",
+   "sats": 25000000,
+   "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0"
+  },
+  {
+   "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:1",
+   "chapter": "trail",
+   "sats": 25000000,
+   "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:1"
+  },
+  {
+   "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "to": "bc1q32rjeu4d9sjqdafpj2jhvcamywhpc3aucnccly",
+   "chapter": "trail",
+   "sats": 483999248,
+   "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:2"
+  },
+  {
+   "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
+   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3",
+   "chapter": "trail",
+   "sats": 24999864,
+   "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3"
+  },
+  {
+   "from": "16f2d58d307482cf8bfe8464ec07dd52e217fee45642704bdc0fa98a29a4e1c7",
+   "to": "bc1pusz3qujau8mtwmjhfq4h9tmce5nrth9u2qscckfxpyfd29ksftysu9x7dl",
+   "chapter": "lightning",
+   "sats": 19999670,
+   "outpoint": "16f2d58d307482cf8bfe8464ec07dd52e217fee45642704bdc0fa98a29a4e1c7:0"
+  },
+  {
+   "from": "b62138dee7e9daa20fa608b2a0d99f34ebaa8e60325cf3e517c5623ca287b755:1",
+   "to": "c729badd308bca0020769e31d243a97108fdc82300904a24525394fb4e52bed9",
+   "chapter": "lightning",
+   "sats": 38000000
+  },
+  {
+   "from": "bc1pusz3qujau8mtwmjhfq4h9tmce5nrth9u2qscckfxpyfd29ksftysu9x7dl",
+   "to": "5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8",
+   "chapter": "lightning",
+   "sats": 19999670
+  },
+  {
+   "from": "5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8",
+   "to": "bc1q3ygpqlyxfxpmwys92xe9wcqdrspa3gwxp4335p",
+   "chapter": "lightning",
+   "sats": 40000000,
+   "outpoint": "5d152d3d39175a438b61fc81d14acbc7debddd6174468ed1031558f8a8f3bef8:1"
+  },
+  {
+   "from": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "to": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb",
+   "chapter": "lightning",
+   "sats": 38436
+  },
+  {
+   "from": "bc1prkpwx38z37nwn3kuntja30ag39fdptxmushj7gtpsqzw3l7mn2vqql74sn",
+   "to": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb",
+   "chapter": "lightning",
+   "sats": 66680
+  },
+  {
+   "from": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb",
+   "to": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1",
+   "chapter": "lightning",
+   "sats": 27926746,
+   "outpoint": "c9f23ff7da6e4c3631120b5490ba1dd77160119dfd11fb113f8a192e783db1eb:1"
+  },
+  {
+   "from": "bc1q3ygpqlyxfxpmwys92xe9wcqdrspa3gwxp4335p",
+   "to": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86",
+   "chapter": "ecash",
+   "sats": 40000000
+  },
+  {
+   "from": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86",
+   "to": "bc1qmz2wqc6h39dkuzdwl6w6nxwsjl4gcm29yavwhf",
+   "chapter": "ecash",
+   "sats": 29999000,
+   "outpoint": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86:0"
+  },
+  {
+   "from": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86",
+   "to": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86:1",
+   "chapter": "ecash",
+   "sats": 10000000,
+   "outpoint": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86:1"
+  },
+  {
+   "from": "bc1qmz2wqc6h39dkuzdwl6w6nxwsjl4gcm29yavwhf",
+   "to": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564",
+   "chapter": "ecash",
+   "sats": 29999000
+  },
+  {
+   "from": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564",
+   "to": "bc1q93usg3kvzwky0jtuhk5xptwvtlfndzvp3xdlnm",
+   "chapter": "ecash",
+   "sats": 19998000,
+   "outpoint": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564:0"
+  },
+  {
+   "from": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564",
+   "to": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564:1",
+   "chapter": "ecash",
+   "sats": 10000000,
+   "outpoint": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564:1"
+  },
+  {
+   "from": "bc1q93usg3kvzwky0jtuhk5xptwvtlfndzvp3xdlnm",
+   "to": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d",
+   "chapter": "ecash",
+   "sats": 19998000
+  },
+  {
+   "from": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d",
+   "to": "bc1q0qvhgg204ms5llpgz856t6ckwvuvt4q3nx3rha",
+   "chapter": "ecash",
+   "sats": 14997270,
+   "outpoint": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d:0"
+  },
+  {
+   "from": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d",
+   "to": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d:1",
+   "chapter": "ecash",
+   "sats": 5000000,
+   "outpoint": "7cb6a852d9cb9acd6010089cbef245889238f35a480ecd20b1ad5dbd875cbd5d:1"
+  },
+  {
+   "from": "bc1qg0g59wh037pudgf3uz0vh354l7rl2h5gfyntac",
+   "to": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3",
+   "chapter": "ecash",
+   "sats": 17841110
+  },
+  {
+   "from": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3",
+   "to": "bc1qt78fzal8gtsncaepatt3zjvcxxhr6qhxp9eef7",
+   "chapter": "ecash",
+   "sats": 12840432,
+   "outpoint": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3:0"
+  },
+  {
+   "from": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3",
+   "to": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3:1",
+   "chapter": "ecash",
+   "sats": 5000000,
+   "outpoint": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3:1"
+  },
+  {
+   "from": "bc1q0qvhgg204ms5llpgz856t6ckwvuvt4q3nx3rha",
+   "to": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38",
+   "chapter": "ecash",
+   "sats": 14997270
+  },
+  {
+   "from": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38",
+   "to": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38:0",
+   "chapter": "ecash",
+   "sats": 5000000,
+   "outpoint": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38:0"
+  },
+  {
+   "from": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38",
+   "to": "bc1qt78fzal8gtsncaepatt3zjvcxxhr6qhxp9eef7",
+   "chapter": "ecash",
+   "sats": 9996540,
+   "outpoint": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38:1"
+  },
+  {
+   "from": "bc1qt78fzal8gtsncaepatt3zjvcxxhr6qhxp9eef7",
+   "to": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+   "chapter": "lightning",
+   "sats": 22836972
+  },
+  {
+   "from": "bc1qc08gdmnfmnyng8fstpned7sj5v89ejsqzec4c4",
+   "to": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+   "chapter": "lightning",
+   "sats": 21398116
+  },
+  {
+   "from": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+   "to": "bc1q9rzpfghax2cyjhvkk2uy7vf5h6fr864txgueky",
+   "chapter": "lightning",
+   "sats": 14233458,
+   "outpoint": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675:0"
+  },
+  {
+   "from": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675",
+   "to": "bc1p0d7kfzsl6elc8s3dmz873grp4uan740m4k3v9gglsdah4r6zqfws4rc8t8",
+   "chapter": "lightning",
+   "sats": 30000000,
+   "outpoint": "61bad77863a0d1c8efd36338d48f19400f60528395d94cec0f20b3db423b3675:1"
+  },
+  {
+   "from": "bc1p0d7kfzsl6elc8s3dmz873grp4uan740m4k3v9gglsdah4r6zqfws4rc8t8",
+   "to": "0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa",
+   "chapter": "lightning",
+   "sats": 30000000
+  },
+  {
+   "from": "0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa",
+   "to": "bc1p4kpszux7703qaqnfvu5cyzv09r8e5l55zyy7wpvvnlnrvc6qayqs2y5f4y",
+   "chapter": "lightning",
+   "sats": 20999384,
+   "outpoint": "0ed69a90b79383ed281ceae1eca84b908ff569e1193c45d3c13588c04f1168fa:1"
+  },
+  {
+   "from": "bc1p4kpszux7703qaqnfvu5cyzv09r8e5l55zyy7wpvvnlnrvc6qayqs2y5f4y",
+   "to": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835",
+   "chapter": "lightning",
+   "sats": 20999384
+  },
+  {
+   "from": "bc1pger0x7pccq70kydexw6frr3flwgxsyy992r0kssuaul57g254ajs26j6d5",
+   "to": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835",
+   "chapter": "lightning",
+   "sats": 13020
+  },
+  {
+   "from": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835",
+   "to": "bc1q0sh09300hxpr29nyhu0ycahgvk35e7hg274sjk",
+   "chapter": "lightning",
+   "sats": 47982819,
+   "outpoint": "32fc0f79de0f88145a74410d523d2f463c4e4b04621472271d670a8dd1ef3835:0"
+  },
+  {
+   "from": "61e0b864b94934117a62aac52e4ef5ccc6f599f2c460063f22246f11dc5b6ef1",
+   "to": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "chapter": "ecash",
+   "sats": 4892801,
+   "outpoint": "61e0b864b94934117a62aac52e4ef5ccc6f599f2c460063f22246f11dc5b6ef1:0"
+  },
+  {
+   "from": "6513c7f517b5fc11fe1abb0c75ae11053e2b2d8110c01c9991f30dada38997a1",
+   "to": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "chapter": "ecash",
+   "sats": 4998464,
+   "outpoint": "6513c7f517b5fc11fe1abb0c75ae11053e2b2d8110c01c9991f30dada38997a1:0"
+  },
+  {
+   "from": "5d1c9a7620594828389572c9eb8d3c00e446a1d41a5b0a10a0548c5905f6a668",
+   "to": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "chapter": "ecash",
+   "sats": 9391194,
+   "outpoint": "5d1c9a7620594828389572c9eb8d3c00e446a1d41a5b0a10a0548c5905f6a668:0"
+  },
+  {
+   "from": "d1942fb7bde0d52a8d9181b897185f0cc0032301c849b5e56a26ee8faedaaeb3",
+   "to": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "chapter": "ecash",
+   "sats": 4998464,
+   "outpoint": "d1942fb7bde0d52a8d9181b897185f0cc0032301c849b5e56a26ee8faedaaeb3:0"
+  },
+  {
+   "from": "bc1q9rzpfghax2cyjhvkk2uy7vf5h6fr864txgueky",
+   "to": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822",
+   "chapter": "ark",
+   "sats": 14233458
+  },
+  {
+   "from": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822",
+   "to": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822:0",
+   "chapter": "ark",
+   "sats": 5000000,
+   "outpoint": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822:0"
+  },
+  {
+   "from": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822",
+   "to": "bc1qv548t5yrvthu68wcue274dn6jmlyhl9e75k2ha",
+   "chapter": "ark",
+   "sats": 9232964,
+   "outpoint": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822:1"
+  },
+  {
+   "from": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "to": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+   "chapter": "ark",
+   "sats": 24280923
+  },
+  {
+   "from": "bc1qv548t5yrvthu68wcue274dn6jmlyhl9e75k2ha",
+   "to": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+   "chapter": "ark",
+   "sats": 9232964
+  },
+  {
+   "from": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+   "to": "bc1qskuxdt9mdj7erpa87zfd66v5s5duczrn90vzuy",
+   "chapter": "ark",
+   "sats": 8512902,
+   "outpoint": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73:0"
+  },
+  {
+   "from": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73",
+   "to": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73:1",
+   "chapter": "ark",
+   "sats": 25000000,
+   "outpoint": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73:1"
+  },
+  {
+   "from": "26439adb282db711ac9b4f6b8fb3f5a0f4c6f00c1949f0d80f2879fc26aefc58",
+   "to": "bc1qapa6u3e76hmd9pm48q8xdxd2djs4yjl8t8eqll",
+   "chapter": "ark",
+   "sats": 24999500,
+   "outpoint": "26439adb282db711ac9b4f6b8fb3f5a0f4c6f00c1949f0d80f2879fc26aefc58:0"
+  },
+  {
+   "from": "bc1q0sh09300hxpr29nyhu0ycahgvk35e7hg274sjk",
+   "to": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974",
+   "chapter": "lightning",
+   "sats": 47982819
+  },
+  {
+   "from": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974",
+   "to": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974:0",
+   "chapter": "lightning",
+   "sats": 10000000,
+   "outpoint": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974:0"
+  },
+  {
+   "from": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974",
+   "to": "bc1q56rrxuq3vvcgddynqfjw3erwd6zfs4nlhmyqmm",
+   "chapter": "lightning",
+   "sats": 37982514,
+   "outpoint": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974:1"
+  },
+  {
+   "from": "bc1qqudjcd0jrskkzks7x0548ls35xfh0yec7nucqf",
+   "to": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113",
+   "chapter": "ark",
+   "sats": 52043819
+  },
+  {
+   "from": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113",
+   "to": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113:0",
+   "chapter": "ark",
+   "sats": 9500000,
+   "outpoint": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113:0"
+  },
+  {
+   "from": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113",
+   "to": "bc1qreg25mw2ztscq9y6qt6k3u6xpak4gxjgr9sz0v",
+   "chapter": "ark",
+   "sats": 42543452,
+   "outpoint": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113:1"
+  },
+  {
+   "from": "c58b759c0af1eadb8a6796f2f332a8288470f8eba6fed6ff93acaa670e4de318",
+   "to": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "chapter": "ecash",
+   "sats": 9857665,
+   "outpoint": "c58b759c0af1eadb8a6796f2f332a8288470f8eba6fed6ff93acaa670e4de318:0"
+  },
+  {
+   "from": "1ca82f284f6ff2447c1dce3d29da8a556d6b0be4ed3ad57816b9723c0fc4999a",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 4999500,
+   "outpoint": "1ca82f284f6ff2447c1dce3d29da8a556d6b0be4ed3ad57816b9723c0fc4999a:0"
+  },
+  {
+   "from": "500100e4af8df7e22d255a4aa7faee3d81ac0d5887f66376b429453178b88625",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "500100e4af8df7e22d255a4aa7faee3d81ac0d5887f66376b429453178b88625:0"
+  },
+  {
+   "from": "bc1qapa6u3e76hmd9pm48q8xdxd2djs4yjl8t8eqll",
+   "to": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38",
+   "chapter": "ark",
+   "sats": 24999500
+  },
+  {
+   "from": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38",
+   "to": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38:0"
+  },
+  {
+   "from": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38",
+   "to": "bc1qde2whnjwvyl3smhw77ur0msqdgeae77ejlg62j",
+   "chapter": "ark",
+   "sats": 14999171,
+   "outpoint": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38:1"
+  },
+  {
+   "from": "dc035904be019ed86af9e94c80483311aa2a83c4a956c98ed28854259de130e2",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9499500,
+   "outpoint": "dc035904be019ed86af9e94c80483311aa2a83c4a956c98ed28854259de130e2:0"
+  },
+  {
+   "from": "bc1qreg25mw2ztscq9y6qt6k3u6xpak4gxjgr9sz0v",
+   "to": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3",
+   "chapter": "ark",
+   "sats": 42543452
+  },
+  {
+   "from": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3",
+   "to": "bc1qf5w4gfz8y3sk68xyfuwkk72hsxe96ja8axk7eg",
+   "chapter": "ark",
+   "sats": 27542958,
+   "outpoint": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3:0"
+  },
+  {
+   "from": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3",
+   "to": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3:1",
+   "chapter": "ark",
+   "sats": 15000000,
+   "outpoint": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3:1"
+  },
+  {
+   "from": "bc1q4hv529yqjgla57h066lxxw3j4eeq3qxxx2prfc",
+   "to": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+   "chapter": "ark",
+   "sats": 9857665
+  },
+  {
+   "from": "bc1qskuxdt9mdj7erpa87zfd66v5s5duczrn90vzuy",
+   "to": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+   "chapter": "ark",
+   "sats": 8512902
+  },
+  {
+   "from": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+   "to": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c:0"
+  },
+  {
+   "from": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c",
+   "to": "bc1qsvmkpz6dp5u06l76tapcgyz69kp5s4z0w9468x",
+   "chapter": "ark",
+   "sats": 8370036,
+   "outpoint": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c:1"
+  },
+  {
+   "from": "bc1q56rrxuq3vvcgddynqfjw3erwd6zfs4nlhmyqmm",
+   "to": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5",
+   "chapter": "ark",
+   "sats": 37982514
+  },
+  {
+   "from": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5",
+   "to": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5:0"
+  },
+  {
+   "from": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5",
+   "to": "bc1qpa0q00zx5fp33cafdtnsqe3aq6yme7xml4p6rc",
+   "chapter": "ark",
+   "sats": 27982038,
+   "outpoint": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5:1"
+  },
+  {
+   "from": "bc1qde2whnjwvyl3smhw77ur0msqdgeae77ejlg62j",
+   "to": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4",
+   "chapter": "ark",
+   "sats": 14999171
+  },
+  {
+   "from": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4",
+   "to": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4:0"
+  },
+  {
+   "from": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4",
+   "to": "bc1q45d89q527vf845pa3j5wme2ymf2sg69p087jxr",
+   "chapter": "ark",
+   "sats": 4998695,
+   "outpoint": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4:1"
+  },
+  {
+   "from": "ed8d6c434e6b2848c20da4a385149f695b5b5b7ba93b2412c27dfe45ba531edb",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "ed8d6c434e6b2848c20da4a385149f695b5b5b7ba93b2412c27dfe45ba531edb:0"
+  },
+  {
+   "from": "bc1qf5w4gfz8y3sk68xyfuwkk72hsxe96ja8axk7eg",
+   "to": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5",
+   "chapter": "ark",
+   "sats": 27542958
+  },
+  {
+   "from": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5",
+   "to": "bc1qud0vwfmes6w4axxrfmw8r3rzdxqh606pnq9cjw",
+   "chapter": "ark",
+   "sats": 17542172,
+   "outpoint": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5:0"
+  },
+  {
+   "from": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5",
+   "to": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5:1",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5:1"
+  },
+  {
+   "from": "bc1q45d89q527vf845pa3j5wme2ymf2sg69p087jxr",
+   "to": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712",
+   "chapter": "ark",
+   "sats": 4998695
+  },
+  {
+   "from": "bc1qsvmkpz6dp5u06l76tapcgyz69kp5s4z0w9468x",
+   "to": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712",
+   "chapter": "ark",
+   "sats": 8370036
+  },
+  {
+   "from": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712",
+   "to": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712:0"
+  },
+  {
+   "from": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712",
+   "to": "bc1q7jlpxnjxmu0ap6ucztxnps65ph9r345ul34jhu",
+   "chapter": "ark",
+   "sats": 3367530,
+   "outpoint": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712:1"
+  },
+  {
+   "from": "ce3d6e37eb1f823dc7a2c820025943a8814e202d458754fe246759c782c7ab3e",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "ce3d6e37eb1f823dc7a2c820025943a8814e202d458754fe246759c782c7ab3e:0"
+  },
+  {
+   "from": "d19dd78b5cae15a6ac6b4e468179b38d9bb0c7f7d5d777ce81d1729f330455c0",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "d19dd78b5cae15a6ac6b4e468179b38d9bb0c7f7d5d777ce81d1729f330455c0:0"
+  },
+  {
+   "from": "433dbd4dd8e884a85a8dcecb4f5247eb965a4077063dbd0d7cd15e98ae0494b3",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 14999500,
+   "outpoint": "433dbd4dd8e884a85a8dcecb4f5247eb965a4077063dbd0d7cd15e98ae0494b3:0"
+  },
+  {
+   "from": "f1fe2951310773bc03a9d58d99c1b30d13ad80e3ea4e5555d7ea20c22f96778a",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "f1fe2951310773bc03a9d58d99c1b30d13ad80e3ea4e5555d7ea20c22f96778a:0"
+  },
+  {
+   "from": "5e5097b6cd25c6c4cff5e975b224e8e7f63d6c239acd596a1c28f24d8d032d3a",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "5e5097b6cd25c6c4cff5e975b224e8e7f63d6c239acd596a1c28f24d8d032d3a:0"
+  },
+  {
+   "from": "76b5223010086bb0dc39041691d2fb7ae01b5404a9c419489625b8552c71c368",
+   "to": "bc1ql5gp3fa3446wvhxjxlxv2rm0tapqzhl6ewm2yl",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "76b5223010086bb0dc39041691d2fb7ae01b5404a9c419489625b8552c71c368:0"
+  },
+  {
+   "from": "bc1qpa0q00zx5fp33cafdtnsqe3aq6yme7xml4p6rc",
+   "to": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20",
+   "chapter": "ark",
+   "sats": 27982038
+  },
+  {
+   "from": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20",
+   "to": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20:0",
+   "chapter": "ark",
+   "sats": 5000000,
+   "outpoint": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20:0"
+  },
+  {
+   "from": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20",
+   "to": "bc1q02yft3e03zs90dvv48mqe5apvl2j0ev2tj83l8",
+   "chapter": "ark",
+   "sats": 22981295,
+   "outpoint": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20:1"
+  },
+  {
+   "from": "bc1qud0vwfmes6w4axxrfmw8r3rzdxqh606pnq9cjw",
+   "to": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5",
+   "chapter": "ark",
+   "sats": 17542172
+  },
+  {
+   "from": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5",
+   "to": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5:0",
+   "chapter": "ark",
+   "sats": 5000000,
+   "outpoint": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5:0"
+  },
+  {
+   "from": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5",
+   "to": "bc1qmu64vsw3gt46s74yuxaflsnvq3r4x7d7ldc63x",
+   "chapter": "ark",
+   "sats": 12541531,
+   "outpoint": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5:1"
+  },
+  {
+   "from": "8ade03801a3cdf42ee223719b4a3407f208b73ae3d6806d25ddf156bc3897d0d",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 4999500,
+   "outpoint": "8ade03801a3cdf42ee223719b4a3407f208b73ae3d6806d25ddf156bc3897d0d:0"
+  },
+  {
+   "from": "bc1qmu64vsw3gt46s74yuxaflsnvq3r4x7d7ldc63x",
+   "to": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0",
+   "chapter": "ark",
+   "sats": 12541531
+  },
+  {
+   "from": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0",
+   "to": "bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6",
+   "chapter": "ark",
+   "sats": 2541312,
+   "outpoint": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0:0"
+  },
+  {
+   "from": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0",
+   "to": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0:1",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0:1"
+  },
+  {
+   "from": "4e74cf5305013ee86b04cb11275dfc6e09d805178158da496e968a2ebcef8ca6",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 4999500,
+   "outpoint": "4e74cf5305013ee86b04cb11275dfc6e09d805178158da496e968a2ebcef8ca6:0"
+  },
+  {
+   "from": "bc1q02yft3e03zs90dvv48mqe5apvl2j0ev2tj83l8",
+   "to": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9",
+   "chapter": "ark",
+   "sats": 22981295
+  },
+  {
+   "from": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9",
+   "to": "bc1qhshq67pv8fhgqr7xl0fjjd2xc65gwhyun5ekyz",
+   "chapter": "ark",
+   "sats": 12980772,
+   "outpoint": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9:0"
+  },
+  {
+   "from": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9",
+   "to": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9:1",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9:1"
+  },
+  {
+   "from": "3328803f431f94e27a4dfa69855ca370f64c5c22babefebee1bb88885e2b7873",
+   "to": "bc1qzz6um4rk3sjreuqy4s3fwgcechjlcjw2y80hxr",
+   "chapter": "lnwallet",
+   "sats": 35000000,
+   "outpoint": "3328803f431f94e27a4dfa69855ca370f64c5c22babefebee1bb88885e2b7873:0"
+  },
+  {
+   "from": "d448f9ddfe871e2075debbbf06a2ecc017f790cc59b13c75b09a3b85e7ac3181",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "d448f9ddfe871e2075debbbf06a2ecc017f790cc59b13c75b09a3b85e7ac3181:0"
+  },
+  {
+   "from": "bc1qhshq67pv8fhgqr7xl0fjjd2xc65gwhyun5ekyz",
+   "to": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd",
+   "chapter": "ark",
+   "sats": 12980772
+  },
+  {
+   "from": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd",
+   "to": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd:0"
+  },
+  {
+   "from": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd",
+   "to": "bc1q5hku7y3gxkeqjekzr5ulupfnfdzvu3s2qrcd2l",
+   "chapter": "ark",
+   "sats": 2980114,
+   "outpoint": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd:1"
+  },
+  {
+   "from": "bc1qzz6um4rk3sjreuqy4s3fwgcechjlcjw2y80hxr",
+   "to": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5",
+   "chapter": "lnwallet",
+   "sats": 35000000
+  },
+  {
+   "from": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5",
+   "to": "bc1qjfxujurdfth57rjmhrcwta2cjd6wvhwzy3zc69",
+   "chapter": "lnwallet",
+   "sats": 24999047,
+   "outpoint": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5:0"
+  },
+  {
+   "from": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5",
+   "to": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5:1",
+   "chapter": "lnwallet",
+   "sats": 10000000,
+   "outpoint": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5:1"
+  },
+  {
+   "from": "304082839a809bafacc78e17ff170c2bea1020b9fa658d51c43c9a9b716b239a",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "304082839a809bafacc78e17ff170c2bea1020b9fa658d51c43c9a9b716b239a:0"
+  },
+  {
+   "from": "ea1422328f71e0dd1d55e9599119f0ce93fba04a90e8a702782d8976bc23a0b9",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "ea1422328f71e0dd1d55e9599119f0ce93fba04a90e8a702782d8976bc23a0b9:0"
+  },
+  {
+   "from": "fd77f92abc9299ae18761908237157c48d82b7f50a4a6be7b1d2acde8a81ca90",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "fd77f92abc9299ae18761908237157c48d82b7f50a4a6be7b1d2acde8a81ca90:0"
+  },
+  {
+   "from": "26cee21db72f19a7de98ecefbf2a0fa78b4e280cb34f2f06fd2898072cb4ead0",
+   "to": "bc1qpqcgjrp4h6tuynd4puwf3jnpdd3x35vlkuvecj",
+   "chapter": "lnwallet",
+   "sats": 9966181,
+   "outpoint": "26cee21db72f19a7de98ecefbf2a0fa78b4e280cb34f2f06fd2898072cb4ead0:0"
+  },
+  {
+   "from": "bc1qjfxujurdfth57rjmhrcwta2cjd6wvhwzy3zc69",
+   "to": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04",
+   "chapter": "ark",
+   "sats": 24999047
+  },
+  {
+   "from": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04",
+   "to": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04:0",
+   "chapter": "ark",
+   "sats": 10000000,
+   "outpoint": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04:0"
+  },
+  {
+   "from": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04",
+   "to": "bc1qhu46tjk8q6xzqwzyt86ncpy23pkncnxz2r7qsv",
+   "chapter": "ark",
+   "sats": 14998520,
+   "outpoint": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04:1"
+  },
+  {
+   "from": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
+   "to": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "chapter": "ark",
+   "sats": 9999500,
+   "outpoint": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68:0"
+  },
+  {
+   "from": "bc1qugtdsnutlfn9w6qs8kcmj49uzhzxd5yuwmn2dp",
+   "to": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9",
+   "chapter": "lnwallet",
+   "sats": 9864181
+  },
+  {
+   "from": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9",
+   "to": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0",
+   "chapter": "lnwallet",
+   "sats": 9862681,
+   "outpoint": "27c51759f810bd7383ab373acfafda91e1c837eeb8d087ad1c458dbdaf46dad9:0"
+  },
+  {
+   "from": "bc1qpqcgjrp4h6tuynd4puwf3jnpdd3x35vlkuvecj",
+   "to": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
+   "chapter": "lnwallet",
+   "sats": 9966181
+  },
+  {
+   "from": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
+   "to": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0",
+   "chapter": "lnwallet",
+   "sats": 100000,
+   "outpoint": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:0"
+  },
+  {
+   "from": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536",
+   "to": "bc1qugtdsnutlfn9w6qs8kcmj49uzhzxd5yuwmn2dp",
+   "chapter": "lnwallet",
+   "sats": 9864181,
+   "outpoint": "62b308bf6c273d3a4aebefab9d86ed2257180a80321a1f96ce9429948eecf536:1"
+  },
+  {
+   "from": "62616e127f44fc395ffe737f2161704ae77950f9013d1afc3b550c1aff6e49c3:1",
+   "to": "287659108b28c35f1b5172a753d225453f5429228118fadfb7b885c4176ab193",
+   "chapter": "lightning",
+   "sats": 2880254
+  },
+  {
+   "from": "287659108b28c35f1b5172a753d225453f5429228118fadfb7b885c4176ab193",
+   "to": "bc1px0lvdw9ghpx0wyv0rr0m5qeda4enqjzx8m85c3mg95n49sww565q4c35t0",
+   "chapter": "lightning",
+   "sats": 2850319,
+   "outpoint": "287659108b28c35f1b5172a753d225453f5429228118fadfb7b885c4176ab193:1"
+  },
+  {
+   "from": "bc1qm9pn4xflszz009cajmrg625j8xprq84nx4zx8w",
+   "to": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3",
+   "chapter": "ark",
+   "sats": 67974136
+  },
+  {
+   "from": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3",
+   "to": "bc1ps3u2qae0tzwsqpugw4jq0z0dxsaqa3t5xx9hewxgnun96nj6xp8qjwp7nw",
+   "chapter": "ark",
+   "sats": 50000000,
+   "outpoint": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3:0"
+  },
+  {
+   "from": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3",
+   "to": "bc1qz4d8dg0nxcumftfc7tf93mkykf4n6wncccrc5s",
+   "chapter": "ark",
+   "sats": 17970413,
+   "outpoint": "6cd9370aee1e1dca3c6e04a5449f6d0c3888f5329204a0891e94808891ba0bd3:1"
+  },
+  {
+   "from": "bc1px0lvdw9ghpx0wyv0rr0m5qeda4enqjzx8m85c3mg95n49sww565q4c35t0",
+   "to": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a",
+   "chapter": "lightning",
+   "sats": 2850319
+  },
+  {
+   "from": "bc1ps3u2qae0tzwsqpugw4jq0z0dxsaqa3t5xx9hewxgnun96nj6xp8qjwp7nw",
+   "to": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a",
+   "chapter": "lightning",
+   "sats": 50000000
+  },
+  {
+   "from": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a",
+   "to": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
+   "chapter": "lightning",
+   "sats": 50000000,
+   "outpoint": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1"
+  },
+  {
+   "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
+   "to": "c8c44e577726e4fe260057664154207c4309f0f42cde999f00e2a948ea5f7cde",
+   "chapter": "ecash",
+   "sats": 5000000
+  },
+  {
+   "from": "4275db65a9c6c1f99de95ee69395d094994a6975fa3aafd5ec44fe9e2276f0f3:1",
+   "to": "61e0b864b94934117a62aac52e4ef5ccc6f599f2c460063f22246f11dc5b6ef1",
+   "chapter": "ecash",
+   "sats": 5000000
+  },
+  {
+   "from": "dda0442977102114806abe78c49391280047f7b9d35808c28a694761cd058f38:0",
+   "to": "6513c7f517b5fc11fe1abb0c75ae11053e2b2d8110c01c9991f30dada38997a1",
+   "chapter": "ecash",
+   "sats": 5000000
+  },
+  {
+   "from": "1ba513cbf66a794431483a1fa742f2532a39da297fc17afbc601e0f63d61e564:1",
+   "to": "5d1c9a7620594828389572c9eb8d3c00e446a1d41a5b0a10a0548c5905f6a668",
+   "chapter": "ecash",
+   "sats": 10000000
+  },
+  {
+   "from": "05873afd6c5287b9fdf0b580e7d2182d1a651a14f1a9e46de8dbc04ec3467e86:1",
+   "to": "c58b759c0af1eadb8a6796f2f332a8288470f8eba6fed6ff93acaa670e4de318",
+   "chapter": "ecash",
+   "sats": 10000000
+  },
+  {
+   "from": "243be1bc1f784946b465442f77364a64a25a9982590f54e55a6a6313fda1fa73:1",
+   "to": "26439adb282db711ac9b4f6b8fb3f5a0f4c6f00c1949f0d80f2879fc26aefc58",
+   "chapter": "ark",
+   "sats": 25000000
+  },
+  {
+   "from": "8d6a9443772defad346c7876991d2038548b70e6f1d8f6388b6c18bb9363f974:0",
+   "to": "500100e4af8df7e22d255a4aa7faee3d81ac0d5887f66376b429453178b88625",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "7fc450ff8ea5d3b0c948b0e9332210036b9c529457470e4e35f5e17605355822:0",
+   "to": "1ca82f284f6ff2447c1dce3d29da8a556d6b0be4ed3ad57816b9723c0fc4999a",
+   "chapter": "ark",
+   "sats": 5000000
+  },
+  {
+   "from": "edd7935f14982147d7df17021696a56717847e1575d1fcf6d44689bb93975113:0",
+   "to": "dc035904be019ed86af9e94c80483311aa2a83c4a956c98ed28854259de130e2",
+   "chapter": "ark",
+   "sats": 9500000
+  },
+  {
+   "from": "d941be1ce24f5543531a08f02f6ba71276d69acbd26ca884e9c7af97926c3f38:0",
+   "to": "ed8d6c434e6b2848c20da4a385149f695b5b5b7ba93b2412c27dfe45ba531edb",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "b96557eea13a9cdd405d4f7e1b81203d0392b53c7238b6586474cc3a2b35bdc5:0",
+   "to": "ce3d6e37eb1f823dc7a2c820025943a8814e202d458754fe246759c782c7ab3e",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "dbe11342b972800f8106fd42f8313f3c708eff62cdb731ff7c2194ae622d74a4:0",
+   "to": "d19dd78b5cae15a6ac6b4e468179b38d9bb0c7f7d5d777ce81d1729f330455c0",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "96ac058985ed516f85adc473162549e47420d4f977fe8f69a53097fd2abc880c:0",
+   "to": "f1fe2951310773bc03a9d58d99c1b30d13ad80e3ea4e5555d7ea20c22f96778a",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "6a57694d95f553156e19168f53e9cdfd67d5c4741e7bbf90e068889d4ed005b3:1",
+   "to": "433dbd4dd8e884a85a8dcecb4f5247eb965a4077063dbd0d7cd15e98ae0494b3",
+   "chapter": "ark",
+   "sats": 15000000
+  },
+  {
+   "from": "4d6e4ec93b953fb6903e0a6925a7b2b4a6ff73ed0e16d113ca367f7a73964712:0",
+   "to": "76b5223010086bb0dc39041691d2fb7ae01b5404a9c419489625b8552c71c368",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "1ef1c11e8526b47fa3e704ab63039f178b9c97685265066aaa7170298bb3d3c5:1",
+   "to": "5e5097b6cd25c6c4cff5e975b224e8e7f63d6c239acd596a1c28f24d8d032d3a",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "c2e036e734f931a16a1036717f1cfcf32492105afab351ef38fad4c7d4ef3ab5:0",
+   "to": "8ade03801a3cdf42ee223719b4a3407f208b73ae3d6806d25ddf156bc3897d0d",
+   "chapter": "ark",
+   "sats": 5000000
+  },
+  {
+   "from": "9277cd4a7f6e55cb4cd87eeceefb5a1bbf4c61de0198608ee88ce534f5c07c20:0",
+   "to": "4e74cf5305013ee86b04cb11275dfc6e09d805178158da496e968a2ebcef8ca6",
+   "chapter": "ark",
+   "sats": 5000000
+  },
+  {
+   "from": "44726c554c43119ceb5435d84b240a3afc04c9b540bedcc2fa5f419b124a97a0:1",
+   "to": "d448f9ddfe871e2075debbbf06a2ecc017f790cc59b13c75b09a3b85e7ac3181",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "b4ce4588d14a1d214540d31670ad3a21163587aef27d4bc2995645ac9dd0ecb9:1",
+   "to": "fd77f92abc9299ae18761908237157c48d82b7f50a4a6be7b1d2acde8a81ca90",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "cd60a0ce870ab9c083f16123ca7bac63b48a4371f4025f5b4c1b0261125d0abd:0",
+   "to": "304082839a809bafacc78e17ff170c2bea1020b9fa658d51c43c9a9b716b239a",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "f6910b40775bf15090290442b9865772cbf9c525e6ecb74802480675b32a9bf5:1",
+   "to": "ea1422328f71e0dd1d55e9599119f0ce93fba04a90e8a702782d8976bc23a0b9",
+   "chapter": "ark",
+   "sats": 10000000
+  },
+  {
+   "from": "403b21f0b585848fe6fd5cff6644eceb65043952052f87523a7e3ac8f373eb04:0",
+   "to": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
+   "chapter": "ark",
+   "sats": 10000000
+  }
+ ]
+}
