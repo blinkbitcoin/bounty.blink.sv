@@ -2694,6 +2694,32 @@
    "received_sats": 50000000
   },
   {
+   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a",
+   "kind": "tx",
+   "ref": "M-X10",
+   "chapter": "live",
+   "role": "Closes channel L-C18 (capacity 10,000,000 sats); where the outputs went is being analysed",
+   "attribution": "proven",
+   "time": "2026-10-08T18:13:48Z",
+   "block": 970517
+  },
+  {
+   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 894067
+  },
+  {
+   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 9105026
+  },
+  {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
    "kind": "tx",
    "ref": "M-X4",
@@ -2718,32 +2744,6 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 98997680
-  },
-  {
-   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a",
-   "kind": "tx",
-   "ref": "M-X10",
-   "chapter": "live",
-   "role": "Closes channel L-C18 (capacity 10,000,000 sats); where the outputs went is being analysed",
-   "attribution": "proven",
-   "time": "unconfirmed",
-   "block": null
-  },
-  {
-   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 894067
-  },
-  {
-   "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 9105026
   },
   {
    "id": "81a109d273808dd27ab41d014ec9fd06c99749b36e93f85bc7ae1a6c4d7cd698",
@@ -2788,6 +2788,24 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 299758
+  },
+  {
+   "id": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "kind": "tx",
+   "ref": "M-X11",
+   "chapter": "live",
+   "role": "Movement: 17,936 sats left L-A6; where they went is being analysed",
+   "attribution": "traced",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 21779854
   },
   {
    "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b",
@@ -4774,26 +4792,6 @@
    "outpoint": "3b84fe12af7a0dcb26fccca66fa342b4b5184b08fe747dd691e9eda3173de3d4:1"
   },
   {
-   "from": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
-   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
-   "chapter": "live",
-   "sats": 100000000
-  },
-  {
-   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
-   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0",
-   "chapter": "live",
-   "sats": 1002008,
-   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0"
-  },
-  {
-   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
-   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1",
-   "chapter": "live",
-   "sats": 98997680,
-   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1"
-  },
-  {
    "from": "b6302e35ec404990d1fb080b3af04d48edbe36c629b014b7f3e766fa8b5a3ac7:0",
    "to": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a",
    "chapter": "live",
@@ -4812,6 +4810,26 @@
    "chapter": "live",
    "sats": 9105026,
    "outpoint": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1"
+  },
+  {
+   "from": "419a9e78fde4bd156db172e6ff84af9de4eb1cbefe44ebb3fdece6da10603cfd:1",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "chapter": "live",
+   "sats": 100000000
+  },
+  {
+   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0",
+   "chapter": "live",
+   "sats": 1002008,
+   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:0"
+  },
+  {
+   "from": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce",
+   "to": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1",
+   "chapter": "live",
+   "sats": 98997680,
+   "outpoint": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1"
   },
   {
    "from": "b287e52466f8274cd6aff684651ce3c99b6b255cbdc2a46d4e673ddae300e05a:1",
@@ -4845,6 +4863,19 @@
    "chapter": "live",
    "sats": 299758,
    "outpoint": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0"
+  },
+  {
+   "from": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 17936
+  },
+  {
+   "from": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0",
+   "chapter": "live",
+   "sats": 21779854,
+   "outpoint": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361:0"
   },
   {
    "from": "e65337def0da72c4792eb00e1a0a54b3eeb711e93831bc4eb4c16bb479fb7876:1",
@@ -5023,6 +5054,18 @@
    "to": "4ab8b8b55f29b84d8af4a83551f8d11aa7e37f011af63ef4afefa3b0edc65b68",
    "chapter": "ark",
    "sats": 10000000
+  },
+  {
+   "from": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:1",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9105026
+  },
+  {
+   "from": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:1",
+   "to": "9a04e0bca50edc2b4d297f16b0ce6e41feac5ee56dc1facaf0fee50667a2a361",
+   "chapter": "live",
+   "sats": 9729631
   }
  ]
 }

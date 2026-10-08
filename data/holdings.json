@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-08T18:02:02Z",
- "tip_height": 970516,
+ "checked_at": "2026-10-08T18:26:41Z",
+ "tip_height": 970517,
  "addresses": [
   {
    "id": "S-A10",
@@ -91,19 +91,9 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1qtfafdy6rgt5pwpcjpp35ev37d53tujvh83l5x6"
-  },
-  {
-   "id": "L-A6",
-   "chapter": "lightning",
-   "value": "bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd",
-   "attribution": "traced",
-   "balance_sats": 17936,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1pe23te6shfylyn8c4hudymqgnz4a47n8rd239gq00hr3479snag3swqf0dd"
   }
  ],
  "total_proven_sats": 86655000,
- "total_traced_sats": 5539362,
+ "total_traced_sats": 5521426,
  "total_probable_sats": 486926856
 }

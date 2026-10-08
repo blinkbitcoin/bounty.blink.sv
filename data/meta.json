@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-08T18:02:02Z",
+ "generated_at": "2026-10-08T18:26:41Z",
  "as_of": "2026-10-08",
  "publication": "publication 1 (full)",
- "tip_height": 970516,
- "indicators": 688,
+ "tip_height": 970517,
+ "indicators": 689,
  "by_type": {
   "address": 96,
-  "tx": 567,
+  "tx": 568,
   "evm": 1,
   "node": 2,
   "channel": 22
