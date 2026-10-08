@@ -255,6 +255,58 @@
    ]
   },
   {
+   "date": "2026-09-20",
+   "kind": "onchain",
+   "chapter": "trail",
+   "text": "From 12:24 UTC he splits the other coin of about 690,000,000 sats he held before the attack and pays all of it into the swap service in seven chunks — six of 100,000,000 sats and a last one of 90,684,350.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "B-X1",
+     "type": "tx",
+     "value": "408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1",
+     "link": "https://mempool.space/tx/408e14a38ca17a7748766bf1f3bbe4efa1bd57aa0fa777ca78ca6d59cf07aac1"
+    },
+    {
+     "id": "B-X2",
+     "type": "tx",
+     "value": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631",
+     "link": "https://mempool.space/tx/0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631"
+    },
+    {
+     "id": "B-X3",
+     "type": "tx",
+     "value": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127",
+     "link": "https://mempool.space/tx/2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127"
+    },
+    {
+     "id": "B-X4",
+     "type": "tx",
+     "value": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2",
+     "link": "https://mempool.space/tx/f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2"
+    },
+    {
+     "id": "B-X5",
+     "type": "tx",
+     "value": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338",
+     "link": "https://mempool.space/tx/27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338"
+    },
+    {
+     "id": "B-X6",
+     "type": "tx",
+     "value": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3",
+     "link": "https://mempool.space/tx/d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3"
+    },
+    {
+     "id": "B-X7",
+     "type": "tx",
+     "value": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f",
+     "link": "https://mempool.space/tx/e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f"
+    }
+   ]
+  },
+  {
    "date": "2026-09-21",
    "kind": "onchain",
    "chapter": "trail",

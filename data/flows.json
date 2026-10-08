@@ -332,6 +332,42 @@
    "received_sats": 490688100
   },
   {
+   "id": "bc1q6zwctfmtrmztjvy7jv9wjx6yzfnlp3lzgfv877",
+   "kind": "address",
+   "ref": "B-A4",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder of the other pre-attack coin (390,687,300 sats)",
+   "received_sats": 390687300
+  },
+  {
+   "id": "bc1qpmkddp2gajz58mamap9tw8fj0678lcmepfl0zn",
+   "kind": "address",
+   "ref": "B-A5",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder of the other pre-attack coin (290,686,500 sats)",
+   "received_sats": 290686500
+  },
+  {
+   "id": "bc1qm20nzpvqpcalsyk9ak9mm2vx8prdsxqlvkwqrr",
+   "kind": "address",
+   "ref": "B-A6",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder of the other pre-attack coin (190,685,700 sats)",
+   "received_sats": 190685700
+  },
+  {
+   "id": "bc1qp0jmytrnd6pl8dfev6f429fgtwz3yqlqhjjff4",
+   "kind": "address",
+   "ref": "B-A7",
+   "chapter": "trail",
+   "attribution": "probable",
+   "role": "Remainder of the other pre-attack coin (90,684,900 sats)",
+   "received_sats": 90684900
+  },
+  {
    "id": "bc1q4nlpmt9wjw53lxct630vxhgnqaztferhlhrdap",
    "kind": "address",
    "ref": "H-A1",
@@ -1287,6 +1323,96 @@
    "chapter": "trail",
    "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
    "received_sats": 100000000
+  },
+  {
+   "id": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127",
+   "kind": "tx",
+   "ref": "B-X3",
+   "chapter": "trail",
+   "role": "20 Sep: 100,000,000 sats of the other pre-attack coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T14:05:22Z",
+   "block": 967838
+  },
+  {
+   "id": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2",
+   "kind": "tx",
+   "ref": "B-X4",
+   "chapter": "trail",
+   "role": "20 Sep: 100,000,000 sats of the other pre-attack coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T14:39:09Z",
+   "block": 967843
+  },
+  {
+   "id": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338",
+   "kind": "tx",
+   "ref": "B-X5",
+   "chapter": "trail",
+   "role": "20 Sep: 100,000,000 sats of the other pre-attack coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T14:42:06Z",
+   "block": 967845
+  },
+  {
+   "id": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3",
+   "kind": "tx",
+   "ref": "B-X6",
+   "chapter": "trail",
+   "role": "20 Sep: 100,000,000 sats of the other pre-attack coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T15:14:13Z",
+   "block": 967847
+  },
+  {
+   "id": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3:1",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 100000000
+  },
+  {
+   "id": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f",
+   "kind": "tx",
+   "ref": "B-X7",
+   "chapter": "trail",
+   "role": "20 Sep: the last 90,684,350 sats of the other pre-attack coin paid into the swap service",
+   "attribution": "probable",
+   "time": "2026-09-20T15:42:48Z",
+   "block": 967852
+  },
+  {
+   "id": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f:0",
+   "kind": "sink",
+   "class": "service",
+   "chapter": "trail",
+   "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
+   "received_sats": 90684350
   },
   {
    "id": "64e80962268e9b1520ad32789ea7f00bce45faa44a908413ca28c23a61948935",
@@ -2862,6 +2988,99 @@
    "chapter": "trail",
    "sats": 490688100,
    "outpoint": "0cb21238fcdf8252077fce66a778230fa2f41e28ee13673d6f47fe6960109631:1"
+  },
+  {
+   "from": "bc1qmmlexpc64saha74jgfddrse5a2z5vzrjudu9yg",
+   "to": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127",
+   "chapter": "trail",
+   "sats": 490688100
+  },
+  {
+   "from": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127",
+   "to": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127:0"
+  },
+  {
+   "from": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127",
+   "to": "bc1q6zwctfmtrmztjvy7jv9wjx6yzfnlp3lzgfv877",
+   "chapter": "trail",
+   "sats": 390687300,
+   "outpoint": "2f2047bf45f5b45b8f912ff0d6966fd12bb9e6c16d213d36b1e1ec31f37b9127:1"
+  },
+  {
+   "from": "bc1q6zwctfmtrmztjvy7jv9wjx6yzfnlp3lzgfv877",
+   "to": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2",
+   "chapter": "trail",
+   "sats": 390687300
+  },
+  {
+   "from": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2",
+   "to": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2:0"
+  },
+  {
+   "from": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2",
+   "to": "bc1qpmkddp2gajz58mamap9tw8fj0678lcmepfl0zn",
+   "chapter": "trail",
+   "sats": 290686500,
+   "outpoint": "f2f00e0c3653335e4fc9360410ec9d1f64a733ad9702c4791d529e1e4b75e6b2:1"
+  },
+  {
+   "from": "bc1qpmkddp2gajz58mamap9tw8fj0678lcmepfl0zn",
+   "to": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338",
+   "chapter": "trail",
+   "sats": 290686500
+  },
+  {
+   "from": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338",
+   "to": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338:0",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338:0"
+  },
+  {
+   "from": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338",
+   "to": "bc1qm20nzpvqpcalsyk9ak9mm2vx8prdsxqlvkwqrr",
+   "chapter": "trail",
+   "sats": 190685700,
+   "outpoint": "27387d368a86872bf0820d58764291be0023dc04cb5cd5099d82188863f61338:1"
+  },
+  {
+   "from": "bc1qm20nzpvqpcalsyk9ak9mm2vx8prdsxqlvkwqrr",
+   "to": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3",
+   "chapter": "trail",
+   "sats": 190685700
+  },
+  {
+   "from": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3",
+   "to": "bc1qp0jmytrnd6pl8dfev6f429fgtwz3yqlqhjjff4",
+   "chapter": "trail",
+   "sats": 90684900,
+   "outpoint": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3:0"
+  },
+  {
+   "from": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3",
+   "to": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3:1",
+   "chapter": "trail",
+   "sats": 100000000,
+   "outpoint": "d97133da493a9d80c65589ae63605b3d2dc2ae051c3f160735587d814e0bb3a3:1"
+  },
+  {
+   "from": "bc1qp0jmytrnd6pl8dfev6f429fgtwz3yqlqhjjff4",
+   "to": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f",
+   "chapter": "trail",
+   "sats": 90684900
+  },
+  {
+   "from": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f",
+   "to": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f:0",
+   "chapter": "trail",
+   "sats": 90684350,
+   "outpoint": "e593decf33daaa8f58d88938db4daad12812473843ba83c6363d4e97123a565f:0"
   },
   {
    "from": "bc1qa94j36yqtsrsg4s3sefqwgnjd82vx5xle4pl7y",
