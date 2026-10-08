@@ -1,0 +1,16 @@
+{
+ "entries": [
+  {
+   "dir": "2026-10-08",
+   "label": "2026-10-08",
+   "signed": true,
+   "anchored_block": 970491
+  },
+  {
+   "dir": "2026-10-08-update1",
+   "label": "2026-10-08 (update 1: branch B completed in chapter 2)",
+   "signed": true,
+   "anchored_block": null
+  }
+ ]
+}

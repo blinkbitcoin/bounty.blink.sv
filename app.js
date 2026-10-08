@@ -148,6 +148,18 @@ function renderChapterTables(rows) {
   }
 }
 
+function renderTimestamps(idx) {
+  const box = $("#ts-list");
+  if (!box || !idx) return;
+  for (const t of [...idx.entries].reverse()) {
+    const base = `timestamps/${t.dir}/manifest.txt`;
+    box.append(el("br"), `${t.label}: `, el("a", { href: base, text: "manifest" }), " · ",
+      el("a", { href: `${base}.asc`, text: t.signed ? "signature" : "signature (pending)" }), " · ",
+      el("a", { href: `${base}.ots`, text: "OpenTimestamps proof" }),
+      t.anchored_block ? ` (anchored in Bitcoin block ${t.anchored_block})` : " (anchoring pending)");
+  }
+}
+
 function renderFederations(rows) {
   const tb = $("#fed-table tbody");
   if (!tb) return;
@@ -288,6 +300,7 @@ function renderGraph(sec, flows, rowsById, holdings) {
     renderStatus(meta, holdings);
     renderHoldings(holdings);
     renderTimeline(timeline);
+    renderTimestamps(B ? B.timestamps : await getJSON("timestamps/index.json").catch(() => null));
     renderFederations(rows);
     for (const sec of $$("section.chapter")) renderGraph(sec, flows, rowsById, holdings);
     renderChapterTables(rows);
