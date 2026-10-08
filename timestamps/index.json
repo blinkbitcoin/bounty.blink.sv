@@ -34,7 +34,7 @@
    "dir": "2026-10-08T1726Z",
    "label": "2026-10-08T1726Z (reviewed: M-X2 classified (M-A5 back as probable, M-A7 change); six aegis-ln channel closes M-X3\u2013M-X8 (L-C02, L-C06, L-C15, L-C16, L-C17, L-C19), outputs not yet established)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970517
   },
   {
    "dir": "2026-10-08T1755Z",
@@ -57,6 +57,12 @@
   {
    "dir": "2026-10-08T1907Z",
    "label": "2026-10-08T1907Z (M-A10 added: the sweep M-X11 confirmed (block 970518); its single output 21,779,854 sats probable)",
+   "signed": true,
+   "anchored_block": null
+  },
+  {
+   "dir": "2026-10-08T1930Z",
+   "label": "2026-10-08T1930Z (movement: M-X12, M-X13, M-X14, M-X15, M-X16, M-X17, M-X18, M-X19, M-X20, M-X21, M-X22, M-X23)",
    "signed": true,
    "anchored_block": null
   }
