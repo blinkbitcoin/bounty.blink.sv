@@ -8,10 +8,17 @@
 <title>Following the coins of the 19 September 2026 Blink attacker</title>
 <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 </head>
 <body>
 <header>
-  <img class="logo" src="img/blink-logo-horizontal.svg" alt="Blink" width="120" height="36">
+  <img class="logo on-light" src="img/blink-logo-horizontal.svg" alt="Blink" width="120" height="36">
+  <img class="logo on-dark" src="img/blink-logo-horizontal-on-dark.svg" alt="Blink" width="120" height="37">
+  <div class="theme-switch" role="group" aria-label="Colour theme" hidden>
+    <button type="button" data-theme-choice="auto" aria-pressed="true" title="Follow the device setting">Auto</button>
+    <button type="button" data-theme-choice="light" aria-pressed="false">Light</button>
+    <button type="button" data-theme-choice="dark" aria-pressed="false">Dark</button>
+  </div>
   <span class="eyebrow">Security incident of 19 September 2026</span>
   <h1>Following the coins of the 19 September 2026 Blink attacker</h1>
   <p class="lede">On 19 September 2026 an attacker took about 6.61 BTC from 24 Blink accounts. Every customer was

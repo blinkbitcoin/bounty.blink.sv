@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-08",
+ "as_of": "2026-10-09",
  "classes": {
   "service": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
   "blink_hot_wallet": "Blink hot wallet",
