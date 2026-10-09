@@ -89,6 +89,12 @@
    "label": "2026-10-09T0543Z (dark mode + theme switcher (presentation only))",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-09T0603Z",
+   "label": "2026-10-09T0603Z (daily refresh)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }
