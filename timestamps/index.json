@@ -101,6 +101,12 @@
    "label": "2026-10-09T2306Z (movement: M-X30, M-X31)",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-09T2341Z",
+   "label": "2026-10-09T2341Z (movement: M-X32)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }
