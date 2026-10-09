@@ -1,6 +1,6 @@
 {
- "checked_at": "2026-10-09T06:09:57Z",
- "tip_height": 970590,
+ "checked_at": "2026-10-09T23:13:09Z",
+ "tip_height": 970687,
  "addresses": [
   {
    "id": "M-A13",
@@ -11,59 +11,9 @@
    "foreign_sats": 0,
    "note": "",
    "link": "https://mempool.space/address/bc1q2u68srs483tqjxd226vvqrknlnlrvfn67dhlup"
-  },
-  {
-   "id": "T-A3",
-   "chapter": "theft",
-   "value": "bc1qn5trkke5vrwzcvv9mrgpc3frthtf9sw0xeregn",
-   "attribution": "proven",
-   "balance_sats": 27368371,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qn5trkke5vrwzcvv9mrgpc3frthtf9sw0xeregn"
-  },
-  {
-   "id": "T-A5",
-   "chapter": "theft",
-   "value": "bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3",
-   "attribution": "proven",
-   "balance_sats": 16075834,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qd7plvqsu8vjl0gptj290yza9y4mrghg0gjf5m3"
-  },
-  {
-   "id": "T-A6",
-   "chapter": "theft",
-   "value": "bc1qh7dg3pevyx9sskwj03qydnnsm65r226szevg4e",
-   "attribution": "proven",
-   "balance_sats": 14932316,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qh7dg3pevyx9sskwj03qydnnsm65r226szevg4e"
-  },
-  {
-   "id": "T-A7",
-   "chapter": "theft",
-   "value": "bc1q3zdycxp55qlym4gfgl7nj8xdue4sdma7k5wnjl",
-   "attribution": "proven",
-   "balance_sats": 14406638,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1q3zdycxp55qlym4gfgl7nj8xdue4sdma7k5wnjl"
-  },
-  {
-   "id": "T-A8",
-   "chapter": "theft",
-   "value": "bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar",
-   "attribution": "proven",
-   "balance_sats": 13871841,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar"
   }
  ],
- "total_proven_sats": 86655000,
+ "total_proven_sats": 0,
  "total_traced_sats": 458999079,
  "total_probable_sats": 0
 }
