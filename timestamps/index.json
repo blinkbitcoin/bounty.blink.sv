@@ -119,6 +119,12 @@
    "label": "2026-10-10T0023Z (reviewed: night of 9\u201310 Oct \u2014 the theft coins' destination spent by him (M-X37) \u21d2 traced, change 46,715,181; M-A40 spent (M-X38), change 400,995,843 traced; M-X36; round 33M / 40M outputs not yet established)",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-10T0033Z",
+   "label": "2026-10-10T0033Z (movement: M-X39)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

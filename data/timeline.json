@@ -1185,6 +1185,22 @@
      "link": "https://mempool.space/tx/9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb"
     }
    ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "00:33 UTC: 46,715,181 sats left M-A47 (seen unconfirmed). Where the coins went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X39",
+     "type": "tx",
+     "value": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0",
+     "link": "https://mempool.space/tx/24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0"
+    }
+   ]
   }
  ]
 }

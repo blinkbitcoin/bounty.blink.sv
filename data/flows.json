@@ -3684,6 +3684,24 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 33000000
+  },
+  {
+   "id": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0",
+   "kind": "tx",
+   "ref": "M-X39",
+   "chapter": "live",
+   "role": "Movement: 46,715,181 sats left M-A47; where they went is being analysed",
+   "attribution": "traced",
+   "time": "unconfirmed",
+   "block": null
+  },
+  {
+   "id": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 46714810
   }
  ],
  "edges": [
@@ -6432,6 +6450,19 @@
    "chapter": "live",
    "sats": 400995843,
    "outpoint": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb:1"
+  },
+  {
+   "from": "bc1q0vqm4vslqkwzgzmlm0uzp8qxvhzd9mf8kzwn27",
+   "to": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0",
+   "chapter": "live",
+   "sats": 46715181
+  },
+  {
+   "from": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0",
+   "to": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0:0",
+   "chapter": "live",
+   "sats": 46714810,
+   "outpoint": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0:0"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
