@@ -136,6 +136,12 @@
    "dir": "2026-10-10T0524Z",
    "label": "2026-10-10T0524Z (reviewed: 10 Oct peel chain from M-A48 \u2014 M-X40 classified, M-X41/M-X42; three changes traced, 301,993,556 unspent; 33M legs not yet established)",
    "signed": true,
+   "anchored_block": 970731
+  },
+  {
+   "dir": "2026-10-10T1154Z",
+   "label": "2026-10-10T1154Z (M-X39 wording: confirmed (block 970697), coins sent on to a destination not yet established (was the auto text 'being analysed'))",
+   "signed": true,
    "anchored_block": null
   }
  ]

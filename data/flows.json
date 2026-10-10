@@ -3717,7 +3717,7 @@
    "kind": "tx",
    "ref": "M-X39",
    "chapter": "live",
-   "role": "Movement: 46,715,181 sats left M-A47; where they went is being analysed",
+   "role": "10 Oct, 00:33 UTC: he sent the 46,715,181 sats at M-A47 (the change of M-X37) on to a destination not yet established",
    "attribution": "traced",
    "time": "2026-10-10T00:41:50Z",
    "block": 970697
