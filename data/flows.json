@@ -1471,6 +1471,33 @@
    "received_sats": 400995843
   },
   {
+   "id": "bc1qv64q4r0tdrtp8n3n99wgftxcrkkv3erfk7whwe",
+   "kind": "address",
+   "ref": "M-A49",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 367,993,838 sats, the change of M-X40, spent by him in M-X41",
+   "received_sats": 367993838
+  },
+  {
+   "id": "bc1qchk6kv0e8k0v0vzksdl6q00eenamkhayknre36",
+   "kind": "address",
+   "ref": "M-A50",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 334,993,697 sats, the change of M-X41, spent by him in M-X42",
+   "received_sats": 334993697
+  },
+  {
+   "id": "bc1q5mfzgcm4sqz36z2s8m9lklgwnhx8ckdyfz4zmu",
+   "kind": "address",
+   "ref": "M-A51",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 301,993,556 sats, the change of M-X42",
+   "received_sats": 301993556
+  },
+  {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
    "kind": "tx",
    "ref": "X-X07",
@@ -3708,21 +3735,49 @@
    "kind": "tx",
    "ref": "M-X40",
    "chapter": "live",
-   "role": "Movement: 400,995,843 sats left M-A48; where they went is being analysed",
+   "role": "10 Oct, 00:59 UTC: he spent M-A48 — 33,000,000 sats to a destination not yet established, 367,993,838 sats change (M-A49)",
    "attribution": "traced",
    "time": "2026-10-10T00:59:32Z",
    "block": 970701
   },
   {
-   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0",
+   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1",
    "kind": "sink",
    "class": "pending",
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
-   "received_sats": 367993838
+   "received_sats": 33000000
   },
   {
-   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1",
+   "id": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403",
+   "kind": "tx",
+   "ref": "M-X41",
+   "chapter": "live",
+   "role": "10 Oct, 02:20 UTC: he spent the change of M-X40 (M-A49) — 33,000,000 sats to a destination not yet established, 334,993,697 sats change (M-A50)",
+   "attribution": "traced",
+   "time": "2026-10-10T02:20:24Z",
+   "block": 970708
+  },
+  {
+   "id": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 33000000
+  },
+  {
+   "id": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca",
+   "kind": "tx",
+   "ref": "M-X42",
+   "chapter": "live",
+   "role": "10 Oct, 04:10 UTC: he spent the change of M-X41 (M-A50) — 33,000,000 sats to a destination not yet established, 301,993,556 sats change (M-A51)",
+   "attribution": "traced",
+   "time": "2026-10-10T04:10:55Z",
+   "block": 970718
+  },
+  {
+   "id": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca:1",
    "kind": "sink",
    "class": "pending",
    "chapter": "live",
@@ -6498,7 +6553,7 @@
   },
   {
    "from": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0",
-   "to": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0",
+   "to": "bc1qv64q4r0tdrtp8n3n99wgftxcrkkv3erfk7whwe",
    "chapter": "live",
    "sats": 367993838,
    "outpoint": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0"
@@ -6509,6 +6564,46 @@
    "chapter": "live",
    "sats": 33000000,
    "outpoint": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1"
+  },
+  {
+   "from": "bc1qv64q4r0tdrtp8n3n99wgftxcrkkv3erfk7whwe",
+   "to": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403",
+   "chapter": "live",
+   "sats": 367993838
+  },
+  {
+   "from": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403",
+   "to": "bc1qchk6kv0e8k0v0vzksdl6q00eenamkhayknre36",
+   "chapter": "live",
+   "sats": 334993697,
+   "outpoint": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403:0"
+  },
+  {
+   "from": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403",
+   "to": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403:1",
+   "chapter": "live",
+   "sats": 33000000,
+   "outpoint": "70a68c9d1598648841a8d440e70bae767166a0f5b327f878090cc9b586e01403:1"
+  },
+  {
+   "from": "bc1qchk6kv0e8k0v0vzksdl6q00eenamkhayknre36",
+   "to": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca",
+   "chapter": "live",
+   "sats": 334993697
+  },
+  {
+   "from": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca",
+   "to": "bc1q5mfzgcm4sqz36z2s8m9lklgwnhx8ckdyfz4zmu",
+   "chapter": "live",
+   "sats": 301993556,
+   "outpoint": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca:0"
+  },
+  {
+   "from": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca",
+   "to": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca:1",
+   "chapter": "live",
+   "sats": 33000000,
+   "outpoint": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
