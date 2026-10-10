@@ -1229,6 +1229,22 @@
      "link": "https://mempool.space/tx/c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca"
     }
    ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "20:50 UTC: 301,993,556 sats left M-A51. Where the coins went is being analysed.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X43",
+     "type": "tx",
+     "value": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
+     "link": "https://mempool.space/tx/f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027"
+    }
+   ]
   }
  ]
 }

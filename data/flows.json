@@ -3783,6 +3783,32 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 33000000
+  },
+  {
+   "id": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
+   "kind": "tx",
+   "ref": "M-X43",
+   "chapter": "live",
+   "role": "Movement: 301,993,556 sats left M-A51; where they went is being analysed",
+   "attribution": "traced",
+   "time": "2026-10-10T20:50:23Z",
+   "block": 970828
+  },
+  {
+   "id": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 266991984
+  },
+  {
+   "id": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 35000000
   }
  ],
  "edges": [
@@ -6604,6 +6630,26 @@
    "chapter": "live",
    "sats": 33000000,
    "outpoint": "c5f00f8b4b318e7e9fa1cf13d1448c2f3f70f6b333b9de6ccde0b204e3b94fca:1"
+  },
+  {
+   "from": "bc1q5mfzgcm4sqz36z2s8m9lklgwnhx8ckdyfz4zmu",
+   "to": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
+   "chapter": "live",
+   "sats": 301993556
+  },
+  {
+   "from": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
+   "to": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0",
+   "chapter": "live",
+   "sats": 266991984,
+   "outpoint": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0"
+  },
+  {
+   "from": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
+   "to": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:1",
+   "chapter": "live",
+   "sats": 35000000,
+   "outpoint": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",

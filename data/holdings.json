@@ -1,19 +1,8 @@
 {
- "checked_at": "2026-10-10T12:12:49Z",
- "tip_height": 970759,
- "addresses": [
-  {
-   "id": "M-A51",
-   "chapter": "live",
-   "value": "bc1q5mfzgcm4sqz36z2s8m9lklgwnhx8ckdyfz4zmu",
-   "attribution": "traced",
-   "balance_sats": 301993556,
-   "foreign_sats": 0,
-   "note": "",
-   "link": "https://mempool.space/address/bc1q5mfzgcm4sqz36z2s8m9lklgwnhx8ckdyfz4zmu"
-  }
- ],
+ "checked_at": "2026-10-10T21:01:52Z",
+ "tip_height": 970828,
+ "addresses": [],
  "total_proven_sats": 0,
- "total_traced_sats": 301993556,
+ "total_traced_sats": 0,
  "total_probable_sats": 0
 }
