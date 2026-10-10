@@ -3692,8 +3692,8 @@
    "chapter": "live",
    "role": "Movement: 46,715,181 sats left M-A47; where they went is being analysed",
    "attribution": "traced",
-   "time": "unconfirmed",
-   "block": null
+   "time": "2026-10-10T00:41:50Z",
+   "block": 970697
   },
   {
    "id": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0:0",
@@ -3702,6 +3702,32 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 46714810
+  },
+  {
+   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0",
+   "kind": "tx",
+   "ref": "M-X40",
+   "chapter": "live",
+   "role": "Movement: 400,995,843 sats left M-A48; where they went is being analysed",
+   "attribution": "traced",
+   "time": "2026-10-10T00:59:32Z",
+   "block": 970701
+  },
+  {
+   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 367993838
+  },
+  {
+   "id": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 33000000
   }
  ],
  "edges": [
@@ -6463,6 +6489,26 @@
    "chapter": "live",
    "sats": 46714810,
    "outpoint": "24b7435e30f7da1eb0feca910a2d59134af0ae607f8c4f5597eceb5ed13394a0:0"
+  },
+  {
+   "from": "bc1qfvn07asrqqty63x9z2h6pnqpj788yq5v5yssmp",
+   "to": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0",
+   "chapter": "live",
+   "sats": 400995843
+  },
+  {
+   "from": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0",
+   "to": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0",
+   "chapter": "live",
+   "sats": 367993838,
+   "outpoint": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:0"
+  },
+  {
+   "from": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0",
+   "to": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1",
+   "chapter": "live",
+   "sats": 33000000,
+   "outpoint": "2bacc48d980991a971fc2f9bc8a3db6d2113aea7cccbbea4a1f00438073696d0:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",
