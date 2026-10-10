@@ -1363,6 +1363,87 @@
    "received_sats": 5473775
   },
   {
+   "id": "bc1qgjus6rz0ha7cetuxzyx436mvzc4dde57nha598",
+   "kind": "address",
+   "ref": "M-A37",
+   "chapter": "live",
+   "attribution": "proven",
+   "role": "His address — 14,928 sats spent together with the coins at T-A3, T-A5, T-A6 and T-A7 in M-X31",
+   "received_sats": 14928
+  },
+  {
+   "id": "bc1qa6luy2tx85vyq87sz72amd7n049zxar3a8v7zd",
+   "kind": "address",
+   "ref": "M-A38",
+   "chapter": "live",
+   "attribution": "proven",
+   "role": "His address — 9,334 sats spent together with the coins at T-A3, T-A5, T-A6 and T-A7 in M-X31",
+   "received_sats": 9334
+  },
+  {
+   "id": "bc1p0js9a2vgxygcy2efycm4jldta80re4j3y9tk24vfdgayckshkzwqhjxhnx",
+   "kind": "address",
+   "ref": "M-A39",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — the 40,000-sat output of his sweep M-X28, spent by him in M-X33",
+   "received_sats": 40000
+  },
+  {
+   "id": "bc1q2l6qqrsspuh53jfca64twsf8ltz9y07mtwgf3w",
+   "kind": "address",
+   "ref": "M-A40",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 433,997,585 sats, the change of M-X32",
+   "received_sats": 433997585
+  },
+  {
+   "id": "bc1qtgphy42k6fmj22tgqf0gk2rxkpmdj335809w9y",
+   "kind": "address",
+   "ref": "M-A41",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — a round 25,000,000-sat output of M-X25, spent by him in M-X34",
+   "received_sats": 25000000
+  },
+  {
+   "id": "bc1qlkchxg7350hp6vt7ur4s4sfvr9wl8hp2ga9hmm",
+   "kind": "address",
+   "ref": "M-A42",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — a round 25,000,000-sat output of S-X8 (28 Sep), spent by him in M-X34",
+   "received_sats": 25000000
+  },
+  {
+   "id": "bc1qj4qdzsvwkz632ympvfh8crqpf8a5hjzzmttnmq",
+   "kind": "address",
+   "ref": "M-A43",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 24,999,864 sats from S-X8 (28 Sep), spent by him in M-X34",
+   "received_sats": 24999864
+  },
+  {
+   "id": "bc1q83fj4g8exmm98rwnutqkzv8ysd8jc5mr05e0ae",
+   "kind": "address",
+   "ref": "M-A44",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 24,999,588 sats, the change of M-X34, spent by him in M-X35",
+   "received_sats": 24999588
+  },
+  {
+   "id": "bc1qr9z4wpechf2te3sdkh098j580vhmhjujdscnr3",
+   "kind": "address",
+   "ref": "M-A45",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 998,075 sats, the change of M-X35",
+   "received_sats": 998075
+  },
+  {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
    "kind": "tx",
    "ref": "X-X07",
@@ -2114,18 +2195,10 @@
    "kind": "tx",
    "ref": "S-X8",
    "chapter": "trail",
-   "role": "2026-09-28: 25,000,000 sats paid into a swap service; 483,999,248 sats most likely kept (unspent)",
+   "role": "2026-09-28: 25,000,000 sats paid into a swap service; 483,999,248 sats most likely kept (unspent) — the two other round outputs (25,000,000 and 24,999,864 sats) turned out to be his: he spent them himself on 9 Oct (M-X34)",
    "attribution": "traced",
    "time": "2026-09-28T22:27:58Z",
    "block": 969057
-  },
-  {
-   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0",
-   "kind": "sink",
-   "class": "withheld",
-   "chapter": "trail",
-   "label": "Paid by him — owner not established; not published",
-   "received_sats": 25000000
   },
   {
    "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:1",
@@ -2134,14 +2207,6 @@
    "chapter": "trail",
    "label": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
    "received_sats": 25000000
-  },
-  {
-   "id": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3",
-   "kind": "sink",
-   "class": "withheld",
-   "chapter": "trail",
-   "label": "Paid by him — owner not established; not published",
-   "received_sats": 24999864
   },
   {
    "id": "16f2d58d307482cf8bfe8464ec07dd52e217fee45642704bdc0fa98a29a4e1c7",
@@ -3430,14 +3495,6 @@
    "block": 970531
   },
   {
-   "id": "f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 40000
-  },
-  {
    "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
    "kind": "tx",
    "ref": "M-X25",
@@ -3456,14 +3513,6 @@
    "received_sats": 8643
   },
   {
-   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 25000000
-  },
-  {
    "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3",
    "kind": "sink",
    "class": "pending",
@@ -3472,11 +3521,29 @@
    "received_sats": 25000000
   },
   {
+   "id": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "kind": "tx",
+   "ref": "M-X34",
+   "chapter": "live",
+   "role": "9 Oct, 22:23 UTC: he spent three round outputs of his own earlier transactions together (M-A41 from M-X25; M-A42 and M-A43 from S-X8) — 50,000,000 sats to a destination not yet established, 24,999,588 sats change (M-A44)",
+   "attribution": "traced",
+   "time": "2026-10-09T22:23:20Z",
+   "block": 970685
+  },
+  {
+   "id": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 50000000
+  },
+  {
    "id": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073",
    "kind": "tx",
    "ref": "M-X30",
    "chapter": "live",
-   "role": "Movement: 13,871,841 sats left T-A8; where they went is being analysed",
+   "role": "9 Oct, 23:14 UTC: the 13,871,841 sats at T-A8, untouched since 20 Sep, moved to a new address (destination not yet established) — the same address as M-X31 and M-X33",
    "attribution": "proven",
    "time": "2026-10-09T23:14:51Z",
    "block": 970688
@@ -3494,7 +3561,7 @@
    "kind": "tx",
    "ref": "M-X31",
    "chapter": "live",
-   "role": "Movement: 72,783,159 sats left T-A3, T-A5, T-A6, T-A7; where they went is being analysed",
+   "role": "9 Oct, 23:14 UTC: the coins at T-A3, T-A5, T-A6 and T-A7, untouched since 20 Sep, moved together with two small coins of his (M-A37, M-A38) to a new address (destination not yet established) — the same address as M-X30 and M-X33",
    "attribution": "proven",
    "time": "2026-10-09T23:14:51Z",
    "block": 970688
@@ -3508,22 +3575,50 @@
    "received_sats": 72804921
   },
   {
-   "id": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
+   "id": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
    "kind": "tx",
-   "ref": "M-X32",
+   "ref": "M-X33",
    "chapter": "live",
-   "role": "Movement: 458,999,079 sats left M-A13; where they went is being analysed",
+   "role": "9 Oct, 23:14 UTC: he sent the 40,000-sat output of his aegis-ln sweep M-X28 (M-A39) to the same address as the coins from the theft addresses (M-X30, M-X31) — destination not yet established",
    "attribution": "traced",
-   "time": "2026-10-09T23:41:32Z",
-   "block": 970692
+   "time": "2026-10-09T23:14:51Z",
+   "block": 970688
   },
   {
-   "id": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea:0",
+   "id": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0",
    "kind": "sink",
    "class": "pending",
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
-   "received_sats": 433997585
+   "received_sats": 39891
+  },
+  {
+   "id": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
+   "kind": "tx",
+   "ref": "M-X35",
+   "chapter": "live",
+   "role": "9 Oct, 23:18 UTC: he spent the change of M-X34 — 24,000,000 sats to a destination not yet established, 998,075 sats change (M-A45)",
+   "attribution": "traced",
+   "time": "2026-10-09T23:18:19Z",
+   "block": 970689
+  },
+  {
+   "id": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 24000000
+  },
+  {
+   "id": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
+   "kind": "tx",
+   "ref": "M-X32",
+   "chapter": "live",
+   "role": "9 Oct, 23:41 UTC: he spent M-A13 — 25,000,000 sats to a destination not yet established, 433,997,585 sats change (M-A40)",
+   "attribution": "traced",
+   "time": "2026-10-09T23:41:32Z",
+   "block": 970692
   },
   {
    "id": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea:1",
@@ -4456,7 +4551,7 @@
   },
   {
    "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
-   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0",
+   "to": "bc1qlkchxg7350hp6vt7ur4s4sfvr9wl8hp2ga9hmm",
    "chapter": "trail",
    "sats": 25000000,
    "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:0"
@@ -4477,7 +4572,7 @@
   },
   {
    "from": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f",
-   "to": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3",
+   "to": "bc1qj4qdzsvwkz632ympvfh8crqpf8a5hjzzmttnmq",
    "chapter": "trail",
    "sats": 24999864,
    "outpoint": "02e56fd46a602f3faefd9768b25f6f7869ed48a715a8256c9428a0474ebc928f:3"
@@ -6029,7 +6124,7 @@
   },
   {
    "from": "f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a",
-   "to": "f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a:0",
+   "to": "bc1p0js9a2vgxygcy2efycm4jldta80re4j3y9tk24vfdgayckshkzwqhjxhnx",
    "chapter": "live",
    "sats": 40000,
    "outpoint": "f9b1b0a2b60a5d3a236e476ee7453d412f1e0e4c9a2e56ef72c6816eb676948a:0"
@@ -6068,7 +6163,7 @@
   },
   {
    "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
-   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1",
+   "to": "bc1qtgphy42k6fmj22tgqf0gk2rxkpmdj335809w9y",
    "chapter": "live",
    "sats": 25000000,
    "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:1"
@@ -6086,6 +6181,38 @@
    "chapter": "live",
    "sats": 25000000,
    "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3"
+  },
+  {
+   "from": "bc1qlkchxg7350hp6vt7ur4s4sfvr9wl8hp2ga9hmm",
+   "to": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "chapter": "live",
+   "sats": 25000000
+  },
+  {
+   "from": "bc1qtgphy42k6fmj22tgqf0gk2rxkpmdj335809w9y",
+   "to": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "chapter": "live",
+   "sats": 25000000
+  },
+  {
+   "from": "bc1qj4qdzsvwkz632ympvfh8crqpf8a5hjzzmttnmq",
+   "to": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "chapter": "live",
+   "sats": 24999864
+  },
+  {
+   "from": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "to": "bc1q83fj4g8exmm98rwnutqkzv8ysd8jc5mr05e0ae",
+   "chapter": "live",
+   "sats": 24999588,
+   "outpoint": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce:0"
+  },
+  {
+   "from": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+   "to": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce:1",
+   "chapter": "live",
+   "sats": 50000000,
+   "outpoint": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce:1"
   },
   {
    "from": "bc1qjry38zhedvsl5m45n3hx5cmk8w4c8e4ye36dar",
@@ -6125,11 +6252,56 @@
    "sats": 14932316
   },
   {
+   "from": "bc1qgjus6rz0ha7cetuxzyx436mvzc4dde57nha598",
+   "to": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
+   "chapter": "live",
+   "sats": 14928
+  },
+  {
+   "from": "bc1qa6luy2tx85vyq87sz72amd7n049zxar3a8v7zd",
+   "to": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
+   "chapter": "live",
+   "sats": 9334
+  },
+  {
    "from": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
    "to": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983:0",
    "chapter": "live",
    "sats": 72804921,
    "outpoint": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983:0"
+  },
+  {
+   "from": "bc1p0js9a2vgxygcy2efycm4jldta80re4j3y9tk24vfdgayckshkzwqhjxhnx",
+   "to": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
+   "chapter": "live",
+   "sats": 40000
+  },
+  {
+   "from": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
+   "to": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0",
+   "chapter": "live",
+   "sats": 39891,
+   "outpoint": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0"
+  },
+  {
+   "from": "bc1q83fj4g8exmm98rwnutqkzv8ysd8jc5mr05e0ae",
+   "to": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
+   "chapter": "live",
+   "sats": 24999588
+  },
+  {
+   "from": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
+   "to": "bc1qr9z4wpechf2te3sdkh098j580vhmhjujdscnr3",
+   "chapter": "live",
+   "sats": 998075,
+   "outpoint": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003:0"
+  },
+  {
+   "from": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
+   "to": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003:1",
+   "chapter": "live",
+   "sats": 24000000,
+   "outpoint": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003:1"
   },
   {
    "from": "bc1q2u68srs483tqjxd226vvqrknlnlrvfn67dhlup",
@@ -6139,7 +6311,7 @@
   },
   {
    "from": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
-   "to": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea:0",
+   "to": "bc1q2l6qqrsspuh53jfca64twsf8ltz9y07mtwgf3w",
    "chapter": "live",
    "sats": 433997585,
    "outpoint": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea:0"

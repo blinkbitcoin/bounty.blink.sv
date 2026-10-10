@@ -1102,7 +1102,7 @@
    "date": "2026-10-09",
    "kind": "onchain",
    "chapter": "live",
-   "text": "23:06 UTC: 13,871,841 sats left T-A8 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "23:14 UTC: the coins at the five original theft addresses that still held coins (T-A3, T-A5, T-A6, T-A7, T-A8), untouched since 20 September, move to one new address together with two small coins of his. In the same block his aegis-ln wallet sends 40,000 sats to that same address. Where it leads is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1111,22 +1111,18 @@
      "type": "tx",
      "value": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073",
      "link": "https://mempool.space/tx/98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073"
-    }
-   ]
-  },
-  {
-   "date": "2026-10-09",
-   "kind": "onchain",
-   "chapter": "live",
-   "text": "23:06 UTC: 72,783,159 sats left T-A3, T-A5, T-A6, T-A7 (seen unconfirmed). Where the coins went is being analysed.",
-   "source_url": null,
-   "source_label": "Source: Blink post-mortem",
-   "indicators": [
+    },
     {
      "id": "M-X31",
      "type": "tx",
      "value": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
      "link": "https://mempool.space/tx/afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983"
+    },
+    {
+     "id": "M-X33",
+     "type": "tx",
+     "value": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
+     "link": "https://mempool.space/tx/d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd"
     }
    ]
   },
@@ -1134,7 +1130,7 @@
    "date": "2026-10-09",
    "kind": "onchain",
    "chapter": "live",
-   "text": "23:41 UTC: 458,999,079 sats left M-A13 (seen unconfirmed). Where the coins went is being analysed.",
+   "text": "23:41 UTC: he spends the 458,999,079 sats at M-A13 — 25,000,000 sats to a destination not yet established, 433,997,585 sats stay with him as change.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1143,6 +1139,28 @@
      "type": "tx",
      "value": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
      "link": "https://mempool.space/tx/ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "22:23 UTC: he spends three round outputs of his own earlier transactions together — two from 28 September (S-X8) and one from 8 October (M-X25) — so they were never payments. 50,000,000 sats go to a destination not yet established; the change goes on at 23:18 (M-X35): 24,000,000 sats to a destination not yet established, 998,075 sats kept.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X34",
+     "type": "tx",
+     "value": "274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce",
+     "link": "https://mempool.space/tx/274a54fd10c52d6eaa3089ebc7f7fd81c0c32107c14bb1827123debadfcfbfce"
+    },
+    {
+     "id": "M-X35",
+     "type": "tx",
+     "value": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
+     "link": "https://mempool.space/tx/245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003"
     }
    ]
   }

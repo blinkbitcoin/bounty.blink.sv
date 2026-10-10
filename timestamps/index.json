@@ -100,11 +100,17 @@
    "dir": "2026-10-09T2306Z",
    "label": "2026-10-09T2306Z (movement: M-X30, M-X31)",
    "signed": true,
-   "anchored_block": null
+   "anchored_block": 970690
   },
   {
    "dir": "2026-10-09T2341Z",
    "label": "2026-10-09T2341Z (movement: M-X32)",
+   "signed": true,
+   "anchored_block": null
+  },
+  {
+   "dir": "2026-10-09T2355Z",
+   "label": "2026-10-09T2355Z (reviewed: night of 9 Oct \u2014 theft addresses moved (M-X30/M-X31 \u2192 shared destination, not yet established; two co-spent coins proven); M-X32 change 433,997,585 traced; three 'payments' of S-X8 / M-X25 spent together by him (M-X34, M-X35); aegis-ln 40,000 to the same destination (M-X33))",
    "signed": true,
    "anchored_block": null
   }
