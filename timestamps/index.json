@@ -113,6 +113,12 @@
    "label": "2026-10-09T2355Z (reviewed: night of 9 Oct \u2014 theft addresses moved (M-X30/M-X31 \u2192 shared destination, not yet established; two co-spent coins proven); M-X32 change 433,997,585 traced; three 'payments' of S-X8 / M-X25 spent together by him (M-X34, M-X35); aegis-ln 40,000 to the same destination (M-X33))",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-10T0023Z",
+   "label": "2026-10-10T0023Z (reviewed: night of 9\u201310 Oct \u2014 the theft coins' destination spent by him (M-X37) \u21d2 traced, change 46,715,181; M-A40 spent (M-X38), change 400,995,843 traced; M-X36; round 33M / 40M outputs not yet established)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

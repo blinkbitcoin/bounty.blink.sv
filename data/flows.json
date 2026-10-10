@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-09",
+ "as_of": "2026-10-10",
  "classes": {
   "service": "Deposit into a cross-chain swap service (an intermediary routing orders through NEAR Intents) — not the attacker",
   "blink_hot_wallet": "Blink hot wallet",
@@ -1442,6 +1442,33 @@
    "attribution": "traced",
    "role": "His address — 998,075 sats, the change of M-X35",
    "received_sats": 998075
+  },
+  {
+   "id": "bc1q2jqvhp7mgwmk7v3psgzf5p4dlj5g0kupqjsf0v",
+   "kind": "address",
+   "ref": "M-A46",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — the coins from the five theft addresses (M-X30, M-X31) and 39,891 sats from his aegis-ln sweep (M-X33) went here; he spent all of it in M-X37",
+   "received_sats": 86716153
+  },
+  {
+   "id": "bc1q0vqm4vslqkwzgzmlm0uzp8qxvhzd9mf8kzwn27",
+   "kind": "address",
+   "ref": "M-A47",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 46,715,181 sats, the change of M-X37",
+   "received_sats": 46715181
+  },
+  {
+   "id": "bc1qfvn07asrqqty63x9z2h6pnqpj788yq5v5yssmp",
+   "kind": "address",
+   "ref": "M-A48",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 400,995,843 sats, the change of M-X38",
+   "received_sats": 400995843
   },
   {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
@@ -3543,54 +3570,30 @@
    "kind": "tx",
    "ref": "M-X30",
    "chapter": "live",
-   "role": "9 Oct, 23:14 UTC: the 13,871,841 sats at T-A8, untouched since 20 Sep, moved to a new address (destination not yet established) — the same address as M-X31 and M-X33",
+   "role": "9 Oct, 23:14 UTC: the 13,871,841 sats at T-A8, untouched since 20 Sep, moved to a new address of his (M-A46) — the same address as M-X31 and M-X33",
    "attribution": "proven",
    "time": "2026-10-09T23:14:51Z",
    "block": 970688
-  },
-  {
-   "id": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 13871341
   },
   {
    "id": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
    "kind": "tx",
    "ref": "M-X31",
    "chapter": "live",
-   "role": "9 Oct, 23:14 UTC: the coins at T-A3, T-A5, T-A6 and T-A7, untouched since 20 Sep, moved together with two small coins of his (M-A37, M-A38) to a new address (destination not yet established) — the same address as M-X30 and M-X33",
+   "role": "9 Oct, 23:14 UTC: the coins at T-A3, T-A5, T-A6 and T-A7, untouched since 20 Sep, moved together with two small coins of his (M-A37, M-A38) to a new address of his (M-A46) — the same address as M-X30 and M-X33",
    "attribution": "proven",
    "time": "2026-10-09T23:14:51Z",
    "block": 970688
-  },
-  {
-   "id": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 72804921
   },
   {
    "id": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
    "kind": "tx",
    "ref": "M-X33",
    "chapter": "live",
-   "role": "9 Oct, 23:14 UTC: he sent the 40,000-sat output of his aegis-ln sweep M-X28 (M-A39) to the same address as the coins from the theft addresses (M-X30, M-X31) — destination not yet established",
+   "role": "9 Oct, 23:14 UTC: he sent the 40,000-sat output of his aegis-ln sweep M-X28 (M-A39) to the same address as the coins from the theft addresses (M-X30, M-X31) (M-A46)",
    "attribution": "traced",
    "time": "2026-10-09T23:14:51Z",
    "block": 970688
-  },
-  {
-   "id": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 39891
   },
   {
    "id": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
@@ -3611,6 +3614,24 @@
    "received_sats": 24000000
   },
   {
+   "id": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6",
+   "kind": "tx",
+   "ref": "M-X36",
+   "chapter": "live",
+   "role": "9 Oct, 23:41 UTC: he sent the 998,075 sats at M-A45 on to a destination not yet established",
+   "attribution": "traced",
+   "time": "2026-10-09T23:41:32Z",
+   "block": 970692
+  },
+  {
+   "id": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 997360
+  },
+  {
    "id": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
    "kind": "tx",
    "ref": "M-X32",
@@ -3627,6 +3648,42 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 25000000
+  },
+  {
+   "id": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da",
+   "kind": "tx",
+   "ref": "M-X37",
+   "chapter": "live",
+   "role": "9 Oct, 23:57 UTC: he spent everything at M-A46 — the coins from the theft addresses (M-X30, M-X31) and from his aegis-ln sweep (M-X33) — 40,000,000 sats to a destination not yet established, 46,715,181 sats change (M-A47)",
+   "attribution": "traced",
+   "time": "2026-10-09T23:57:55Z",
+   "block": 970694
+  },
+  {
+   "id": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 40000000
+  },
+  {
+   "id": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb",
+   "kind": "tx",
+   "ref": "M-X38",
+   "chapter": "live",
+   "role": "10 Oct, 00:17 UTC: he spent M-A40 — 33,000,000 sats to a destination not yet established, 400,995,843 sats change (M-A48)",
+   "attribution": "traced",
+   "time": "2026-10-10T00:17:33Z",
+   "block": 970696
+  },
+  {
+   "id": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 33000000
   }
  ],
  "edges": [
@@ -6222,7 +6279,7 @@
   },
   {
    "from": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073",
-   "to": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073:0",
+   "to": "bc1q2jqvhp7mgwmk7v3psgzf5p4dlj5g0kupqjsf0v",
    "chapter": "live",
    "sats": 13871341,
    "outpoint": "98cb59b7a72d05f51e712a46a3ee4f53335df460b9e115e56477536a33520073:0"
@@ -6265,7 +6322,7 @@
   },
   {
    "from": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983",
-   "to": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983:0",
+   "to": "bc1q2jqvhp7mgwmk7v3psgzf5p4dlj5g0kupqjsf0v",
    "chapter": "live",
    "sats": 72804921,
    "outpoint": "afdad215e0848758960d8b58a1ec3fc768a6ba4197ea089df9902a8a01c5a983:0"
@@ -6278,7 +6335,7 @@
   },
   {
    "from": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
-   "to": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0",
+   "to": "bc1q2jqvhp7mgwmk7v3psgzf5p4dlj5g0kupqjsf0v",
    "chapter": "live",
    "sats": 39891,
    "outpoint": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd:0"
@@ -6304,6 +6361,19 @@
    "outpoint": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003:1"
   },
   {
+   "from": "bc1qr9z4wpechf2te3sdkh098j580vhmhjujdscnr3",
+   "to": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6",
+   "chapter": "live",
+   "sats": 998075
+  },
+  {
+   "from": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6",
+   "to": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6:0",
+   "chapter": "live",
+   "sats": 997360,
+   "outpoint": "4fabaae3537dcd84632bc74ee1b5b3d73f8d2af0518c9c01a1d20bb4151530e6:0"
+  },
+  {
    "from": "bc1q2u68srs483tqjxd226vvqrknlnlrvfn67dhlup",
    "to": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea",
    "chapter": "live",
@@ -6322,6 +6392,46 @@
    "chapter": "live",
    "sats": 25000000,
    "outpoint": "ced339894d4fef8b208d035f32e55d354353645d1b7d25072ca1f3fd6835b7ea:1"
+  },
+  {
+   "from": "bc1q2jqvhp7mgwmk7v3psgzf5p4dlj5g0kupqjsf0v",
+   "to": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da",
+   "chapter": "live",
+   "sats": 86716153
+  },
+  {
+   "from": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da",
+   "to": "bc1q0vqm4vslqkwzgzmlm0uzp8qxvhzd9mf8kzwn27",
+   "chapter": "live",
+   "sats": 46715181,
+   "outpoint": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da:0"
+  },
+  {
+   "from": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da",
+   "to": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da:1",
+   "chapter": "live",
+   "sats": 40000000,
+   "outpoint": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da:1"
+  },
+  {
+   "from": "bc1q2l6qqrsspuh53jfca64twsf8ltz9y07mtwgf3w",
+   "to": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb",
+   "chapter": "live",
+   "sats": 433997585
+  },
+  {
+   "from": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb",
+   "to": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb:0",
+   "chapter": "live",
+   "sats": 33000000,
+   "outpoint": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb:0"
+  },
+  {
+   "from": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb",
+   "to": "bc1qfvn07asrqqty63x9z2h6pnqpj788yq5v5yssmp",
+   "chapter": "live",
+   "sats": 400995843,
+   "outpoint": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",

@@ -1,19 +1,19 @@
 {
- "checked_at": "2026-10-10T00:03:00Z",
- "tip_height": 970694,
+ "checked_at": "2026-10-10T00:31:40Z",
+ "tip_height": 970696,
  "addresses": [
   {
-   "id": "M-A40",
+   "id": "M-A48",
    "chapter": "live",
-   "value": "bc1q2l6qqrsspuh53jfca64twsf8ltz9y07mtwgf3w",
+   "value": "bc1qfvn07asrqqty63x9z2h6pnqpj788yq5v5yssmp",
    "attribution": "traced",
-   "balance_sats": 433997585,
+   "balance_sats": 400995843,
    "foreign_sats": 0,
    "note": "",
-   "link": "https://mempool.space/address/bc1q2l6qqrsspuh53jfca64twsf8ltz9y07mtwgf3w"
+   "link": "https://mempool.space/address/bc1qfvn07asrqqty63x9z2h6pnqpj788yq5v5yssmp"
   }
  ],
  "total_proven_sats": 0,
- "total_traced_sats": 433997585,
+ "total_traced_sats": 400995843,
  "total_probable_sats": 0
 }

@@ -1,5 +1,5 @@
 {
- "as_of": "2026-10-09",
+ "as_of": "2026-10-10",
  "postmortem_url": "https://www.blink.sv/blog/sept-19-attack-postmortem-and-bounty",
  "bounty_terms_url": "https://www.blink.sv/en/bounty-terms",
  "entries": [
@@ -1102,7 +1102,7 @@
    "date": "2026-10-09",
    "kind": "onchain",
    "chapter": "live",
-   "text": "23:14 UTC: the coins at the five original theft addresses that still held coins (T-A3, T-A5, T-A6, T-A7, T-A8), untouched since 20 September, move to one new address together with two small coins of his. In the same block his aegis-ln wallet sends 40,000 sats to that same address. Where it leads is not yet established.",
+   "text": "23:14 UTC: the coins at the five original theft addresses that still held coins (T-A3, T-A5, T-A6, T-A7, T-A8), untouched since 20 September, move to one new address together with two small coins of his. In the same block his aegis-ln wallet sends 40,000 sats to that same address. At 23:57 he spends everything at that address himself (M-X37): 40,000,000 sats to a destination not yet established, 46,715,181 sats kept.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1123,6 +1123,12 @@
      "type": "tx",
      "value": "d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd",
      "link": "https://mempool.space/tx/d2ea895f4a2ff311cb8e400111c2194086ea1f1317fa281f230d5487314eb7dd"
+    },
+    {
+     "id": "M-X37",
+     "type": "tx",
+     "value": "4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da",
+     "link": "https://mempool.space/tx/4c31c1934d8c2f64bc557cb6c1bf708b4361b478312318ab3f1783be7d3718da"
     }
    ]
   },
@@ -1161,6 +1167,22 @@
      "type": "tx",
      "value": "245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003",
      "link": "https://mempool.space/tx/245047b7fbabce51c7b40e6c0ef87ac0c7e0e24eb9b6b3219ac45772180e9003"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "kind": "onchain",
+   "chapter": "live",
+   "text": "00:17 UTC: he spends the 433,997,585 sats at M-A40 — 33,000,000 sats to a destination not yet established, 400,995,843 sats stay with him as change.",
+   "source_url": null,
+   "source_label": "Source: Blink post-mortem",
+   "indicators": [
+    {
+     "id": "M-X38",
+     "type": "tx",
+     "value": "9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb",
+     "link": "https://mempool.space/tx/9c7a0ab0853822a8d3f1f2ad270d97a099fd01a8821bd4cb0dbf101f502465eb"
     }
    ]
   }
