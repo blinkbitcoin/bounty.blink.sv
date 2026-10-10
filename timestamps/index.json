@@ -143,6 +143,12 @@
    "label": "2026-10-10T1154Z (M-X39 wording: confirmed (block 970697), coins sent on to a destination not yet established (was the auto text 'being analysed'))",
    "signed": true,
    "anchored_block": null
+  },
+  {
+   "dir": "2026-10-10T1204Z",
+   "label": "2026-10-10T1204Z (wording: 19 auto-texts of 8 Oct ('being analysed' / 'seen unconfirmed') replaced \u2014 channel closes with his swept side and confirmation time, M-X9 split)",
+   "signed": true,
+   "anchored_block": null
   }
  ]
 }

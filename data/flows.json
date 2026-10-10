@@ -3099,7 +3099,7 @@
    "kind": "tx",
    "ref": "M-X7",
    "chapter": "live",
-   "role": "Closes channel L-C17 (capacity 10,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C17 closed (capacity 10,000,000 sats; confirmed 16:49 UTC) — his side (M-A9, 9,729,631 sats) was swept later in M-X11; the other output (269,789 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T16:49:52Z",
    "block": 970512
@@ -3135,7 +3135,7 @@
    "kind": "tx",
    "ref": "M-X9",
    "chapter": "live",
-   "role": "Movement: 95,890,762 sats left M-A4; where they went is being analysed",
+   "role": "8 Oct, 17:52 UTC: he spent the 95,890,762 sats at M-A4 — 50,000,000 sats to a destination not yet established, 45,889,997 sats change (M-A14)",
    "attribution": "probable",
    "time": "2026-10-08T17:52:01Z",
    "block": 970516
@@ -3153,7 +3153,7 @@
    "kind": "tx",
    "ref": "M-X10",
    "chapter": "live",
-   "role": "Closes channel L-C18 (capacity 10,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C18 closed (capacity 10,000,000 sats; confirmed 18:13 UTC) — his side (M-A8, 9,105,026 sats) was swept later in M-X11; the other output (894,067 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T18:13:48Z",
    "block": 970517
@@ -3181,7 +3181,7 @@
    "kind": "tx",
    "ref": "M-X12",
    "chapter": "live",
-   "role": "Closes channel L-C08 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C08 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A26, 1,001,362 sats) was swept later in M-X26; the other output (98,998,041 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3217,7 +3217,7 @@
    "kind": "tx",
    "ref": "M-X17",
    "chapter": "live",
-   "role": "Closes channel L-C14 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C14 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — its single output (99,999,537 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3235,7 +3235,7 @@
    "kind": "tx",
    "ref": "M-X20",
    "chapter": "live",
-   "role": "Closes channel L-C04 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C04 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A27, 55,012 sats) was swept later in M-X26; the other output (99,944,391 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3253,7 +3253,7 @@
    "kind": "tx",
    "ref": "M-X21",
    "chapter": "live",
-   "role": "Closes channel L-C01 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C01 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A29, 160,002 sats) was swept later in M-X26; the other output (99,839,401 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3271,7 +3271,7 @@
    "kind": "tx",
    "ref": "M-X23",
    "chapter": "live",
-   "role": "Closes channel L-C05 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C05 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A28, 1,004,798 sats) was swept later in M-X26; the other output (98,994,605 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3289,7 +3289,7 @@
    "kind": "tx",
    "ref": "M-X13",
    "chapter": "live",
-   "role": "Closes channel L-C11 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C11 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A21, 1,000,259 sats) was swept later in M-X26; the other output (98,999,144 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3307,7 +3307,7 @@
    "kind": "tx",
    "ref": "M-X14",
    "chapter": "live",
-   "role": "Closes channel L-C13 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C13 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A24, 1,001,517 sats) was swept later in M-X26; the other output (98,997,886 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3325,7 +3325,7 @@
    "kind": "tx",
    "ref": "M-X16",
    "chapter": "live",
-   "role": "Closes channel L-C12 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C12 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A25, 1,002,199 sats) was swept later in M-X26; the other output (98,997,204 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3343,7 +3343,7 @@
    "kind": "tx",
    "ref": "M-X18",
    "chapter": "live",
-   "role": "Closes channel L-C09 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C09 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A20, 1,003,211 sats) was swept later in M-X26; the other output (98,996,192 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3361,7 +3361,7 @@
    "kind": "tx",
    "ref": "M-X19",
    "chapter": "live",
-   "role": "Closes channel L-C07 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C07 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A23, 1,000,233 sats) was swept later in M-X26; the other output (98,999,170 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3379,7 +3379,7 @@
    "kind": "tx",
    "ref": "M-X22",
    "chapter": "live",
-   "role": "Closes channel L-C10 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C10 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A22, 1,004,231 sats) was swept later in M-X26; the other output (98,995,172 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3435,7 +3435,7 @@
    "kind": "tx",
    "ref": "M-X4",
    "chapter": "live",
-   "role": "Closes channel L-C06 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C06 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A33, 1,002,008 sats) was swept later in M-X28; the other output (98,997,680 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3453,7 +3453,7 @@
    "kind": "tx",
    "ref": "M-X5",
    "chapter": "live",
-   "role": "Closes channel L-C15 (capacity 300,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C15 closed (capacity 300,000 sats; confirmed 20:40 UTC) — its single output (299,758 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3471,7 +3471,7 @@
    "kind": "tx",
    "ref": "M-X3",
    "chapter": "live",
-   "role": "Closes channel L-C02 (capacity 100,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C02 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A32, 1,005,753 sats) was swept later in M-X28; the other output (98,993,935 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3489,7 +3489,7 @@
    "kind": "tx",
    "ref": "M-X8",
    "chapter": "live",
-   "role": "Closes channel L-C19 (capacity 50,000,000 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C19 closed (capacity 50,000,000 sats; confirmed 20:47 UTC) — his side (M-A30, 44,566,494 sats) was swept later in M-X28; the other output (5,433,223 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T20:47:35Z",
    "block": 970529
@@ -3507,7 +3507,7 @@
    "kind": "tx",
    "ref": "M-X6",
    "chapter": "live",
-   "role": "Closes channel L-C16 (capacity 27,926,746 sats); where the outputs went is being analysed",
+   "role": "8 Oct: channel L-C16 closed (capacity 27,926,746 sats; confirmed 20:47 UTC) — his side (M-A31, 281,578 sats) was swept later in M-X28; the other output (27,644,884 sats): destination not yet established",
    "attribution": "proven",
    "time": "2026-10-08T20:47:35Z",
    "block": 970529

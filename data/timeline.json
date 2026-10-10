@@ -670,7 +670,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:25 UTC: channel L-C02 closed (capacity 100,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "20:40 UTC: channel L-C02 closes (capacity 100,000,000 sats) — his side (M-A32) is swept later in M-X28; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -686,7 +686,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:25 UTC: channel L-C06 closed (capacity 100,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "20:40 UTC: channel L-C06 closes (capacity 100,000,000 sats) — his side (M-A33) is swept later in M-X28; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -702,7 +702,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:25 UTC: channel L-C15 closed (capacity 300,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "20:40 UTC: channel L-C15 closes (capacity 300,000 sats); its single output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -718,7 +718,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:25 UTC: channel L-C16 closed (capacity 27,926,746 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "20:47 UTC: channel L-C16 closes (capacity 27,926,746 sats) — his side (M-A31) is swept later in M-X28; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -734,7 +734,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "16:49 UTC: channel L-C17 closed (capacity 10,000,000 sats). Where the outputs went is being analysed.",
+   "text": "16:49 UTC: channel L-C17 closes (capacity 10,000,000 sats) — his side (M-A9) is swept later in M-X11; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -750,7 +750,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:25 UTC: channel L-C19 closed (capacity 50,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "20:47 UTC: channel L-C19 closes (capacity 50,000,000 sats) — his side (M-A30) is swept later in M-X28; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -766,7 +766,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:52 UTC: 95,890,762 sats left M-A4. Where the coins went is being analysed.",
+   "text": "17:52 UTC: he spends the 95,890,762 sats at M-A4 — 50,000,000 sats to a destination not yet established; the change (M-A14) goes on in M-X15.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -782,7 +782,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "17:55 UTC: channel L-C18 closed (capacity 10,000,000 sats, seen unconfirmed). Where the outputs went is being analysed.",
+   "text": "18:13 UTC: channel L-C18 closes (capacity 10,000,000 sats) — his side (M-A8) is swept later in M-X11; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -814,7 +814,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: channel L-C08 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:06 UTC: channel L-C08 closes (capacity 100,000,000 sats) — his side (M-A26) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -830,7 +830,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C11 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C11 closes (capacity 100,000,000 sats) — his side (M-A21) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -846,7 +846,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C13 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C13 closes (capacity 100,000,000 sats) — his side (M-A24) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -878,7 +878,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C12 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C12 closes (capacity 100,000,000 sats) — his side (M-A25) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -894,7 +894,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: channel L-C14 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:06 UTC: channel L-C14 closes (capacity 100,000,000 sats); its single output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -910,7 +910,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C09 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C09 closes (capacity 100,000,000 sats) — his side (M-A20) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -926,7 +926,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C07 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C07 closes (capacity 100,000,000 sats) — his side (M-A23) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -942,7 +942,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: channel L-C04 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:06 UTC: channel L-C04 closes (capacity 100,000,000 sats) — his side (M-A27) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -958,7 +958,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: channel L-C01 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:06 UTC: channel L-C01 closes (capacity 100,000,000 sats) — his side (M-A29) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -974,7 +974,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:27 UTC: channel L-C10 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:27 UTC: channel L-C10 closes (capacity 100,000,000 sats) — his side (M-A22) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -990,7 +990,7 @@
    "date": "2026-10-08",
    "kind": "onchain",
    "chapter": "live",
-   "text": "19:06 UTC: channel L-C05 closed (capacity 100,000,000 sats). Where the outputs went is being analysed.",
+   "text": "19:06 UTC: channel L-C05 closes (capacity 100,000,000 sats) — his side (M-A28) is swept later in M-X26; the other output is not yet established.",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
