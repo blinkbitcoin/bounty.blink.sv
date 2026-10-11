@@ -154,6 +154,12 @@
    "dir": "2026-10-10T2053Z",
    "label": "2026-10-10T2053Z (movement: M-X43)",
    "signed": true,
+   "anchored_block": 970832
+  },
+  {
+   "dir": "2026-10-11T0601Z",
+   "label": "2026-10-11T0601Z (daily refresh)",
+   "signed": true,
    "anchored_block": null
   }
  ]
