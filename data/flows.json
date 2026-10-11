@@ -6,6 +6,7 @@
   "withheld": "Paid by him — owner not established; not published",
   "ark_board": "Ark boarding output (his own coins, exited back on chain to his collection address)",
   "pending": "Destination not yet established — analysis follows",
+  "peer_side": "The channel peer's side of a cooperative close — not the attacker",
   "federation": "Fedimint federation deposit (peg-in) — from here on the federation's coin, not his"
  },
  "chapters": [
@@ -1496,6 +1497,60 @@
    "attribution": "traced",
    "role": "His address — 301,993,556 sats, the change of M-X42",
    "received_sats": 301993556
+  },
+  {
+   "id": "bc1q0jkvrwjhj8pv7q2nx6ppvsvr8kce9259tmq2pr",
+   "kind": "address",
+   "ref": "M-A52",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 266,991,984 sats, the change of M-X43, spent by him in M-X44",
+   "received_sats": 266991984
+  },
+  {
+   "id": "bc1qhkykq8urmvf46gh7d982te0af3uhua27pf223c",
+   "kind": "address",
+   "ref": "M-A53",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 231,990,308 sats, the change of M-X44, spent by him in M-X45",
+   "received_sats": 231990308
+  },
+  {
+   "id": "bc1q9ffqhutd2qta6sz7g4zs8k55fjz4ly28tmd0ff",
+   "kind": "address",
+   "ref": "M-A54",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 156,988,329 sats, the change of M-X45, spent by him in M-X46",
+   "received_sats": 156988329
+  },
+  {
+   "id": "bc1qmyz05lredrjet80u5d59adpqgh6r9v6zj9x0ws",
+   "kind": "address",
+   "ref": "M-A55",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 81,986,400 sats, the change of M-X46, spent by him in M-X47",
+   "received_sats": 81986400
+  },
+  {
+   "id": "bc1q47y0zkstqy9s0j9dlt3sd4xmpc3q9fcra573y8",
+   "kind": "address",
+   "ref": "M-A56",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 984,808 sats, the change of M-X47, spent by him in M-X48",
+   "received_sats": 984808
+  },
+  {
+   "id": "bc1qgsvuazz4s2yk3t2a7cul7hvn3vaem5ef9yqk46",
+   "kind": "address",
+   "ref": "M-A57",
+   "chapter": "live",
+   "attribution": "traced",
+   "role": "His address — 8,643 sats from M-X25 (8 Oct), spent by him in M-X48",
+   "received_sats": 8643
   },
   {
    "id": "a6b19328a0c595c4e65b0d1116df52e77d7ee89f2e4e23571b25f98505b8e893",
@@ -3099,7 +3154,7 @@
    "kind": "tx",
    "ref": "M-X7",
    "chapter": "live",
-   "role": "8 Oct: channel L-C17 closed (capacity 10,000,000 sats; confirmed 16:49 UTC) — his side (M-A9, 9,729,631 sats) was swept later in M-X11; the other output (269,789 sats): destination not yet established",
+   "role": "8 Oct: channel L-C17 closed (capacity 10,000,000 sats; confirmed 16:49 UTC) — his side (M-A9, 9,729,631 sats) was swept later in M-X11; the other output (269,789 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T16:49:52Z",
    "block": 970512
@@ -3107,9 +3162,9 @@
   {
    "id": "7f26fca57b3c2ebafe2897fd41011920a5f52a45c5e929e43c4113442a38189f:0",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 269789
   },
   {
@@ -3153,7 +3208,7 @@
    "kind": "tx",
    "ref": "M-X10",
    "chapter": "live",
-   "role": "8 Oct: channel L-C18 closed (capacity 10,000,000 sats; confirmed 18:13 UTC) — his side (M-A8, 9,105,026 sats) was swept later in M-X11; the other output (894,067 sats): destination not yet established",
+   "role": "8 Oct: channel L-C18 closed (capacity 10,000,000 sats; confirmed 18:13 UTC) — his side (M-A8, 9,105,026 sats) was swept later in M-X11; the other output (894,067 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T18:13:48Z",
    "block": 970517
@@ -3161,9 +3216,9 @@
   {
    "id": "5b885ef5c0686776ec0a372d3eabc512ac5b47f6258a9f7e68bf6a4c919da03a:0",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 894067
   },
   {
@@ -3181,7 +3236,7 @@
    "kind": "tx",
    "ref": "M-X12",
    "chapter": "live",
-   "role": "8 Oct: channel L-C08 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A26, 1,001,362 sats) was swept later in M-X26; the other output (98,998,041 sats): destination not yet established",
+   "role": "8 Oct: channel L-C08 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A26, 1,001,362 sats) was swept later in M-X26; the other output (98,998,041 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3189,9 +3244,9 @@
   {
    "id": "0728224a3e762b2a9d660187a184b2af13903274a5ab33d4422e0c5c21362a52:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98998041
   },
   {
@@ -3217,7 +3272,7 @@
    "kind": "tx",
    "ref": "M-X17",
    "chapter": "live",
-   "role": "8 Oct: channel L-C14 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — its single output (99,999,537 sats): destination not yet established",
+   "role": "8 Oct: channel L-C14 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — its single output (99,999,537 sats) is the channel peer's side (cooperative close) — nothing came back to his side",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3225,9 +3280,9 @@
   {
    "id": "6cc9bb0946c2017f81eff2723908e530bac3ad219d3b64bd6838ddafead8daa5:0",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 99999537
   },
   {
@@ -3235,7 +3290,7 @@
    "kind": "tx",
    "ref": "M-X20",
    "chapter": "live",
-   "role": "8 Oct: channel L-C04 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A27, 55,012 sats) was swept later in M-X26; the other output (99,944,391 sats): destination not yet established",
+   "role": "8 Oct: channel L-C04 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A27, 55,012 sats) was swept later in M-X26; the other output (99,944,391 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3243,9 +3298,9 @@
   {
    "id": "c368eb014aa68a2ac26b8c652fd57055398d269273224b0439be896d5e00d1d0:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 99944391
   },
   {
@@ -3253,7 +3308,7 @@
    "kind": "tx",
    "ref": "M-X21",
    "chapter": "live",
-   "role": "8 Oct: channel L-C01 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A29, 160,002 sats) was swept later in M-X26; the other output (99,839,401 sats): destination not yet established",
+   "role": "8 Oct: channel L-C01 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A29, 160,002 sats) was swept later in M-X26; the other output (99,839,401 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3261,9 +3316,9 @@
   {
    "id": "d2dcc52ea662e1fe54ce40e4ea0b4dead4b8b106a58f2c33fd1f3ddf7c767751:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 99839401
   },
   {
@@ -3271,7 +3326,7 @@
    "kind": "tx",
    "ref": "M-X23",
    "chapter": "live",
-   "role": "8 Oct: channel L-C05 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A28, 1,004,798 sats) was swept later in M-X26; the other output (98,994,605 sats): destination not yet established",
+   "role": "8 Oct: channel L-C05 closed (capacity 100,000,000 sats; confirmed 19:06 UTC) — his side (M-A28, 1,004,798 sats) was swept later in M-X26; the other output (98,994,605 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:06:30Z",
    "block": 970520
@@ -3279,9 +3334,9 @@
   {
    "id": "f29a957d09cf268dbd501a3404266e1eb1a9c9b2d6d9b85a99d890342a63a68b:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98994605
   },
   {
@@ -3289,7 +3344,7 @@
    "kind": "tx",
    "ref": "M-X13",
    "chapter": "live",
-   "role": "8 Oct: channel L-C11 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A21, 1,000,259 sats) was swept later in M-X26; the other output (98,999,144 sats): destination not yet established",
+   "role": "8 Oct: channel L-C11 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A21, 1,000,259 sats) was swept later in M-X26; the other output (98,999,144 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3297,9 +3352,9 @@
   {
    "id": "3a11d5aaf703127db342fe96ce7b7d5f439fe380f6782420a60def283f38663c:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98999144
   },
   {
@@ -3307,7 +3362,7 @@
    "kind": "tx",
    "ref": "M-X14",
    "chapter": "live",
-   "role": "8 Oct: channel L-C13 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A24, 1,001,517 sats) was swept later in M-X26; the other output (98,997,886 sats): destination not yet established",
+   "role": "8 Oct: channel L-C13 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A24, 1,001,517 sats) was swept later in M-X26; the other output (98,997,886 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3315,9 +3370,9 @@
   {
    "id": "3ea88c29ae66fdd052f4171fdc1a7b55438f5bd66d4f9cb39bcc2c24df0c5181:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98997886
   },
   {
@@ -3325,7 +3380,7 @@
    "kind": "tx",
    "ref": "M-X16",
    "chapter": "live",
-   "role": "8 Oct: channel L-C12 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A25, 1,002,199 sats) was swept later in M-X26; the other output (98,997,204 sats): destination not yet established",
+   "role": "8 Oct: channel L-C12 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A25, 1,002,199 sats) was swept later in M-X26; the other output (98,997,204 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3333,9 +3388,9 @@
   {
    "id": "5853e13af314e18948ff11ca89fb32d494d21aa4aa89eabab0bf8433cc2ce4cb:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98997204
   },
   {
@@ -3343,7 +3398,7 @@
    "kind": "tx",
    "ref": "M-X18",
    "chapter": "live",
-   "role": "8 Oct: channel L-C09 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A20, 1,003,211 sats) was swept later in M-X26; the other output (98,996,192 sats): destination not yet established",
+   "role": "8 Oct: channel L-C09 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A20, 1,003,211 sats) was swept later in M-X26; the other output (98,996,192 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3351,9 +3406,9 @@
   {
    "id": "9786a679c3f51e68214a8f08ca16df607d843db079633d374820b15abf84b542:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98996192
   },
   {
@@ -3361,7 +3416,7 @@
    "kind": "tx",
    "ref": "M-X19",
    "chapter": "live",
-   "role": "8 Oct: channel L-C07 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A23, 1,000,233 sats) was swept later in M-X26; the other output (98,999,170 sats): destination not yet established",
+   "role": "8 Oct: channel L-C07 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A23, 1,000,233 sats) was swept later in M-X26; the other output (98,999,170 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3369,9 +3424,9 @@
   {
    "id": "a89e8fed437591948a09b7265111e60ce0c2652d0eba0564044dd4169760f564:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98999170
   },
   {
@@ -3379,7 +3434,7 @@
    "kind": "tx",
    "ref": "M-X22",
    "chapter": "live",
-   "role": "8 Oct: channel L-C10 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A22, 1,004,231 sats) was swept later in M-X26; the other output (98,995,172 sats): destination not yet established",
+   "role": "8 Oct: channel L-C10 closed (capacity 100,000,000 sats; confirmed 19:27 UTC) — his side (M-A22, 1,004,231 sats) was swept later in M-X26; the other output (98,995,172 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T19:27:54Z",
    "block": 970521
@@ -3387,9 +3442,9 @@
   {
    "id": "e4a72c20f5fb81520a6a1ffc1e65a5251c413621951ec2f9a0ba5b9a9243ff5b:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98995172
   },
   {
@@ -3435,7 +3490,7 @@
    "kind": "tx",
    "ref": "M-X4",
    "chapter": "live",
-   "role": "8 Oct: channel L-C06 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A33, 1,002,008 sats) was swept later in M-X28; the other output (98,997,680 sats): destination not yet established",
+   "role": "8 Oct: channel L-C06 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A33, 1,002,008 sats) was swept later in M-X28; the other output (98,997,680 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3443,9 +3498,9 @@
   {
    "id": "4ca89398862ce67648507e84ec87f56a35b80f61484455be8baeddfb68d0a9ce:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98997680
   },
   {
@@ -3453,7 +3508,7 @@
    "kind": "tx",
    "ref": "M-X5",
    "chapter": "live",
-   "role": "8 Oct: channel L-C15 closed (capacity 300,000 sats; confirmed 20:40 UTC) — its single output (299,758 sats): destination not yet established",
+   "role": "8 Oct: channel L-C15 closed (capacity 300,000 sats; confirmed 20:40 UTC) — its single output (299,758 sats) is the channel peer's side (cooperative close) — nothing came back to his side",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3461,9 +3516,9 @@
   {
    "id": "8420429e0cc679f83e2603a808c75d705e2fe13a736d64fbb6649bf6061851e8:0",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 299758
   },
   {
@@ -3471,7 +3526,7 @@
    "kind": "tx",
    "ref": "M-X3",
    "chapter": "live",
-   "role": "8 Oct: channel L-C02 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A32, 1,005,753 sats) was swept later in M-X28; the other output (98,993,935 sats): destination not yet established",
+   "role": "8 Oct: channel L-C02 closed (capacity 100,000,000 sats; confirmed 20:40 UTC) — his side (M-A32, 1,005,753 sats) was swept later in M-X28; the other output (98,993,935 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T20:40:49Z",
    "block": 970528
@@ -3479,9 +3534,9 @@
   {
    "id": "d6405a48cb77024d230ab051e6e7818ed9a1c665b7fd342f31b29b77a1cda05b:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 98993935
   },
   {
@@ -3507,7 +3562,7 @@
    "kind": "tx",
    "ref": "M-X6",
    "chapter": "live",
-   "role": "8 Oct: channel L-C16 closed (capacity 27,926,746 sats; confirmed 20:47 UTC) — his side (M-A31, 281,578 sats) was swept later in M-X28; the other output (27,644,884 sats): destination not yet established",
+   "role": "8 Oct: channel L-C16 closed (capacity 27,926,746 sats; confirmed 20:47 UTC) — his side (M-A31, 281,578 sats) was swept later in M-X28; the other output (27,644,884 sats) is the channel peer's side (cooperative close) — not his",
    "attribution": "proven",
    "time": "2026-10-08T20:47:35Z",
    "block": 970529
@@ -3515,9 +3570,9 @@
   {
    "id": "e06cb0f74efaccf77b31de7d5be52866da529ac6fb49bc05c091ebe54602dc98:1",
    "kind": "sink",
-   "class": "pending",
+   "class": "peer_side",
    "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
+   "label": "The channel peer's side of a cooperative close — not the attacker",
    "received_sats": 27644884
   },
   {
@@ -3553,18 +3608,10 @@
    "kind": "tx",
    "ref": "M-X25",
    "chapter": "live",
-   "role": "8 Oct, 21:07 UTC: he spent S-A10 (483,999,248 sats) together with two more of his coins (M-A11, M-A12) — two round 25,000,000-sat payments and 8,643 sats to destinations not yet established, 458,999,079 sats change (M-A13)",
+   "role": "8 Oct, 21:07 UTC: he spent S-A10 (483,999,248 sats) together with two more of his coins (M-A11, M-A12) — a round 25,000,000-sat payment to a destination not yet established; another 25,000,000 sats (M-A41) and 8,643 sats (M-A57) that turned out to be his (he spent them himself in M-X34 and M-X48); 458,999,079 sats change (M-A13)",
    "attribution": "traced",
    "time": "2026-10-08T21:07:05Z",
    "block": 970533
-  },
-  {
-   "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 8643
   },
   {
    "id": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:3",
@@ -3789,18 +3836,10 @@
    "kind": "tx",
    "ref": "M-X43",
    "chapter": "live",
-   "role": "Movement: 301,993,556 sats left M-A51; where they went is being analysed",
+   "role": "10 Oct, 20:50 UTC: he spent M-A51 — 35,000,000 sats to a destination not yet established, 266,991,984 sats change (M-A52)",
    "attribution": "traced",
    "time": "2026-10-10T20:50:23Z",
    "block": 970828
-  },
-  {
-   "id": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0",
-   "kind": "sink",
-   "class": "pending",
-   "chapter": "live",
-   "label": "Destination not yet established — analysis follows",
-   "received_sats": 266991984
   },
   {
    "id": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:1",
@@ -3809,6 +3848,96 @@
    "chapter": "live",
    "label": "Destination not yet established — analysis follows",
    "received_sats": 35000000
+  },
+  {
+   "id": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7",
+   "kind": "tx",
+   "ref": "M-X44",
+   "chapter": "live",
+   "role": "10 Oct, 22:26 UTC: he spent the change of M-X43 (M-A52) — 35,000,000 sats to a destination not yet established, 231,990,308 sats change (M-A53)",
+   "attribution": "traced",
+   "time": "2026-10-10T22:28:37Z",
+   "block": 970837
+  },
+  {
+   "id": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 35000000
+  },
+  {
+   "id": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6",
+   "kind": "tx",
+   "ref": "M-X45",
+   "chapter": "live",
+   "role": "10 Oct, 23:09 UTC: he spent the change of M-X44 (M-A53) — 75,000,000 sats to a destination not yet established, 156,988,329 sats change (M-A54)",
+   "attribution": "traced",
+   "time": "2026-10-10T23:12:44Z",
+   "block": 970841
+  },
+  {
+   "id": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6:1",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 75000000
+  },
+  {
+   "id": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781",
+   "kind": "tx",
+   "ref": "M-X46",
+   "chapter": "live",
+   "role": "10 Oct, 23:32 UTC: he spent the change of M-X45 (M-A54) — 75,000,000 sats to a destination not yet established, 81,986,400 sats change (M-A55)",
+   "attribution": "traced",
+   "time": "2026-10-10T23:33:35Z",
+   "block": 970845
+  },
+  {
+   "id": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 75000000
+  },
+  {
+   "id": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12",
+   "kind": "tx",
+   "ref": "M-X48",
+   "chapter": "live",
+   "role": "10 Oct, 23:56 UTC: he spent the change of M-X47 (M-A56) together with the 8,643-sat output of M-X25 (M-A57) — 990,985 sats to a destination not yet established",
+   "attribution": "traced",
+   "time": "2026-10-11T00:17:35Z",
+   "block": 970850
+  },
+  {
+   "id": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 990985
+  },
+  {
+   "id": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4",
+   "kind": "tx",
+   "ref": "M-X47",
+   "chapter": "live",
+   "role": "10 Oct, 23:55 UTC: he spent the change of M-X46 (M-A55) — 81,000,000 sats to a destination not yet established, 984,808 sats change (M-A56)",
+   "attribution": "traced",
+   "time": "2026-10-11T00:17:35Z",
+   "block": 970850
+  },
+  {
+   "id": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4:0",
+   "kind": "sink",
+   "class": "pending",
+   "chapter": "live",
+   "label": "Destination not yet established — analysis follows",
+   "received_sats": 81000000
   }
  ],
  "edges": [
@@ -6338,7 +6467,7 @@
   },
   {
    "from": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08",
-   "to": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0",
+   "to": "bc1qgsvuazz4s2yk3t2a7cul7hvn3vaem5ef9yqk46",
    "chapter": "live",
    "sats": 8643,
    "outpoint": "bbe6bf7c8a63fcf1c347b8c4a1a351eac2bce9b678d9c7ca3075876b61267d08:0"
@@ -6639,7 +6768,7 @@
   },
   {
    "from": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
-   "to": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0",
+   "to": "bc1q0jkvrwjhj8pv7q2nx6ppvsvr8kce9259tmq2pr",
    "chapter": "live",
    "sats": 266991984,
    "outpoint": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:0"
@@ -6650,6 +6779,105 @@
    "chapter": "live",
    "sats": 35000000,
    "outpoint": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027:1"
+  },
+  {
+   "from": "bc1q0jkvrwjhj8pv7q2nx6ppvsvr8kce9259tmq2pr",
+   "to": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7",
+   "chapter": "live",
+   "sats": 266991984
+  },
+  {
+   "from": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7",
+   "to": "bc1qhkykq8urmvf46gh7d982te0af3uhua27pf223c",
+   "chapter": "live",
+   "sats": 231990308,
+   "outpoint": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7:0"
+  },
+  {
+   "from": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7",
+   "to": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7:1",
+   "chapter": "live",
+   "sats": 35000000,
+   "outpoint": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7:1"
+  },
+  {
+   "from": "bc1qhkykq8urmvf46gh7d982te0af3uhua27pf223c",
+   "to": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6",
+   "chapter": "live",
+   "sats": 231990308
+  },
+  {
+   "from": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6",
+   "to": "bc1q9ffqhutd2qta6sz7g4zs8k55fjz4ly28tmd0ff",
+   "chapter": "live",
+   "sats": 156988329,
+   "outpoint": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6:0"
+  },
+  {
+   "from": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6",
+   "to": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6:1",
+   "chapter": "live",
+   "sats": 75000000,
+   "outpoint": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6:1"
+  },
+  {
+   "from": "bc1q9ffqhutd2qta6sz7g4zs8k55fjz4ly28tmd0ff",
+   "to": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781",
+   "chapter": "live",
+   "sats": 156988329
+  },
+  {
+   "from": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781",
+   "to": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781:0",
+   "chapter": "live",
+   "sats": 75000000,
+   "outpoint": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781:0"
+  },
+  {
+   "from": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781",
+   "to": "bc1qmyz05lredrjet80u5d59adpqgh6r9v6zj9x0ws",
+   "chapter": "live",
+   "sats": 81986400,
+   "outpoint": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781:1"
+  },
+  {
+   "from": "bc1q47y0zkstqy9s0j9dlt3sd4xmpc3q9fcra573y8",
+   "to": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12",
+   "chapter": "live",
+   "sats": 984808
+  },
+  {
+   "from": "bc1qgsvuazz4s2yk3t2a7cul7hvn3vaem5ef9yqk46",
+   "to": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12",
+   "chapter": "live",
+   "sats": 8643
+  },
+  {
+   "from": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12",
+   "to": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12:0",
+   "chapter": "live",
+   "sats": 990985,
+   "outpoint": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12:0"
+  },
+  {
+   "from": "bc1qmyz05lredrjet80u5d59adpqgh6r9v6zj9x0ws",
+   "to": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4",
+   "chapter": "live",
+   "sats": 81986400
+  },
+  {
+   "from": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4",
+   "to": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4:0",
+   "chapter": "live",
+   "sats": 81000000,
+   "outpoint": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4:0"
+  },
+  {
+   "from": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4",
+   "to": "bc1q47y0zkstqy9s0j9dlt3sd4xmpc3q9fcra573y8",
+   "chapter": "live",
+   "sats": 984808,
+   "outpoint": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4:1"
   },
   {
    "from": "e7c1e62f44552253ade3c0b92cb47d40698ec2e1bb6b655df8e983c81487280c:0",

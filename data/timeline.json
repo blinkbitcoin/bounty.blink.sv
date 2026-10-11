@@ -1234,7 +1234,7 @@
    "date": "2026-10-10",
    "kind": "onchain",
    "chapter": "live",
-   "text": "20:50 UTC: 301,993,556 sats left M-A51. Where the coins went is being analysed.",
+   "text": "20:50–23:56 UTC: he cashes out the 301,993,556 sats at M-A51 in five steps (M-X43 to M-X47), each sending a round amount — 35,000,000, 35,000,000, 75,000,000, 75,000,000 and 81,000,000 sats — to a destination not yet established and keeping the change; the last 984,808 sats of change, together with an 8,643-sat coin of his from 8 October, go on as one 990,985-sat payment to a destination not yet established (M-X48).",
    "source_url": null,
    "source_label": "Source: Blink post-mortem",
    "indicators": [
@@ -1243,6 +1243,36 @@
      "type": "tx",
      "value": "f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027",
      "link": "https://mempool.space/tx/f7da40422e345c3b30ecc14c343b4b744ad0962e45823f014f3f1f7c2d1ac027"
+    },
+    {
+     "id": "M-X44",
+     "type": "tx",
+     "value": "7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7",
+     "link": "https://mempool.space/tx/7d05d734e81e67684c16603be827048560e635f4de6e55af62ab830440d658d7"
+    },
+    {
+     "id": "M-X45",
+     "type": "tx",
+     "value": "9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6",
+     "link": "https://mempool.space/tx/9e7560347541f895b84e3b4049c1b07e71e74f2eff14e689d33448763632e8d6"
+    },
+    {
+     "id": "M-X46",
+     "type": "tx",
+     "value": "bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781",
+     "link": "https://mempool.space/tx/bc3e32bd96e8535f105650cd368f4dac1712663a1276483dc9ae9ccbb7209781"
+    },
+    {
+     "id": "M-X47",
+     "type": "tx",
+     "value": "72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4",
+     "link": "https://mempool.space/tx/72a0dc2a94becd79749e26f65dbda8c103ad83356573d6597ed37e99e732c1f4"
+    },
+    {
+     "id": "M-X48",
+     "type": "tx",
+     "value": "7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12",
+     "link": "https://mempool.space/tx/7278125b2303966b42ba561fb9ae4c0df9397cbc351e8277128dd5a15966ea12"
     }
    ]
   }

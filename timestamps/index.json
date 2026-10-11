@@ -160,6 +160,12 @@
    "dir": "2026-10-11T0601Z",
    "label": "2026-10-11T0601Z (daily refresh)",
    "signed": true,
+   "anchored_block": 970881
+  },
+  {
+   "dir": "2026-10-11T1512Z",
+   "label": "2026-10-11T1512Z (reviewed: 10\u201311 Oct peel chain of M-A51 (M-X43\u2013M-X48) traced, round legs not yet established; M-X25:0 his; peer sides of 17 cooperative closes (incl. M-X10:0) classed as the peer's)",
+   "signed": true,
    "anchored_block": null
   }
  ]
