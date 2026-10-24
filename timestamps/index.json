@@ -232,6 +232,12 @@
    "dir": "2026-10-23T0604Z",
    "label": "2026-10-23T0604Z (daily refresh)",
    "signed": true,
+   "anchored_block": 972727
+  },
+  {
+   "dir": "2026-10-24T0603Z",
+   "label": "2026-10-24T0603Z (daily refresh)",
+   "signed": true,
    "anchored_block": null
   }
  ]
