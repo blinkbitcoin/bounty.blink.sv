@@ -1,0 +1,19 @@
+Blink — bounty.blink.sv — data timestamp
+date: 2026-10-30T0705Z (daily refresh)
+data verified against the blockchain at block 973788 (2026-10-30T07:20:27Z)
+
+Published data files (SHA-256):
+7f19efbb7cf6c37e6af12e8e49f89580b9902af9ddf8067a4f9b28b9fb7fed60  data/indicators.csv
+74a7aa8bbad511d1f15b57ba71c14bb03ac256a3a0258cf90e4038b51e8809f9  data/timeline.json
+90527302d591d992d515ac91726e584d50ef4bd5fbcfc3fcab6c6ddbce8dadfd  data/flows.json
+365ee9d7256021bd46d0c5bd483ba890f83f07faf89c9d58075eb5ff7152c05e  data/holdings.json
+0ac58813bb3abfc5048af4e09141b6056fd396bfa3c8258c230091774d8e8edd  data/meta.json
+
+Commitment to Blink's full internal indicator list (salted Merkle root; 23,041 entries, including items not
+published on this page; the entries and salts stay private — on request we can prove that a single item was
+in this list by revealing that item, its salt and its Merkle path):
+root: f3ed41a643887995ca90666bef507a25ac1936a8ae78c3a52f3263db5e080a18
+scheme: blinkhack-commitment-v1: leaf=SHA256(0x00||salt32||utf8(type:value)); node=SHA256(0x01||L||R); leaves sorted; odd node carried up
+
+Signed with the Blink Bounty PGP key 5E2B0ED807A3D468B14CC86A568005A64E2707C2 (manifest.txt.asc) and timestamped
+with OpenTimestamps (manifest.txt.ots). Verify: gpg --verify manifest.txt.asc manifest.txt ; ots verify manifest.txt.ots
